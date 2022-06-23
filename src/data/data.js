@@ -3,7 +3,7 @@ const data = [
     id: 1,
     name: "Leonel Ngoya",
     link: "https://lndev.me",
-    tags: ["FrontEnd", "Integration"]
+    tags: ["FrontEnd", "Web Integration"]
   },
   {
     id: 2,
