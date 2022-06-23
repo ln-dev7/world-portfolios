@@ -128,8 +128,8 @@ const data = [
 	{
 		id: 22,
 		name: 'Roger Bentcha',
-    link: 'https://portfolio-tau-five-69.vercel.app',
-    tags: ['FrontEnd', 'BackEnd', 'Ui/Ux Design']
+		link: 'https://portfolio-tau-five-69.vercel.app',
+		tags: ['FrontEnd', 'BackEnd', 'Design']
 	},
 ]
 
