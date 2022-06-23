@@ -5,9 +5,31 @@ import "./styles/App.scss";
 import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
 import Footer from "./components/footer";
+import { useState } from "react";
 // import { useState, useEffect } from "react";
 
 function App() {
+
+  const [filteredData, setFilteredData] = useState(dataOrder);
+  let filterValue = "";
+
+  const changeFilterValue = (value) => {
+    filterValue = value;
+    filterDataByName();
+  }
+
+  const filterName = (elem) => {
+    return elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) != -1;
+  }
+
+  const filterDataByName = () => {
+    if(filterValue != ""){
+      setFilteredData(dataOrder.filter(filterName));
+    }else{
+      setFilteredData(dataOrder);
+    }
+  }
+
   return (
     <div className="App">
       <a href="#">
@@ -17,7 +39,9 @@ function App() {
           alt="arrow-up"
         />
       </a>
-      <NavBar />
+      <NavBar
+        onChangeValue={changeFilterValue}
+      />
       <Section />
       <main className="main">
         <div className="main-container">
@@ -31,7 +55,7 @@ function App() {
             </div>
           </aside>
           <div className="main-container-body">
-            {dataOrder.map((item, index) => (
+            {filteredData.map((item, index) => (
               <Card
                 key={index}
                 name={item.name}
