@@ -8,13 +8,74 @@
   padding: 2rem 0 3rem 0;
   &-container {
     width: 85%;
-    &-aside{
-      background: #000;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 230px 1fr;
+    &-aside {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h2 {
+        font-family: "overpass", sans-serif;
+        color: $dark;
+        margin-bottom: 0.75rem;
+      }
+      &-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        button {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 500;
+          border-radius: 20px;
+          padding: 0.25rem 0.75rem;
+          border: 1px solid rgba($color: $gray, $alpha: 0.3);
+          color: $dark;
+          background: $white;
+          cursor: pointer;
+          &::before {
+            content: "#";
+            border-radius: 50%;
+            margin-right: 0.5rem;
+            color: $orange;
+          }
+          &:hover,
+          &.active {
+            background-color: rgba($color: $orange, $alpha: 0.05);
+            &::before {
+              content: "";
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+              margin-right: 0.5rem;
+              background: $orange;
+            }
+          }
+        }
+      }
     }
     &-body {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 15px;
+      @media screen and (max-width: 1030px) {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .main {
+    &-container {
+      display: flex;
+      flex-direction: column;
+      &-aside {
+        margin-bottom: 1rem;
+      }
     }
   }
 }

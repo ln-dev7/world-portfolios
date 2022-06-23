@@ -2,7 +2,7 @@ import Card from "./components/card";
 import NavBar from "./components/navbar";
 import Section from "./components/section";
 import "./styles/App.scss";
-import data from "./data/data";
+import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
 import Footer from "./components/footer";
 // import { useState, useEffect } from "react";
@@ -15,9 +15,16 @@ function App() {
       <main className="main">
         <div className="main-container">
           <aside className="main-container-aside">
+            <h2>Filter by</h2>
+            <div className="main-container-aside-tags">
+              <button>All tags</button>
+              {tags.map((tag, index) => (
+                <button key={index}>{tag}</button>
+              ))}
+            </div>
           </aside>
           <div className="main-container-body">
-            {data.map((item, index) => (
+            {dataOrder.map((item, index) => (
               <Card
                 key={index}
                 name={item.name}
