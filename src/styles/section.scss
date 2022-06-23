@@ -1,0 +1,48 @@
+@import "settings";
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem 0 3rem 0;
+  background: $white;
+  border-bottom: 1px solid rgba($color: $gray, $alpha: 0.2);
+  &-intro {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__text {
+      h1 {
+        font-family: "Overpass", sans-serif;
+        color: $green;
+        font-size: 2.5rem;
+        @media screen and (max-width: 768px) {
+          font-size: 2rem;
+        }
+      }
+      p {
+        padding: 1rem 0;
+        font-size: 1.3rem;
+        color: $dark;
+        @media screen and (max-width: 768px) {
+          font-size: 1.2rem;
+        }
+      }
+      a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        border: 2px solid $white;
+        background: $white;
+        color: $green;
+        font-weight: 500;
+        box-shadow: 0 0 0 2px $green;
+        &:hover {
+          background-color: rgba($color: $green, $alpha: 0.05);
+        }
+      }
+    }
+  }
+}

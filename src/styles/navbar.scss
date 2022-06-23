@@ -1,0 +1,45 @@
+@import "settings";
+
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $white;
+  &::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    max-width: 85%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($color: $gray, $alpha: 0.2);
+    margin: 0 auto;
+  }
+  &-container {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo {
+      display: inline-block;
+      img {
+        width: 60px;
+      }
+    }
+    &-link {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      border: 2px solid $white;
+      background: $green;
+      color: $light;
+      font-weight: 500;
+      &:hover {
+        box-shadow: 0 0 0 2px $green;
+      }
+    }
+  }
+}

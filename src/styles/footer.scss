@@ -1,0 +1,22 @@
+@import "settings";
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 4px solid rgba($color: $gray, $alpha: 0.2);
+    &-container{
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: $green;
+            font-weight: 500;
+            font-size: 1rem;
+            font-family: 'Overpass', sans-serif;
+        }
+    }
+}
