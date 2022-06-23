@@ -3,6 +3,7 @@ import NavBar from "./components/navbar";
 import Section from "./components/section";
 import "./styles/App.scss";
 import data from "./data/data";
+import tags from "./data/tags";
 import Footer from "./components/footer";
 // import { useState, useEffect } from "react";
 
@@ -15,6 +16,12 @@ function App() {
         <div className="main-container">
           <aside className="main-container-aside">
             <h2>Filter by</h2>
+            <div className="main-container-aside-tags">
+              <button>All tags</button>
+              {tags.map((tag, index) => (
+                <button key={index}>{tag}</button>
+              ))}
+            </div>
           </aside>
           <div className="main-container-body">
             {data.map((item, index) => (
