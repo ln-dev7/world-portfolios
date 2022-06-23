@@ -3,7 +3,7 @@ import "./../styles/navbar.scss";
 
 const NavBar = () => {
   return (
-    <nav className="nav">
+    <nav className="nav" id="#nav">
       <div className="nav-container">
         <a href="https://cameroon-porfolios.vercel.app/" className="nav-container-logo">
           <img src="assets/images/logo.svg" alt="logo" />
@@ -12,6 +12,7 @@ const NavBar = () => {
           Add your portfolio
         </a>
       </div>
+      
     </nav>
   );
 };

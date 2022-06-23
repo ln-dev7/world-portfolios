@@ -10,6 +10,13 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
+      <a href="#">
+        <img
+          className="to-top"
+          src="assets/images/arrow-up-circle-fill.svg"
+          alt="arrow-up"
+        />
+      </a>
       <NavBar />
       <Section />
       <main className="main">

@@ -1,5 +1,18 @@
 @import "settings";
 
+.App {
+  position: relative;
+}
+
+.to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: 1px solid $green;
+  border-radius: 50%;
+}
+
 .main {
   display: flex;
   justify-content: center;
