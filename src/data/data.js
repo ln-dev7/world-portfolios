@@ -84,6 +84,11 @@ const data = [
     name: "Franck Siyapze",
     link: "https://scorp-corporate.com/",
   },
+  {
+    id: 18,
+    name: "Jonathan Tchuente",
+    link: "https://newgenius.tech/"
+  },
 ];
 
 export default data;
