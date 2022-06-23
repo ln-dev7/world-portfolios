@@ -2,7 +2,9 @@
 
 ##### 1. Fork this repository
 
-Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on Github and scroll to the readme section, you'll see a pencil icon on the right, click it to fork the project. This will create a copy in your account.
+Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on Github and click here
+
+![](/home/ln-dev/Images/a.png)
 
 ##### 2. Clone your new repository to your system.
 

@@ -15,7 +15,7 @@ function App() {
           <aside className="main-container-aside"></aside>
           <div className="main-container-body">
             {data.map((item, index) => (
-              <Card key={index} name={item.name} link={item.link} />
+              <Card key={index} name={item.name} link={item.link} tags={item.tags} />
             ))}
           </div>
         </div>
