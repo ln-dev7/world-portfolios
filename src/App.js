@@ -2,7 +2,7 @@ import Card from "./components/card";
 import NavBar from "./components/navbar";
 import Section from "./components/section";
 import "./styles/App.scss";
-import data from "./data/data";
+import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
 import Footer from "./components/footer";
 // import { useState, useEffect } from "react";
@@ -24,7 +24,7 @@ function App() {
             </div>
           </aside>
           <div className="main-container-body">
-            {data.map((item, index) => (
+            {dataOrder.map((item, index) => (
               <Card
                 key={index}
                 name={item.name}
