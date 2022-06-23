@@ -8,13 +8,26 @@
   padding: 2rem 0 3rem 0;
   &-container {
     width: 85%;
-    &-aside{
-      background: #000;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 230px 1fr;
+    &-aside {
+      position: sticky;
+      top: 0;
+      height: auto;
+      h2 {
+        font-family: "overpass", sans-serif;
+        color: $dark;
+        margin-bottom: .75rem;
+      }
     }
     &-body {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 15px;
+      @media screen and (max-width: 1030px) {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      }
     }
   }
 }

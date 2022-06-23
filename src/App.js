@@ -13,7 +13,9 @@ function App() {
       <Section />
       <main className="main">
         <div className="main-container">
-          <aside className="main-container-aside"></aside>
+          <aside className="main-container-aside">
+            <h2>Filter by</h2>
+          </aside>
           <div className="main-container-body">
             {data.map((item, index) => (
               <Card
