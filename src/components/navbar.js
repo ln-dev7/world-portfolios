@@ -1,7 +1,11 @@
 import React from "react";
 import "./../styles/navbar.scss";
 
-const NavBar = () => {
+const NavBar = ({onChangeValue}) => {
+  const handelChangeFilter = (e) => {
+    onChangeValue(e.target.value);
+  }
+
   return (
     <nav className="nav" id="#nav">
       <div className="nav-container">
@@ -13,7 +17,12 @@ const NavBar = () => {
         </a>
         <div className="nav-container-menu">
           <div className="nav-container-menu-search">
-            <input type="text" placeholder="Search a portfolio ..." />
+            <input
+              type="text"
+              onChange={handelChangeFilter}
+              
+              placeholder="Search a portfolio ..."
+            />
             <button>
               <img src="assets/images/search-eye-line.svg" alt="search" />
             </button>
