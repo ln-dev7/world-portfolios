@@ -10,11 +10,11 @@ const Card = ({ name, link, tags }) => {
           {link}
         </a>
       </div>
-      {/* <div className="card-tags">
+      <div className="card-tags">
         {tags.map((tag, index) => (
           <span key={index}>{tag}</span>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };

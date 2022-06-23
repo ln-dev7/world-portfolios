@@ -35,5 +35,27 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    gap: 5px;
+    span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 20px;
+      padding: 0.25rem 0.75rem;
+      border: 1px solid rgba($color: $gray, $alpha: 0.3);
+      color: $dark;
+      background: $white;
+      &::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        background: $orange;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        color: $green;
+      }
+    }
   }
 }
