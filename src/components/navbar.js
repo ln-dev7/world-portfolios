@@ -5,10 +5,10 @@ const NavBar = () => {
   return (
     <nav className="nav">
       <div className="nav-container">
-        <a href="#" className="nav-container-logo">
+        <a href="https://cameroon-porfolios.vercel.app/" className="nav-container-logo">
           <img src="assets/images/logo.svg" alt="logo" />
         </a>
-        <a href="#" className="nav-container-link">
+        <a href="https://github.com/ln-dev7/cameroon-porfolios/blob/master/CONTRIBUTING.md" className="nav-container-link">
           Add your portfolio
         </a>
       </div>
