@@ -10,7 +10,7 @@ const NavBar = ({onChangeValue}) => {
     <nav className="nav" id="#nav">
       <div className="nav-container">
         <a
-          href="https://cameroon-porfolios.vercel.app/"
+          href="https://cameroon-portfolios.vercel.app/"
           className="nav-container-logo"
         >
           <img src="assets/images/logo.svg" alt="logo" />
@@ -28,7 +28,7 @@ const NavBar = ({onChangeValue}) => {
             </button>
           </div>
           <a
-            href="https://github.com/ln-dev7/cameroon-porfolios/blob/master/CONTRIBUTING.md"
+            href="https://github.com/ln-dev7/cameroon-portfolios/blob/master/CONTRIBUTING.md"
             className="nav-container-menu-link"
           >
             <span>Add your portfolio</span>
