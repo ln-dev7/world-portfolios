@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="nav">
       <div className="nav-container">
         <a href="#" className="nav-container-logo">
-          <img src="assets/images/logo-2.svg" alt="logo" />
+          <img src="assets/images/logo.svg" alt="logo" />
         </a>
         <a href="#" className="nav-container-link">
           Add your portfolio

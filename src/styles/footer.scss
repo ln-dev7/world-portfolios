@@ -10,13 +10,31 @@
     &-container{
         width: 85%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        @media screen and (max-width: 620px) {
+            flex-direction: column;
+            a{
+                margin-top: 0.5rem;
+            }
+        }
         p{
+            text-align: center;
             color: $green;
             font-weight: 500;
             font-size: 1rem;
             font-family: 'Overpass', sans-serif;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.25rem;
+            border-radius: 50%;
+            border: 2px solid $green;
+            &:hover{
+                background: rgba($color: $green, $alpha: .1);
+            }
         }
     }
 }
