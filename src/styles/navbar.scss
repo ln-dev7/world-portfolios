@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   background: $white;
+  padding: 0.25rem 0;
   &::after {
     position: absolute;
     content: "";
@@ -25,20 +26,70 @@
     justify-content: space-between;
     &-logo {
       display: inline-block;
+      margin-right: 1rem;
       img {
-        width: 60px;
+        width: 50px;
       }
     }
-    &-link {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      border: 2px solid $white;
-      background: $green;
-      color: $light;
-      font-weight: 500;
-      &:hover {
-        box-shadow: 0 0 0 2px $green;
+    &-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      &-search {
+        position: relative;
+        overflow: hidden;
+        input {
+          padding: 0.5rem 3rem 0.5rem 1rem;
+          outline: none;
+          border-radius: 5px;
+          border: 2px solid rgba($color: $gray, $alpha: 0.3);
+          background: $light;
+          width: 100%;
+          height: 100%;
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          padding: 0.2rem;
+          right: 0.5rem;
+          top: 50%;
+          transform: translate(0, -50%);
+          border-radius: 5px;
+          border: none;
+          cursor: pointer;
+          img{
+            width: 15px;
+          }
+        }
+      }
+      &-link {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        border: 2px solid $white;
+        background: $green;
+        span {
+          color: $light;
+          font-weight: 500;
+        }
+        span:last-child {
+          display: none;
+        }
+        @media screen and (max-width: 660px) {
+          span:first-child {
+            display: none;
+          }
+          span:last-child {
+            display: inline-block;
+            font-weight: 600;
+          }
+        }
+        &:hover {
+          box-shadow: 0 0 0 2px $green;
+        }
       }
     }
   }
