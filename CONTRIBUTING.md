@@ -4,7 +4,7 @@
 
 Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on Github and click here
 
-![fork project](https://cameroon-porfolios.vercel.app/assets/contribut/1.png)
+![fork project](https://cameroon-portfolios.vercel.app/assets/contribut/1.png)
 
 #### 2. Clone your new repository to your system.
 
