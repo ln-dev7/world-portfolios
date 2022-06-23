@@ -1,6 +1,5 @@
 import data from "./data";
 
-// Order the data by name
 const dataOrder = data.sort((a, b) => {
   if (a.name < b.name) {
     return -1;
