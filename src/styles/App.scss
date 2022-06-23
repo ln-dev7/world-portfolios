@@ -8,6 +8,9 @@
   padding: 2rem 0 3rem 0;
   &-container {
     width: 85%;
+    &-aside{
+      background: #000;
+    }
     &-body {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
