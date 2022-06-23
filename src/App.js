@@ -9,26 +9,25 @@ import { useState } from "react";
 // import { useState, useEffect } from "react";
 
 function App() {
-
   const [filteredData, setFilteredData] = useState(dataOrder);
   let filterValue = "";
 
   const changeFilterValue = (value) => {
     filterValue = value;
     filterDataByName();
-  }
+  };
 
   const filterName = (elem) => {
-    return elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) != -1;
-  }
+    return elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) !== -1;
+  };
 
   const filterDataByName = () => {
-    if(filterValue != ""){
+    if (filterValue !== "") {
       setFilteredData(dataOrder.filter(filterName));
-    }else{
+    } else {
       setFilteredData(dataOrder);
     }
-  }
+  };
 
   return (
     <div className="App">
@@ -39,9 +38,7 @@ function App() {
           alt="arrow-up"
         />
       </a>
-      <NavBar
-        onChangeValue={changeFilterValue}
-      />
+      <NavBar onChangeValue={changeFilterValue} />
       <Section />
       <main className="main">
         <div className="main-container">
@@ -63,6 +60,7 @@ function App() {
                 tags={item.tags}
               />
             ))}
+            {filteredData.length === 0 && <h2>No portfolios found ...</h2>}
           </div>
         </div>
       </main>

@@ -6,6 +6,7 @@
   border-radius: 5px;
   padding: 1rem;
   overflow: hidden;
+  height: min-content;
   &:hover {
     box-shadow: 0 0 0 2px $green;
     background: rgba($color: $green, $alpha: 0.001);
