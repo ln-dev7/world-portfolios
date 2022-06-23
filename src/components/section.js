@@ -7,7 +7,7 @@ const Section = () => {
       <div className="section-intro">
         <div className="section-intro__text">
           <h1>Cameroon Portfolios</h1>
-          <p>Open source collection of Cameroonian porfolios</p>
+          <p>Open source collection of Cameroonian portfolios</p>
           <a href="https://github.com/ln-dev7/cameroon-porfolios">
             Contribute on github
           </a>
