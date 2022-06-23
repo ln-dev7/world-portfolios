@@ -119,6 +119,12 @@ const data = [
     link: "https://resume.io/r/HaZAA1Sx9",
     tags: ["FrontEnd", "Mobile", "BackEnd"]
   },
+  {
+    id: 21,
+    name: "Djopa Wilfried",
+    link: "https://djopa.fr",
+    tags: ["FrontEnd", "Mobile", "BackEnd"]
+  },
 ];
 
 export default data;
