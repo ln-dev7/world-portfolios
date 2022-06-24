@@ -131,6 +131,12 @@ const data = [
 		link: 'https://portfolio-tau-five-69.vercel.app',
 		tags: ['FrontEnd', 'BackEnd', 'Design']
 	},
+	{
+		id: 23,
+		name: 'Tondji Niat J. Lee',
+		link: 'https://ebirly.vercel.app',
+		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
+	},
 ]
 
 export default data;
