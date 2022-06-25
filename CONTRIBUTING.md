@@ -10,12 +10,12 @@ Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on Github 
 
 #### 3. Create a new branch (i.e. `add/your-name`).
 
-#### 5. Go to the `src/data/data.js` and edit this file
+#### 5. Go to the `src/data/profiles.tsx` and edit this file
 
 This file contains an array of objects where each object represents a portfolio, so it will be for you to add an object to this table following the timeline ...
 
 ```
-const data = [
+const profiles: Profile[] = [
   ...,
   {
 ​    id: n,
