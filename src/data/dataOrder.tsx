@@ -1,6 +1,6 @@
-import data from "./data";
+import profiles from "./profiles";
 
-const dataOrder = data.sort((a, b) => {
+const dataOrder = profiles.sort((a, b) => {
   if (a.name < b.name) {
     return -1;
   }

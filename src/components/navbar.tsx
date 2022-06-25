@@ -1,10 +1,13 @@
-import React from "react";
 import "./../styles/navbar.scss";
 
-const NavBar = ({onChangeValue}) => {
-  const handelChangeFilter = (e) => {
+interface NavBarProps {
+  onChangeValue: (filterValue: string) => void;
+}
+
+const NavBar = ({ onChangeValue }: NavBarProps) => {
+  const handelChangeFilter = (e: { target: { value: string } }) => {
     onChangeValue(e.target.value);
-  }
+  };
 
   return (
     <nav className="nav" id="#nav">
@@ -20,7 +23,6 @@ const NavBar = ({onChangeValue}) => {
             <input
               type="text"
               onChange={handelChangeFilter}
-              
               placeholder="Search a portfolio ..."
             />
             <button>

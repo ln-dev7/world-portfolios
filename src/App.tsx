@@ -6,24 +6,24 @@ import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
 import Footer from "./components/footer";
 import { useState } from "react";
-// import { useState, useEffect } from "react";
 
 function App() {
   const [filteredData, setFilteredData] = useState(dataOrder);
   let filterValue = "";
 
-  const changeFilterValue = (value) => {
+  const changeFilterValue = (value: string) => {
     filterValue = value;
     filterDataByName();
   };
 
-  const filterName = (elem) => {
-    return elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) !== -1;
-  };
-
   const filterDataByName = () => {
     if (filterValue !== "") {
-      setFilteredData(dataOrder.filter(filterName));
+      setFilteredData(
+        dataOrder.filter(
+          ({ name }) =>
+            name.toLowerCase().indexOf(filterValue.toLowerCase()) !== -1
+        )
+      );
     } else {
       setFilteredData(dataOrder);
     }
@@ -52,12 +52,13 @@ function App() {
             </div>
           </aside>
           <div className="main-container-body">
-            {filteredData.map((item, index) => (
+            {filteredData.map((profile, index) => (
               <Card
                 key={index}
-                name={item.name}
-                link={item.link}
-                tags={item.tags}
+                id={profile.id}
+                name={profile.name}
+                link={profile.link}
+                tags={profile.tags}
               />
             ))}
             {filteredData.length === 0 && <h2>No portfolios found ...</h2>}
