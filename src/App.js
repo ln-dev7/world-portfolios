@@ -6,24 +6,24 @@ import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
 import Footer from "./components/footer";
 import { useState } from "react";
-// import { useState, useEffect } from "react";
 
-function App() {
+
+const App = () => {
   const [filteredData, setFilteredData] = useState(dataOrder);
-  let filterValue = "";
 
   const changeFilterValue = (value) => {
-    filterValue = value;
-    filterDataByName();
+    filterDataByName(value);
   };
 
-  const filterName = (elem) => {
-    return elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) !== -1;
-  };
-
-  const filterDataByName = () => {
+  const filterDataByName = (filterValue) => {
     if (filterValue !== "") {
-      setFilteredData(dataOrder.filter(filterName));
+      setFilteredData(
+          dataOrder.filter((elem) => {
+              return elem.name
+                      .toLowerCase()
+                      .indexOf(filterValue.toLowerCase()) !== -1
+          })
+      );
     } else {
       setFilteredData(dataOrder);
     }
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <a href="#">
+      <a href="/">
         <img
           className="to-top"
           src="assets/images/arrow-up-circle-fill.svg"
