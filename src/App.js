@@ -1,22 +1,19 @@
-import Card from "./components/card";
-import NavBar from "./components/navbar";
-import Section from "./components/section";
+import CardList from "./components/CardList";
+import TagList from "./components/TagList";
+import NavBar from "./components/Navbar";
+import Section from "./components/Section";
 import "./styles/App.scss";
 import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import { useState } from "react";
 
 
 const App = () => {
   const [filteredData, setFilteredData] = useState(dataOrder);
 
-  const changeFilterValue = (value) => {
-    filterDataByName(value);
-  };
-
-  const filterDataByName = (filterValue) => {
-    if (filterValue !== "") {
+  const changeFilterValue = (filterValue) => {
+    if (filterValue !== "")
       setFilteredData(
           dataOrder.filter((elem) => {
               return elem.name
@@ -24,9 +21,7 @@ const App = () => {
                       .indexOf(filterValue.toLowerCase()) !== -1
           })
       );
-    } else {
-      setFilteredData(dataOrder);
-    }
+    else setFilteredData(dataOrder);
   };
 
   return (
@@ -43,24 +38,10 @@ const App = () => {
       <main className="main">
         <div className="main-container">
           <aside className="main-container-aside">
-            <h2>Filter by</h2>
-            <div className="main-container-aside-tags">
-              <button className="active">All tags</button>
-              {tags.map((tag, index) => (
-                <button key={index}>{tag}</button>
-              ))}
-            </div>
+            <TagList tags={tags}/>
           </aside>
           <div className="main-container-body">
-            {filteredData.map((item, index) => (
-              <Card
-                key={index}
-                name={item.name}
-                link={item.link}
-                tags={item.tags}
-              />
-            ))}
-            {filteredData.length === 0 && <h2>No portfolios found ...</h2>}
+            <CardList filteredData={filteredData}/>
           </div>
         </div>
       </main>
