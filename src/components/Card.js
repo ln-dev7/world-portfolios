@@ -1,8 +1,6 @@
-import React from "react";
 import "./../styles/card.scss";
 
-const Card = ({ name, link, tags }) => {
-  return (
+const Card = ({ name, link, tags }) => (
     <div className="card">
       <div className="card-container">
         <h2>{name}</h2>
@@ -16,7 +14,6 @@ const Card = ({ name, link, tags }) => {
         ))}
       </div>
     </div>
-  );
-};
+);
 
 export default Card;
