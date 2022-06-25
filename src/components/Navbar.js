@@ -1,4 +1,3 @@
-import React from "react";
 import "./../styles/navbar.scss";
 
 const NavBar = ({onChangeValue}) => {
@@ -20,6 +19,7 @@ const NavBar = ({onChangeValue}) => {
             <input
               type="text"
               onChange={handelChangeFilter}
+
               placeholder="Search a portfolio ..."
             />
             <button>
