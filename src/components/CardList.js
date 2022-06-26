@@ -8,7 +8,7 @@ const CardList = ({filteredData}) => (
             key={index}
             name={item.name}
             link={item.link}
-            tags={item.tags}
+            tags={item.tags.map((tag) => tag.toLowerCase())}
           />
         ))}
         {filteredData.length === 0 && <h2>No portfolios found ...</h2>}
