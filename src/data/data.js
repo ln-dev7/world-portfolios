@@ -81,7 +81,7 @@ const data = [
 		id: 14,
 		name: 'Real Jema',
 		link: 'http://realjema.com/',
-		tags: ['FrontEnd', 'Design'],
+		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
 	},
 	{
 		id: 15,
@@ -135,12 +135,6 @@ const data = [
 		id: 23,
 		name: 'Tondji Niat J. Lee',
 		link: 'https://ebirly.vercel.app',
-		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
-	},
-	{
-		id: 24,
-		name: 'Realjema',
-		link: 'http://realjema.com/',
 		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
 	},
 ]
