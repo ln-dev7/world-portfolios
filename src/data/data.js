@@ -141,7 +141,7 @@ const data = [
 		id: 24,
 		name: 'Realjema',
 		link: 'http://realjema.com/',
-		tags: ['FrontEnd', 'FullStack', 'Express', 'JavaScript', 'ReactJs', 'NodeJs']
+		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
 	},
 ]
 
