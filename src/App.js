@@ -35,13 +35,7 @@ const App = () => {
   useEffect(() => {
     if (selectedTags.indexOf("all") === -1 && selectedTags.length > 0) {
       setFilteredData(
-        dataOrder.filter((elem) => {
-          for (var i = 0; i < selectedTags.length; i++) {
-            var elemTags = elem.tags.map((tag) => tag.toLowerCase());
-            return elemTags.indexOf(selectedTags[i]) !== -1;
-          }
-          return false;
-        })
+        dataOrder.filter((elem) => elem.belongsTo(selectedTags))
       );
     } else setFilteredData(dataOrder);
   }, [selectedTags]);

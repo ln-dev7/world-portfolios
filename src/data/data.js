@@ -139,4 +139,15 @@ const data = [
 	},
 ]
 
-export default data;
+function Portfolio({ id, name, link, tags }) {
+	this.id = id;
+	this.name = name;
+	this.link = link;
+	this.tags = tags;
+}
+
+Portfolio.prototype.belongsTo = function (tags = []) {
+	return tags.every(tag => this.tags.map(e => e.toLowerCase()).includes(tag));
+}
+
+export default data.map(e => new Portfolio(e));
