@@ -67,8 +67,8 @@ const data = [
 	},
 	{
 		id: 12,
-		name: 'My Stroken',
-		link: 'https://www.mystroken.com/',
+		name: 'Mystro Ken',
+		link: 'https://www.mystroken.com/?utm_medium=cameroon-portfolios',
 		tags: ['FrontEnd', 'Design', 'Creative Dev'],
 	},
 	{
