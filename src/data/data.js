@@ -67,7 +67,7 @@ const data = [
 	},
 	{
 		id: 12,
-		name: 'My Stroken',
+		name: 'Mystro Ken',
 		link: 'https://www.mystroken.com/',
 		tags: ['FrontEnd', 'Design', 'Creative Dev'],
 	},
