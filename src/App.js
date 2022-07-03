@@ -2,6 +2,7 @@ import CardList from "./components/CardList";
 import TagList from "./components/TagList";
 import NavBar from "./components/Navbar";
 import Section from "./components/Section";
+import Top from './components/ToTop.js'
 import "./styles/App.scss";
 import dataOrder from "./data/dataOrder";
 import tags from "./data/tags";
@@ -46,15 +47,11 @@ const App = () => {
     } else setFilteredData(dataOrder);
   }, [selectedTags]);
 
+
+
   return (
     <div className="App">
-      <a href="/">
-        <img
-          className="to-top"
-          src="assets/images/arrow-up-circle-fill.svg"
-          alt="arrow-up"
-        />
-      </a>
+      <Top />
       <NavBar onChangeValue={filterByName} />
       <Section />
       <main className="main">
