@@ -139,4 +139,9 @@ const data = [
 	},
 ]
 
-export default data;
+function Portfolio (portofolio = {}) {
+        Object.assign(this, portofolio);
+        this.belongsTo = (tags = []) => tags.every(tag => this.tags.map(e => e.toLowerCase()).includes(tag));
+}
+
+export default data.map(e => new Portfolio(e));
