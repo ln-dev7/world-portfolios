@@ -137,6 +137,12 @@ const data = [
 		link: 'https://ebirly.vercel.app',
 		tags: ['FrontEnd', 'BackEnd', 'Mobile', 'Design']
 	},
+	{
+		id: 24,
+		name: 'Marc Sitze',
+		link: 'https://theblackdev.herokuapp.com',
+		tags: ['FrontEnd', 'BackEnd', 'Mobile']
+	},
 ]
 
 function Portfolio (portofolio = {}) {
