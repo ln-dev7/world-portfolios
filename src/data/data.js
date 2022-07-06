@@ -87,7 +87,7 @@ const data = [
 		id: 15,
 		name: 'Aboubakar Sidik',
 		link: 'https://aboubak.art/',
-		tags: ['DevOps'],
+		tags: ['DevOps', 'FrontEnd', 'BackEnd', 'Mobile'],
 	},
 	{
 		id: 16,
