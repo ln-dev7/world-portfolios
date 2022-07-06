@@ -36,7 +36,7 @@ const App = () => {
   useEffect(() => {
     if (selectedTags.indexOf("all") === -1 && selectedTags.length > 0) {
       setFilteredData(
-        dataOrder.filter((elem) => elem.belongsTo(selectedTags))
+        dataOrder.filter((elem) => selectedTags.every(tag => elem.tags.map(e => e.toLowerCase()).includes(tag)))
       );
     } else setFilteredData(dataOrder);
   }, [selectedTags]);
