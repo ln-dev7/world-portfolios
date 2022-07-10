@@ -143,6 +143,12 @@ const data = [
 		link: 'https://theblackdev.herokuapp.com',
 		tags: ['FrontEnd', 'BackEnd', 'Mobile']
 	},
+{
+		id: 25,
+		name: 'Chapdel KAMGA',
+		link: 'https://chapdel.me',
+		tags: ['FrontEnd', 'Mobile',  'Design', 'BackEnd', 'Payments','Fullstack'],
+	},
 ]
 
 export default data;
