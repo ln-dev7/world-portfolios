@@ -143,6 +143,12 @@ const data = [
 		link: 'https://theblackdev.herokuapp.com',
 		tags: ['FrontEnd', 'BackEnd', 'Mobile']
 	},
+	{
+​    id: 25,
+​    name: "Dilane Kombou",
+​    link: "https://dilane3.vercel.app",
+​    tags: ["FrontEnd", "Backend", "Mobile"]
+	},
 ]
 
 export default data;
