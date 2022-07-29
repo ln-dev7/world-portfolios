@@ -20,7 +20,7 @@ const data = [
   {
     id: 4,
     name: "Kemane Donfack",
-    link: "https://kemanedonfack.000webhostapp.com/",
+    link: "https://kemanedonfack.herokuapp.com/",
     tags: ["FrontEnd", "Mobile", "Design", "BackEnd"],
   },
   {
