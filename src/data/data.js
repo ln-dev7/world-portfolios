@@ -14,7 +14,7 @@ const data = [
   {
     id: 3,
     name: "Asam",
-    link: "https://asam237.herokuapp.com",
+    link: "https://asam-cmr.vercel.app/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
   },
   {
