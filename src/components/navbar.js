@@ -27,7 +27,7 @@ const NavBar = ({onChangeValue}) => {
             </button>
           </div>
           <a
-            href="https://github.com/ln-dev7/cameroon-portfolios/blob/master/CONTRIBUTING.md"
+            href="https://github.com/ln-dev7/cameroon-portfolios/issues/new?assignees=&labels=&template=take-the-porfolio.yaml&title=DO+NOT+EDIT+-+takes+the+catalogue"
             className="nav-container-menu-link"
           >
             <span>Add your portfolio</span>

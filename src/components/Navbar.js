@@ -1,9 +1,9 @@
 import "./../styles/navbar.scss";
 
-const NavBar = ({onChangeValue}) => {
+const NavBar = ({ onChangeValue }) => {
   const handelChangeFilter = (e) => {
     onChangeValue(e.target.value);
-  }
+  };
 
   return (
     <nav className="nav" id="#nav">
@@ -19,7 +19,6 @@ const NavBar = ({onChangeValue}) => {
             <input
               type="text"
               onChange={handelChangeFilter}
-
               placeholder="Search a portfolio ..."
             />
             <button>
@@ -27,7 +26,7 @@ const NavBar = ({onChangeValue}) => {
             </button>
           </div>
           <a
-            href="https://github.com/ln-dev7/cameroon-portfolios/blob/master/CONTRIBUTING.md"
+            href="https://github.com/ln-dev7/cameroon-portfolios/issues/new?assignees=&labels=&template=take-the-porfolio.yaml&title=DO+NOT+EDIT+-+takes+the+catalogue"
             className="nav-container-menu-link"
           >
             <span>Add your portfolio</span>
