@@ -2,7 +2,7 @@ name: Process portfolio's entry.
 on:
   issues:
     types: [opened]
-concurrency: 'main'
+concurrency: 'github-action-new-portfolio'
 jobs:
   take_catalogue:
     runs-on: ubuntu-latest
