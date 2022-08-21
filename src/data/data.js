@@ -149,6 +149,12 @@ const data = [
     link: "https://dilane3.vercel.app",
     tags: ["FrontEnd", "Backend", "Mobile"],
   },
+  {
+    id: 26,
+    name: "Bruce Guenkam",
+    link: "https://guenkam.com",
+    tags: ["FrontEnd", "Backend", "Mobile"],
+  },
 ];
 
 export default data;
