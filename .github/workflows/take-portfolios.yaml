@@ -1,0 +1,49 @@
+name: Process portfolio's entry.
+on:
+  issues:
+    types: [opened]
+concurrency: 'main'
+jobs:
+  take_catalogue:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'DO NOT EDIT') && contains(github.event.issue.title, 'takes the porfolio')
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - uses: elhmn/github-issue-parser@release-parse-checkbox
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/take-the-porfolio.yaml
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > portfolio_submission.json
+      - run: |
+          cat porfolio_submission.json | jq
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          cat porfolio_submission.json | yq e '{"items": [.]}' -P - > porfolio_submission.yaml
+      - run: cat porfolio_submission.yaml
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/data/portfolio.yaml portfolio_submission.yaml
+      - run: cat porfolio_submission.yaml
+      - run: cat ./src/data/portfolio.yaml
+      - name: Set convert json to yaml
+        shell: bash
+        run: |
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/data/portfolio.yaml porfolio_submission.yaml
+      - run: cat ./src/data/portfolio.yaml
+      - name: Commit changes
+        shell: bash
+        run: |
+          git config --global user.email "abbasalimokolo@gmail.com" && \
+          git config --global user.name "Asam237" && \
+          git add ./assets/data/survey.yaml && \
+          git commit -m 'new portfolio answer' && \
+          git push
+      - uses: peter-evans/close-issue@v1
+        with:
+          comment: Your portfolio answer was submitted and will be deployed in few minutes here ...
+

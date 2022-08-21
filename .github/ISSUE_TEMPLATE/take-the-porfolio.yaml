@@ -1,0 +1,30 @@
+name: Take the developer porfolio
+description: Take the cameroonian developer porfolio
+title: "DO NOT EDIT - takes the porfolio"
+body:
+  - type: input
+    id: name
+    attributes:
+      label: What is your name ?
+  - type: input
+    id: link
+    attributes:
+      label: What is your porfolio link ?
+  - type: checkboxes
+    id: developer_type
+    attributes:
+      label: What type of developer are you ?
+      options:
+        - label: Frontend Developer
+        - label: Backend Developer
+        - label: Full stack Developer
+        - label: Mobile Developer
+        - label: Desktop Developer
+        - label: Game Developer
+        - label: Data scientist Developer
+        - label: DevOps Developer
+        - label: Embedded developer
+        - label: Web Developer
+        - label: Security Developer
+        - label: Developer
+        - label: Odoo Developer
