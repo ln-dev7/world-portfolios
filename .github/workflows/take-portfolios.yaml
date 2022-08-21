@@ -15,32 +15,32 @@ jobs:
       - uses: elhmn/github-issue-parser@release-parse-checkbox
         id: issue-parser
         with:
-          template-path: .github/ISSUE_TEMPLATE/take-the-porfolio.yaml
+          template-path: .github/ISSUE_TEMPLATE/take-the-portfolio.yaml
       - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > portfolio_submission.json
       - run: |
-          cat porfolio_submission.json | jq
+          cat portfolio_submission.json | jq
       - name: Set convert json to yaml
         shell: bash
         run: |
-          cat porfolio_submission.json | yq e '{"items": [.]}' -P - > porfolio_submission.yaml
-      - run: cat porfolio_submission.yaml
+          cat portfolio_submission.json | yq e '{"items": [.]}' -P - > portfolio_submission.yaml
+      - run: cat portfolio_submission.yaml
       - name: Set convert json to yaml
         shell: bash
         run: |
           yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/data/portfolio.yaml portfolio_submission.yaml
-      - run: cat porfolio_submission.yaml
+      - run: cat portfolio_submission.yaml
       - run: cat ./src/data/portfolio.yaml
       - name: Set convert json to yaml
         shell: bash
         run: |
-          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/data/portfolio.yaml porfolio_submission.yaml
+          yq ea '. as $item ireduce ({}; . *+ $item)' -i ./src/data/portfolio.yaml portfolio_submission.yaml
       - run: cat ./src/data/portfolio.yaml
       - name: Commit changes
         shell: bash
         run: |
           git config --global user.email "abbasalimokolo@gmail.com" && \
           git config --global user.name "Asam237" && \
-          git add ./assets/data/survey.yaml && \
+          git add ./src/data/portfolio.yaml && \
           git commit -m 'new portfolio answer' && \
           git push
       - uses: peter-evans/close-issue@v1
