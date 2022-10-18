@@ -1,12 +1,6 @@
-import CardList from "./components/CardList";
-import TagList from "./components/TagList";
-import NavBar from "./components/Navbar";
-import Section from "./components/Section";
-import Top from './components/ToTop.js'
+import { CardList, TagList, NavBar, Section, Top, Footer } from "./components";
 import "./styles/App.scss";
-import dataOrder from "./data/dataOrder";
-import tags from "./data/tags";
-import Footer from "./components/Footer";
+import { dataOrder, tags } from "./data/";
 import { useState, useEffect } from "react";
 
 const App = () => {
@@ -36,12 +30,14 @@ const App = () => {
   useEffect(() => {
     if (selectedTags.indexOf("all") === -1 && selectedTags.length > 0) {
       setFilteredData(
-        dataOrder.filter((elem) => selectedTags.every(tag => elem.tags.map(e => e.toLowerCase()).includes(tag)))
+        dataOrder.filter((elem) =>
+          selectedTags.every((tag) =>
+            elem.tags.map((e) => e.toLowerCase()).includes(tag)
+          )
+        )
       );
     } else setFilteredData(dataOrder);
   }, [selectedTags]);
-
-
 
   return (
     <div className="App">

@@ -155,6 +155,12 @@ const data = [
     link: "https://guenkam.com",
     tags: ["FrontEnd", "Backend", "Mobile"],
   },
+  {
+    id: 27,
+    name: "Zenith-noble01",
+    link: "under developement",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+  },
 ];
 
 export default data;
