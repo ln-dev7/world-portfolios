@@ -155,6 +155,12 @@ const data = [
     link: "https://guenkam.com",
     tags: ["FrontEnd", "Backend", "Mobile"],
   },
+  {
+    id: 27,
+    name: "Fenyep Wangue",
+    link: "https://fenyep-wangue.vercel.app",
+    tags: ["FrontEnd", "Backend", "Mobile"],
+  },
 ];
 
 export default data;
