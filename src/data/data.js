@@ -161,6 +161,12 @@ const data = [
     link: "https://fenyep-wangue.vercel.app",
     tags: ["FrontEnd", "Backend", "Mobile"],
   },
+  {
+    id: 28,
+    name: "Baimam Boukar",
+    link: "http://baimamboukar.me",
+    tags: ["Mobile", "Cloud", "Machine Learning"]
+   },
 ];
 
 export default data;
