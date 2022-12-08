@@ -163,9 +163,9 @@ const data = [
   },
   {
     id: 28,
-    name: "Baimam Boukar Jean Jacques",
+    name: "Baimam Boukar",
     link: "http://baimamboukar.me",
-    tags: ["Flutter", "AWS", "GCP", "Machine Learning"]
+    tags: ["Mobile", "Cloud", "Machine Learning"]
    },
 ];
 
