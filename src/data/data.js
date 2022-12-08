@@ -1,11 +1,5 @@
 const data = [
   {
-    id: 0,
-    name: "Baimam Boukar Jean Jacques",
-    link: "http://baimamboukar.me",
-    tags: ["Flutter", "AWS", "GCP", "Machine Learning"]
-   },
-  {
     id: 1,
     name: "Leonel Ngoya",
     link: "https://lndev.me",
@@ -167,6 +161,12 @@ const data = [
     link: "https://fenyep-wangue.vercel.app",
     tags: ["FrontEnd", "Backend", "Mobile"],
   },
+  {
+    id: 28,
+    name: "Baimam Boukar Jean Jacques",
+    link: "http://baimamboukar.me",
+    tags: ["Flutter", "AWS", "GCP", "Machine Learning"]
+   },
 ];
 
 export default data;
