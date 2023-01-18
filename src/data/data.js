@@ -172,6 +172,12 @@ const data = [
     name: 'Boris Tchouanfe',
     link: 'https://tchouanfeboris.netlify.app',
     tags: ['Mobile', 'Frontend', 'Backend']
+  },
+  {
+    id: 30,
+    name: 'Hydil Aicard Sokeing',
+    link: 'https://elshaseries.icarpro.fr',
+    tags: ['Mobile', 'Backend']
   }
 ]
 
