@@ -178,6 +178,12 @@ const data = [
     name: 'Hydil Aicard Sokeing',
     link: 'https://elshaseries.icarpro.fr',
     tags: ['Mobile', 'Backend']
+  },
+  {
+    id: 31,
+    name: 'Bleriot Noguia',
+    link: 'https://bleriotnoguia.com',
+    tags: ['Frontend', 'Mobile', 'Backend']
   }
 ]
 
