@@ -178,6 +178,12 @@ const data = [
     name: 'Hydil Aicard Sokeing',
     link: 'https://elshaseries.icarpro.fr',
     tags: ['Mobile', 'Backend']
+  },
+  {
+    id: 31,
+    name: 'Sergeo Moffo',
+    link: 'https://gesta.netlify.app',
+    tags: ['Mobile', 'Backend', 'Frontend', "DevOps"]
   }
 ]
 
