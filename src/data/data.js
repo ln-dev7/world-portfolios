@@ -93,7 +93,7 @@ const data = [
     id: 16,
     name: 'Nenba Jonathan',
     link: 'https://nenbajonathan.com/',
-    tags: ['DevOps', 'BackEnd']
+    tags: ['DevOps', 'BackEnd', 'FrontEnd', 'Web3']
   },
   {
     id: 17,
