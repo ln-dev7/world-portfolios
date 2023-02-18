@@ -1,9 +1,9 @@
 const data = [
-  {
+    {
     id: 1,
     name: 'Leonel Ngoya',
     link: 'https://lndev.me',
-    tags: ['FrontEnd', 'Web Integration']
+    tags: ['FrontEnd', 'Creative dev']
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const data = [
   {
     id: 6,
     name: 'Wilfried Djossi',
-    link: 'https://v1.la2spaille.vercel.app/',
+    link: 'https://la2spaille.studio/',
     tags: ['FrontEnd', 'Creative Dev']
   },
   {
@@ -93,7 +93,7 @@ const data = [
     id: 16,
     name: 'Nenba Jonathan',
     link: 'https://nenbajonathan.com/',
-    tags: ['DevOps', 'BackEnd']
+    tags: ['DevOps', 'BackEnd', 'FrontEnd', 'Web3']
   },
   {
     id: 17,
@@ -197,6 +197,6 @@ const data = [
     link: 'https://bleriotnoguia.com',
     tags: ['Frontend', 'Mobile', 'Backend']
   }
-]
+];
 
-export default data
+export default data;
