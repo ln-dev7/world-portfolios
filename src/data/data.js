@@ -181,6 +181,18 @@ const data = [
   },
   {
     id: 31,
+    name: 'Kengne Jeffrey',
+    link: 'https://jeff.hooreo.com',
+    tags: ['FrontEnd', 'Backend', 'Mobile']
+  },
+  {
+    id: 32,
+    name: 'N Jean Claude',
+    link: 'https://portfolio-medjio.vercel.app',
+    tags: ["FrontEnd", "Design"],
+  },
+  {
+    id: 33,
     name: 'Bleriot Noguia',
     link: 'https://bleriotnoguia.com',
     tags: ['Frontend', 'Mobile', 'Backend']
