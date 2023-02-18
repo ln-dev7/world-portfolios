@@ -1,5 +1,5 @@
 const data = [
-  {
+    {
     id: 1,
     name: 'Leonel Ngoya',
     link: 'https://lndev.me',
@@ -185,6 +185,12 @@ const data = [
     link: 'https://jeff.hooreo.com',
     tags: ['FrontEnd', 'Backend', 'Mobile']
   },
-]
+  {
+    id: 32,
+    name: 'N Jean Claude',
+    link: 'https://portfolio-medjio.vercel.app',
+    tags: ["FrontEnd", "Design"],
+  },
+];
 
-export default data
+export default data;
