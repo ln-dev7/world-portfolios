@@ -178,7 +178,13 @@ const data = [
     name: 'Hydil Aicard Sokeing',
     link: 'https://elshaseries.icarpro.fr',
     tags: ['Mobile', 'Backend']
-  }
+  },
+  {
+    id: 31,
+    name: 'Kengne Jeffrey',
+    link: 'https://jeff.hooreo.com',
+    tags: ['FrontEnd', 'Backend', 'Mobile']
+  },
 ]
 
 export default data
