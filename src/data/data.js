@@ -191,6 +191,12 @@ const data = [
     link: 'https://portfolio-medjio.vercel.app',
     tags: ["FrontEnd", "Design"],
   },
+  {
+    id: 33,
+    name: 'Bleriot Noguia',
+    link: 'https://bleriotnoguia.com',
+    tags: ['Frontend', 'Mobile', 'Backend']
+  }
 ];
 
 export default data;
