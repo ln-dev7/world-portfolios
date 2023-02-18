@@ -196,6 +196,12 @@ const data = [
     name: 'Bleriot Noguia',
     link: 'https://bleriotnoguia.com',
     tags: ['Frontend', 'Mobile', 'Backend']
+  },
+   {
+    id: 34,
+    name: 'Cedrick Kouekam',
+    link: 'https://cedrick-kouekam-portfolio.web.app/',
+    tags: ['Frontend']
   }
 ];
 
