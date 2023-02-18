@@ -32,7 +32,7 @@ const data = [
   {
     id: 6,
     name: 'Wilfried Djossi',
-    link: 'https://v1.la2spaille.vercel.app/',
+    link: 'https://la2spaille.studio/',
     tags: ['FrontEnd', 'Creative Dev']
   },
   {
