@@ -2,7 +2,7 @@
 
 #### 1. Fork this repository
 
-Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on Github and click here
+Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on github and click here
 
 ![fork project](https://cameroon-portfolios.vercel.app/assets/contribut/1.png)
 
@@ -22,9 +22,9 @@ const data = [
 ​    link: "https://johndoe.com",
 ​    tags: ["FrontEnd", "Backend"],
     socials: {
-      Twitter: "johndoe",
-      Github: "johndoe",
-      LinkedIn: "johndoe",
+      twitter: "johndoe",
+      github: "johndoe",
+      linkedin: "johndoe",
     },
   },
   {
@@ -32,9 +32,9 @@ const data = [
 ​    link: "https://your-website.com",
 ​    tags: ["", "", ...],
     socials: {
-      Twitter: "yourname",
-      Github: "yourname",
-      LinkedIn: "yourname",
+      twitter: "yourname",
+      github: "yourname",
+      linkedin: "yourname",
     },
   },
 ]
@@ -51,18 +51,18 @@ const data = [
 **_=> On the social networks part, we don't want all the link to your profile, we just want the user-name (in the example below it's "johndoe")_**
 
 ```
-      Twitter: "johndoe",
-      Github: "johndoe",
-      LinkedIn: "johndoe",
+      twitter: "johndoe",
+      github: "johndoe",
+      linkedin: "johndoe",
 ```
 
 **_=> If you do not want to fill in one of your social networks, please leave the field empty like this:_**
 
 ```
     socials: {
-      Twitter: "",
-      Github: "johndoe",
-      LinkedIn: "",
+      twitter: "",
+      github: "johndoe",
+      linkedin: "",
     },
 ```
 
@@ -70,9 +70,9 @@ const data = [
 
 ```
     socials: {
-      Twitter: "",
-      Github: "",
-      LinkedIn: "",
+      twitter: "",
+      github: "",
+      linkedin: "",
     },
 ```
 

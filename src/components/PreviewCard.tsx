@@ -13,9 +13,9 @@ export default function PreviewCard({
   link: string;
   tags: string[];
   socials: {
-    Twitter: string;
-    Github: string;
-    Linkedin: string;
+    twitter: string;
+    github: string;
+    linkedin: string;
   };
 }) {
   return (
@@ -58,9 +58,9 @@ export default function PreviewCard({
             ))}
           </div>
           <div className="card-socials">
-            {socials.Twitter !== "" && (
+            {socials.twitter !== "" && (
               <Link
-                href={"https://twitter.com/" + socials.Twitter}
+                href={"https://twitter.com/" + socials.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social__twitter"
@@ -80,9 +80,9 @@ export default function PreviewCard({
                 </svg>
               </Link>
             )}
-            {socials.Github !== "" && (
+            {socials.github !== "" && (
               <Link
-                href={"https://github.com/" + socials.Github}
+                href={"https://github.com/" + socials.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social__github"
@@ -103,9 +103,9 @@ export default function PreviewCard({
                 </svg>
               </Link>
             )}
-            {socials.Linkedin !== "" && (
+            {socials.linkedin !== "" && (
               <Link
-                href={"https://linkedin.com/in/" + socials.Linkedin}
+                href={"https://linkedin.com/in/" + socials.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social__linkedin"

@@ -8,9 +8,9 @@ const CardList = ({
     link: string;
     tags: string[];
     socials: {
-      Twitter: string;
-      Github: string;
-      Linkedin: string;
+      twitter: string;
+      github: string;
+      linkedin: string;
     };
   }[];
 }) => (

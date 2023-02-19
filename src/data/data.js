@@ -4,9 +4,9 @@ const data = [
     link: "https://lndev.me",
     tags: ["FrontEnd", "Creative dev"],
     socials: {
-      Twitter: "ln_dev7",
-      Github: "ln-dev7",
-      LinkedIn: "lndev",
+      twitter: "ln_dev7",
+      github: "ln-dev7",
+      linkedin: "lndev",
     },
   },
   {
@@ -14,9 +14,9 @@ const data = [
     link: "https://arthurmonney.me",
     tags: ["FrontEnd", "Design", "BackEnd"],
     socials: {
-      Twitter: "monneyarthur",
-      Github: "mckenziearts",
-      LinkedIn: "arthurmonney",
+      twitter: "monneyarthur",
+      github: "mckenziearts",
+      linkedin: "arthurmonney",
     },
   },
   {
@@ -24,9 +24,9 @@ const data = [
     link: "https://asam-cmr.vercel.app/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "asam_237",
-      Github: "Asam237",
-      LinkedIn: "abba-sali-aboubakar-mamate",
+      twitter: "asam_237",
+      github: "Asam237",
+      linkedin: "abba-sali-aboubakar-mamate",
     },
   },
   {
@@ -34,9 +34,9 @@ const data = [
     link: "https://valerymelou.com/",
     tags: ["FrontEnd", "Backend", "DevOps"],
     socials: {
-      Twitter: "valerymelou",
-      Github: "valerymelou",
-      LinkedIn: "valerymelou",
+      twitter: "valerymelou",
+      github: "valerymelou",
+      linkedin: "valerymelou",
     },
   },
   {
@@ -44,9 +44,9 @@ const data = [
     link: "https://la2spaille.studio/",
     tags: ["FrontEnd", "Creative Dev"],
     socials: {
-      Twitter: "la2spaille",
-      Github: "la2spaille",
-      LinkedIn: "wilfried-djossi-92b2b222b",
+      twitter: "la2spaille",
+      github: "la2spaille",
+      linkedin: "wilfried-djossi-92b2b222b",
     },
   },
   {
@@ -54,9 +54,9 @@ const data = [
     link: "https://blog.adonissimo.com/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "adonis__simo",
-      Github: "simo97",
-      LinkedIn: "adonis-simo",
+      twitter: "adonis__simo",
+      github: "simo97",
+      linkedin: "adonis-simo",
     },
   },
   {
@@ -64,9 +64,9 @@ const data = [
     link: "https://borisgauty.com",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "Boris_Gauty",
-      Github: "BorisGautier",
-      LinkedIn: "boris-gautier-tchoukouaha-420262143",
+      twitter: "Boris_Gauty",
+      github: "BorisGautier",
+      linkedin: "boris-gautier-tchoukouaha-420262143",
     },
   },
   {
@@ -74,9 +74,9 @@ const data = [
     link: "https://gabrielthecode.com/",
     tags: ["Mobile", "FrontEnd"],
     socials: {
-      Twitter: "gabriel_thecode",
-      Github: "gabriel-thecode",
-      LinkedIn: "tekombo-gabriel",
+      twitter: "gabriel_thecode",
+      github: "gabriel-thecode",
+      linkedin: "tekombo-gabriel",
     },
   },
   {
@@ -84,9 +84,9 @@ const data = [
     link: "https://ekimkael.github.io/",
     tags: ["FrontEnd", "Mobile", "Design"],
     socials: {
-      Twitter: "ekimkael",
-      Github: "ekimkael",
-      LinkedIn: "michelmbili",
+      twitter: "ekimkael",
+      github: "ekimkael",
+      linkedin: "michelmbili",
     },
   },
   {
@@ -94,9 +94,9 @@ const data = [
     link: "https://ivanlemovou.cm/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "sherlock2045",
-      Github: "SherlockHolmes2045",
-      LinkedIn: "ivan-lemovou-98a585171",
+      twitter: "sherlock2045",
+      github: "SherlockHolmes2045",
+      linkedin: "ivan-lemovou-98a585171",
     },
   },
   {
@@ -104,9 +104,9 @@ const data = [
     link: "https://www.mystroken.com/",
     tags: ["FrontEnd", "Design", "Creative Dev"],
     socials: {
-      Twitter: "mystroken",
-      Github: "mystroken",
-      LinkedIn: "emmanuel-kwene",
+      twitter: "mystroken",
+      github: "mystroken",
+      linkedin: "emmanuel-kwene",
     },
   },
   {
@@ -114,9 +114,9 @@ const data = [
     link: "https://realjema.com/",
     tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
     socials: {
-      Twitter: "realjema_",
-      Github: "realJema",
-      LinkedIn: "realjema",
+      twitter: "realjema_",
+      github: "realJema",
+      linkedin: "realjema",
     },
   },
   {
@@ -124,9 +124,9 @@ const data = [
     link: "https://aboubak.art/",
     tags: ["DevOps", "FrontEnd", "BackEnd", "Mobile"],
     socials: {
-      Twitter: "sidikfaha",
-      Github: "sidikfaha",
-      LinkedIn: "fahasidik",
+      twitter: "sidikfaha",
+      github: "sidikfaha",
+      linkedin: "fahasidik",
     },
   },
   {
@@ -134,9 +134,9 @@ const data = [
     link: "https://nenbajonathan.com/",
     tags: ["DevOps", "BackEnd", "FrontEnd", "Web3"],
     socials: {
-      Twitter: "nejos97",
-      Github: "nejos97",
-      LinkedIn: "jnenba",
+      twitter: "nejos97",
+      github: "nejos97",
+      linkedin: "jnenba",
     },
   },
   {
@@ -144,9 +144,9 @@ const data = [
     link: "https://scorp-corporate.com/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "thehuck_s",
-      Github: "FranckSiyapze",
-      LinkedIn: "franck-dabryn-siyapze-3276b4120",
+      twitter: "thehuck_s",
+      github: "FranckSiyapze",
+      linkedin: "franck-dabryn-siyapze-3276b4120",
     },
   },
   {
@@ -154,9 +154,9 @@ const data = [
     link: "https://newgenius.tech/",
     tags: ["Data scientist", "BackEnd"],
     socials: {
-      Twitter: "new1genius",
-      Github: "geek3000",
-      LinkedIn: "newgenius",
+      twitter: "new1genius",
+      github: "geek3000",
+      linkedin: "newgenius",
     },
   },
   {
@@ -164,9 +164,9 @@ const data = [
     link: "https://djopa.fr",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
     socials: {
-      Twitter: "willy_djopa",
-      Github: "wdjopa",
-      LinkedIn: "wilfried-djopa",
+      twitter: "willy_djopa",
+      github: "wdjopa",
+      linkedin: "wilfried-djopa",
     },
   },
   {
@@ -174,9 +174,9 @@ const data = [
     link: "https://rogerbentcha.fr/",
     tags: ["FrontEnd", "BackEnd", "Design"],
     socials: {
-      Twitter: "RBentcha",
-      Github: "Carter2307",
-      LinkedIn: "roger-bentcha-280802195",
+      twitter: "RBentcha",
+      github: "Carter2307",
+      linkedin: "roger-bentcha-280802195",
     },
   },
   {
@@ -184,9 +184,9 @@ const data = [
     link: "https://ebirly.vercel.app",
     tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
     socials: {
-      Twitter: "Leesan30Lee",
-      Github: "Geekles007",
-      LinkedIn: "",
+      twitter: "Leesan30Lee",
+      github: "Geekles007",
+      linkedin: "",
     },
   },
   {
@@ -194,9 +194,9 @@ const data = [
     link: "https://dilane3.com",
     tags: ["FrontEnd", "Backend", "Mobile"],
     socials: {
-      Twitter: "dilanekombou",
-      Github: "dilane3",
-      LinkedIn: "dilane-kombou-6824b2207",
+      twitter: "dilanekombou",
+      github: "dilane3",
+      linkedin: "dilane-kombou-6824b2207",
     },
   },
   {
@@ -204,9 +204,9 @@ const data = [
     link: "https://guenkam.com",
     tags: ["FrontEnd", "Backend", "Mobile"],
     socials: {
-      Twitter: "SandersLeGeek",
-      Github: "sand97",
-      LinkedIn: "bruce-guenkam",
+      twitter: "SandersLeGeek",
+      github: "sand97",
+      linkedin: "bruce-guenkam",
     },
   },
   {
@@ -214,9 +214,9 @@ const data = [
     link: "https://fenyep-wangue.vercel.app",
     tags: ["FrontEnd", "Backend", "Mobile"],
     socials: {
-      Twitter: "FenyepW",
-      Github: "Fenyep",
-      LinkedIn: "wangue-fenyep-631096193",
+      twitter: "FenyepW",
+      github: "Fenyep",
+      linkedin: "wangue-fenyep-631096193",
     },
   },
   {
@@ -224,9 +224,9 @@ const data = [
     link: "https://tchouanfeboris.netlify.app",
     tags: ["Mobile", "Frontend", "Backend"],
     socials: {
-      Twitter: "BTchouanfe",
-      Github: "",
-      LinkedIn: "tchouanfe-boris-327824218",
+      twitter: "BTchouanfe",
+      github: "",
+      linkedin: "tchouanfe-boris-327824218",
     },
   },
   {
@@ -234,9 +234,9 @@ const data = [
     link: "https://elshaseries.icarpro.fr",
     tags: ["Mobile", "Backend"],
     socials: {
-      Twitter: "elshaseries",
-      Github: "hydilois",
-      LinkedIn: "hydil-aicard-sokeing-b0b74310b",
+      twitter: "elshaseries",
+      github: "hydilois",
+      linkedin: "hydil-aicard-sokeing-b0b74310b",
     },
   },
   {
@@ -244,9 +244,9 @@ const data = [
     link: "https://jeff.hooreo.com",
     tags: ["FrontEnd", "Backend", "Mobile"],
     socials: {
-      Twitter: "JeffreyKen9",
-      Github: "jeffrey0606",
-      LinkedIn: "jeffrey-kengne-142153196",
+      twitter: "JeffreyKen9",
+      github: "jeffrey0606",
+      linkedin: "jeffrey-kengne-142153196",
     },
   },
   {
@@ -254,9 +254,9 @@ const data = [
     link: "https://portfolio-medjio.vercel.app",
     tags: ["FrontEnd", "Design"],
     socials: {
-      Twitter: "",
-      Github: "",
-      LinkedIn: "jean-claude-nganmedjio-603995a1",
+      twitter: "",
+      github: "",
+      linkedin: "jean-claude-nganmedjio-603995a1",
     },
   },
   {
@@ -264,9 +264,9 @@ const data = [
     link: "https://bleriotnoguia.com",
     tags: ["Frontend", "Mobile", "Backend"],
     socials: {
-      Twitter: "bleriotnoguia",
-      Github: "bleriotnoguia",
-      LinkedIn: "bleriotnoguia",
+      twitter: "bleriotnoguia",
+      github: "bleriotnoguia",
+      linkedin: "bleriotnoguia",
     },
   },
   {
@@ -274,9 +274,9 @@ const data = [
     link: "https://cedrick-kouekam-portfolio.web.app/",
     tags: ["Frontend"],
     socials: {
-      Twitter: "cedrickkouek",
-      Github: "cedrickkouek",
-      LinkedIn: "cedrick-kouek-320a06178",
+      twitter: "cedrickkouek",
+      github: "cedrickkouek",
+      linkedin: "cedrick-kouek-320a06178",
     },
   },
   {
@@ -284,9 +284,9 @@ const data = [
     link: "https://davdev.netlify.app/",
     tags: ["Frontend"],
     socials: {
-      Twitter: "davdev1400",
-      Github: "davdev14",
-      LinkedIn: "david-ouatedem-077985253",
+      twitter: "davdev1400",
+      github: "davdev14",
+      linkedin: "david-ouatedem-077985253",
     },
   },
 ];

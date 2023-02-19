@@ -23,9 +23,9 @@ export default function Header({
   link: string;
   tags: string[];
   socials: {
-    Twitter: string;
-    Github: string;
-    Linkedin: string;
+    twitter: string;
+    github: string;
+    linkedin: string;
   };
 }) {
   const [previewCardIsOpen, setPreviewCardIsOpen] = useState(false);
