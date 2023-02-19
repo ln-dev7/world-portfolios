@@ -1,5 +1,8 @@
 .nav {
   position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 30;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,10 +36,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 1rem;
+      gap: .75rem;
+      width: 50%;
+      @media screen and (max-width: 1280px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
       &-search {
         position: relative;
         overflow: hidden;
+        width: 100%;
         input {
           padding: 0.5rem 2.5rem 0.5rem 1rem;
           outline: none;
@@ -45,6 +56,8 @@
           background: $light;
           width: 100%;
           height: 100%;
+          font-weight: 500;
+          color: rgba($color: $gray, $alpha: 0.75);
         }
         button {
           display: flex;
@@ -52,18 +65,20 @@
           align-items: center;
           position: absolute;
           padding: 0.2rem;
-          right: 0.5rem;
+          right: 0.25rem;
           top: 50%;
           transform: translate(0, -50%);
-          border-radius: 5px;
+          border-radius: 2px;
           border: none;
           cursor: pointer;
+          width: 30px;
           img {
-            width: 15px;
+            width: 17px;
           }
         }
       }
       &-link {
+        flex-shrink: 0;
         display: inline-block;
         padding: 0.5rem 1rem;
         border-radius: 5px;
@@ -87,6 +102,25 @@
         }
         &:hover {
           box-shadow: 0 0 0 2px $green;
+        }
+      }
+      &-mode {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        border: 2px solid $green;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0.375rem;
+        background: $white;
+        svg {
+          width: 20px;
+          height: 20px;
+          stroke: $green;
+        }
+        &:hover {
+          background: rgba($color: $green, $alpha: .05)
         }
       }
     }

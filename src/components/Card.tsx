@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+import { Modal } from "react-bootstrap";
+import PreviewCard from "./PreviewCard";
+import { useState } from "react";
+
 const cleanUrl = (link: string) => {
   return (
     link
@@ -9,28 +13,53 @@ const cleanUrl = (link: string) => {
   );
 };
 
-const Card = ({
+export default function Header({
   name,
   link,
   tags,
+  socials,
 }: {
   name: string;
   link: string;
   tags: string[];
-}) => (
-  <div className="card">
-    <div className="card-container">
-      <h2>{name}</h2>
-      <Link href={link} target="_blank">
-        {cleanUrl(link)}
-      </Link>
-    </div>
-    <div className="card-tags">
-      {tags.map((tag, index) => (
-        <span key={index}>{tag}</span>
-      ))}
-    </div>
-  </div>
-);
+  socials: {
+    twitter: string;
+    github: string;
+    linkedin: string;
+  };
+}) {
+  const [previewCardIsOpen, setPreviewCardIsOpen] = useState(false);
+  const handlePreviewCardOpen = () => {
+    setPreviewCardIsOpen(true);
+  };
+  const handlePreviewCardClose = () => {
+    setPreviewCardIsOpen(false);
+  };
 
-export default Card;
+  return (
+    <>
+      <Modal show={previewCardIsOpen} onHide={handlePreviewCardClose}>
+        <PreviewCard
+          handlePreviewCardClose={handlePreviewCardClose}
+          name={name}
+          link={link}
+          tags={tags}
+          socials={socials}
+        />
+      </Modal>
+      <div className="card" onClick={handlePreviewCardOpen}>
+        <div className="card-container">
+          <h2>{name}</h2>
+          <Link href={link} target="_blank">
+            {cleanUrl(link)}
+          </Link>
+        </div>
+        <div className="card-tags">
+          {tags.map((tag, index) => (
+            <span key={index}>{tag}</span>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}

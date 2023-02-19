@@ -21,7 +21,8 @@ const Top = () => {
   });
 
   return (
-    <p
+    <div
+      className="to-top"
       onClick={() =>
         setPosition({
           ...position,
@@ -32,13 +33,12 @@ const Top = () => {
       ref={scrollTop}
     >
       <Image
-        className="to-top"
         src="assets/images/arrow-up-circle-fill.svg"
         alt="arrow-up"
         width={34}
         height={34}
       />
-    </p>
+    </div>
   );
 };
 
