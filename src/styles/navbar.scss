@@ -34,9 +34,17 @@
       justify-content: center;
       align-items: center;
       gap: 1rem;
+      width: 50%;
+      @media screen and (max-width: 1280px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
       &-search {
         position: relative;
         overflow: hidden;
+        width: 100%;
         input {
           padding: 0.5rem 2.5rem 0.5rem 1rem;
           outline: none;
@@ -64,6 +72,7 @@
         }
       }
       &-link {
+        flex-shrink: 0;
         display: inline-block;
         padding: 0.5rem 1rem;
         border-radius: 5px;

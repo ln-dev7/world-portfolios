@@ -6,7 +6,9 @@
   border: 1px solid $green;
   border-radius: 50%;
   display: none;
+  align-items: center;
+  justify-content: center;
   &.show {
-    display: block;
+    display: flex;
   }
 }

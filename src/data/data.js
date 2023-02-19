@@ -31,7 +31,7 @@ const data = [
   },
   {
     name: "Adonis Simo",
-    link: "https://adonissimo.com/",
+    link: "https://blog.adonissimo.com/",
     tags: ["FrontEnd", "Mobile", "BackEnd"],
   },
   {

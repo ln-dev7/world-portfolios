@@ -5,7 +5,7 @@
   z-index: 1199;
   width: 100vw;
   height: 100vh;
-  background: rgba($color: #000, $alpha: 0.5);
+  background: none;
 }
 
 .modal {
@@ -19,7 +19,8 @@
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
-  background: rgba($color: #000, $alpha: 0.5);
+  background: rgba($color: $white, $alpha: 0.25);
+  backdrop-filter: blur(5px);
 }
 
 .modal.show .modal-dialog {

@@ -1,4 +1,5 @@
 .card {
+  cursor: pointer;
   background: $white;
   border: 1px solid rgba($color: $gray, $alpha: 0.2);
   border-radius: 5px;
@@ -15,6 +16,7 @@
       font-family: "overpass", sans-serif;
     }
     a {
+      width: fit-content;
       display: block;
       word-break: break-all;
       margin-top: 0.5rem;
