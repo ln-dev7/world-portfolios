@@ -186,6 +186,12 @@ body.dark {
           stroke: #0ea5e9;
         }
       }
+      &-banner {
+        h1 {
+          -webkit-text-stroke-color: #0ea5e9;
+          color: $white;
+        }
+      }
       &-name {
         color: $white;
       }
