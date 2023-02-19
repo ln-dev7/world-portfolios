@@ -33,7 +33,12 @@ export default function Header({
   return (
     <>
       <Modal show={previewCardIsOpen} onHide={handlePreviewCardClose}>
-        <PreviewCard handlePreviewCardClose={handlePreviewCardClose} />
+        <PreviewCard
+          handlePreviewCardClose={handlePreviewCardClose}
+          name={name}
+          link={link}
+          tags={tags}
+        />
       </Modal>
       <div className="card" onClick={handlePreviewCardOpen}>
         <div className="card-container">

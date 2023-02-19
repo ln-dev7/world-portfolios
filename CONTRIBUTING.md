@@ -20,22 +20,62 @@ const data = [
   {
 ​    name: "John Doe",
 ​    link: "https://johndoe.com",
-​    tags: ["FrontEnd", "Backend"]
-
+​    tags: ["FrontEnd", "Backend"],
+    socials: {
+      Twitter: "johndoe",
+      Github: "johndoe",
+      LinkedIn: "johndoe",
+    },
   },
   {
 ​    name: "Your name",
 ​    link: "https://your-website.com",
-​    tags: ["", "", ...]
+​    tags: ["", "", ...],
+    socials: {
+      Twitter: "yourname",
+      Github: "yourname",
+      LinkedIn: "yourname",
+    },
   },
 ]
 ```
 
-***=> Please, always add the "https://" on the link of your portfolio***
+##### Notes:
 
-***=> Tags are not the technologies used but rather the areas in wich you are***
+**_=>"name, link, tags" are mandatory !_**
+
+**_=> Tags are not the technologies used but rather the areas in wich you are_**
+
+**_=> Please, always add the "https://" on the link of your portfolio_**
+
+**_=> On the social networks part, we don't want all the link to your profile, we just want the user-name (in the example below it's "johndoe")_**
+
+```
+      Twitter: "johndoe",
+      Github: "johndoe",
+      LinkedIn: "johndoe",
+```
+
+**_=> If you do not want to fill in one of your social networks, please leave the field empty like this:_**
+
+```
+    socials: {
+      Twitter: "",
+      Github: "johndoe",
+      LinkedIn: "",
+    },
+```
+
+**_Or_**
+
+```
+    socials: {
+      Twitter: "",
+      Github: "",
+      LinkedIn: "",
+    },
+```
 
 #### 5. Commit changes and push the new branch.
 
 #### 6. Open and submit a PR.
-
