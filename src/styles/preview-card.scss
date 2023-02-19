@@ -1,8 +1,176 @@
+@import url("https://fonts.cdnfonts.com/css/clash-display");
 .preview-card {
   width: 380px;
-  max-width: 95%;
-  background: $white;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  max-width: 100%;
+  .card {
+    width: 100%;
+    position: relative;
+    background: $white;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: 0.3s ease;
+    overflow: hidden;
+    &:hover {
+      box-shadow: 0px 0px 18.4444px rgba(22, 184, 106, 0.08),
+        -1.15278px 18.4444px 32.2778px rgba(22, 184, 106, 0.23);
+    }
+    &-close {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      overflow: hidden;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      border: none;
+      z-index: 3;
+      padding: 0.25rem;
+      background: $white;
+      svg {
+        stroke: $green;
+      }
+    }
+    &-banner {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 270px;
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      h1 {
+        position: absolute;
+        bottom: 4.5rem;
+        left: 1.75rem;
+        font-size: 5rem;
+        font-weight: 900;
+        font-family: "Clash Display", sans-serif;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $green;
+        color: $white;
+        letter-spacing: 0.25rem;
+        @media screen and (max-width: 415px) {
+          font-size: 4rem;
+          bottom: 4rem;
+        }
+      }
+    }
+    &__body {
+      padding: 0.5rem 1rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    &-name {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $gray;
+      font-family: "Clash Display", sans-serif;
+    }
+    &-tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 0.25rem 0.75rem;
+        border: 1px solid rgba($color: $gray, $alpha: 0.3);
+        color: $dark;
+        background: $white;
+        &::before {
+          content: "";
+          width: 5px;
+          height: 5px;
+          background: $orange;
+          border-radius: 50%;
+          margin-right: 0.5rem;
+          color: $green;
+        }
+      }
+    }
+    &-socials {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      padding: 0.5rem 0;
+      border-top: 1px solid rgba($color: $gray, $alpha: 0.05);
+      border-bottom: 1px solid rgba($color: $gray, $alpha: 0.05);
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba($color: $gray, $alpha: 0.3);
+        width: 40px;
+        height: 40px;
+        padding: 0.5rem;
+        border-radius: 50%;
+        svg {
+          width: 30px;
+        }
+      }
+      .social__twitter:nth-child(1) {
+        &:hover {
+          border: 2px solid #1da1f2;
+          background: rgba($color: #1da1f2, $alpha: 0.1);
+          svg {
+            stroke: #1da1f2;
+          }
+        }
+      }
+      .social__github:nth-child(2) {
+        &:hover {
+          border: 2px solid #333;
+          background: rgba($color: #333, $alpha: 0.1);
+          svg {
+            stroke: #333;
+          }
+        }
+      }
+      .social__linkedin:nth-child(3) {
+        &:hover {
+          border: 2px solid #0077b5;
+          background: rgba($color: #0077b5, $alpha: 0.1);
+          svg {
+            stroke: #0077b5;
+          }
+        }
+      }
+    }
+    &-portfolio {
+     // width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.75rem 1.25rem;
+      border-radius: 12px;
+      border: 2px solid $white;
+      background: #16b86a;
+      span {
+        color: $light;
+        font-weight: 500;
+      }
+      &:hover {
+        box-shadow: 0 0 0 2px #16b86a;
+      }
+    }
+  }
 }

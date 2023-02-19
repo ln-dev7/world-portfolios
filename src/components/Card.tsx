@@ -17,10 +17,16 @@ export default function Header({
   name,
   link,
   tags,
+  socials,
 }: {
   name: string;
   link: string;
   tags: string[];
+  socials: {
+    Twitter: string;
+    Github: string;
+    Linkedin: string;
+  };
 }) {
   const [previewCardIsOpen, setPreviewCardIsOpen] = useState(false);
   const handlePreviewCardOpen = () => {
@@ -38,6 +44,7 @@ export default function Header({
           name={name}
           link={link}
           tags={tags}
+          socials={socials}
         />
       </Modal>
       <div className="card" onClick={handlePreviewCardOpen}>

@@ -1,61 +1,63 @@
-.card {
-  cursor: pointer;
-  background: $white;
-  border: 1px solid rgba($color: $gray, $alpha: 0.2);
-  border-radius: 5px;
-  padding: 1rem;
-  overflow: hidden;
-  height: min-content;
-  &:hover {
-    box-shadow: 0 0 0 2px $green;
-    background: rgba($color: $green, $alpha: 0.001);
-  }
-  &-container {
-    margin: 0 0 1rem 0;
-    h2 {
-      font-family: "overpass", sans-serif;
+.main {
+  .card {
+    cursor: pointer;
+    background: $white;
+    border: 1px solid rgba($color: $gray, $alpha: 0.2);
+    border-radius: 5px;
+    padding: 1rem;
+    overflow: hidden;
+    height: min-content;
+    &:hover {
+      box-shadow: 0 0 0 2px $green;
+      background: rgba($color: $green, $alpha: 0.001);
     }
-    a {
-      width: fit-content;
-      display: block;
-      word-break: break-all;
-      margin-top: 0.5rem;
-      color: rgba($color: $dark, $alpha: 0.75);
-      &::before {
-        content: ">>";
-        margin-right: 0.5rem;
-        color: $green;
+    &-container {
+      margin: 0 0 1rem 0;
+      h2 {
+        font-family: "overpass", sans-serif;
       }
-      &:hover {
-        color: $green;
+      a {
+        width: fit-content;
+        display: block;
+        word-break: break-all;
+        margin-top: 0.5rem;
+        color: rgba($color: $dark, $alpha: 0.75);
+        &::before {
+          content: ">>";
+          margin-right: 0.5rem;
+          color: $green;
+        }
+        &:hover {
+          color: $green;
+        }
       }
     }
-  }
-  &-tags {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-    span {
-      display: inline-flex;
+    &-tags {
+      display: flex;
+      flex-wrap: wrap;
       align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      font-weight: 500;
-      border-radius: 20px;
-      padding: 0.25rem 0.75rem;
-      border: 1px solid rgba($color: $gray, $alpha: 0.3);
-      color: $dark;
-      background: $white;
-      &::before {
-        content: "";
-        width: 5px;
-        height: 5px;
-        background: $orange;
-        border-radius: 50%;
-        margin-right: 0.5rem;
-        color: $green;
+      justify-content: flex-start;
+      gap: 5px;
+      span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 20px;
+        padding: 0.25rem 0.75rem;
+        border: 1px solid rgba($color: $gray, $alpha: 0.3);
+        color: $dark;
+        background: $white;
+        &::before {
+          content: "";
+          width: 5px;
+          height: 5px;
+          background: $orange;
+          border-radius: 50%;
+          margin-right: 0.5rem;
+          color: $green;
+        }
       }
     }
   }
