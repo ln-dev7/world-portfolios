@@ -289,6 +289,16 @@ const data = [
       linkedin: "david-ouatedem-077985253",
     },
   },
+  {
+    name: "Schuame Alexandre",
+    link: "https://schuamealexandre.com/",
+    tags: ["Frontend", "Backend"],
+    socials: {
+      twitter: "motomoto_sc",
+      github: "alessandrini11",
+      linkedin: "",
+    },
+  },
 ];
 
 export default data;
