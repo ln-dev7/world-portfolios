@@ -1,6 +1,14 @@
 import Card from "./Card";
 
-const CardList = ({ filteredData }) => (
+const CardList = ({
+  filteredData,
+}: {
+  filteredData: {
+    name: string;
+    link: string;
+    tags: string[];
+  }[];
+}) => (
   <>
     {filteredData.map((item, index) => (
       <Card

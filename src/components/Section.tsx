@@ -1,5 +1,4 @@
-import React from "react";
-import "./../styles/section.scss";
+import Link from "next/link";
 
 const Section = () => {
   return (
@@ -8,9 +7,9 @@ const Section = () => {
         <div className="section-intro__text">
           <h1>Cameroon Portfolios</h1>
           <p>Open source collection of Cameroonian portfolios</p>
-          <a href="https://github.com/ln-dev7/cameroon-porfolios">
+          <Link href="https://github.com/ln-dev7/cameroon-porfolios">
             Contribute on github
-          </a>
+          </Link>
         </div>
       </div>
     </section>

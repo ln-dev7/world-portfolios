@@ -1,7 +1,11 @@
-import "./../styles/navbar.scss";
+import Image from "next/image";
 
-const NavBar = ({ onChangeValue }) => {
-  const handelChangeFilter = (e) => {
+const NavBar = ({
+  onChangeValue,
+}: {
+  onChangeValue: (value: string) => void;
+}) => {
+  const handelChangeFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChangeValue(e.target.value);
   };
 
@@ -12,7 +16,12 @@ const NavBar = ({ onChangeValue }) => {
           href="https://cameroon-portfolios.vercel.app/"
           className="nav-container-logo"
         >
-          <img src="assets/images/logo.svg" alt="logo" />
+          <Image
+            src="assets/images/logo.svg"
+            alt="logo"
+            width={50}
+            height={50}
+          />
         </a>
         <div className="nav-container-menu">
           <div className="nav-container-menu-search">
@@ -22,7 +31,12 @@ const NavBar = ({ onChangeValue }) => {
               placeholder="Search a portfolio ..."
             />
             <button>
-              <img src="assets/images/search-eye-line.svg" alt="search" />
+              <Image
+                src="assets/images/search-eye-line.svg"
+                alt="search"
+                width={22}
+                height={22}
+              />
             </button>
           </div>
           <a

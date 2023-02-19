@@ -1,4 +1,12 @@
-const TagList = ({ setTag, tags, selectedTags }) => (
+const TagList = ({
+  setTag,
+  tags,
+  selectedTags,
+}: {
+  setTag: (tag: string) => void;
+  tags: string[];
+  selectedTags: string[];
+}) => (
   <>
     <h2>Filter by </h2>
     <div className="main-container-aside-tags">

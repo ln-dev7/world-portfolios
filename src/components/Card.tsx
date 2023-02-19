@@ -1,6 +1,6 @@
-import "./../styles/card.scss";
+import Link from "next/link";
 
-const cleanUrl = (link) => {
+const cleanUrl = (link: string) => {
   return (
     link
       .replace(/^https?:\/\//, "")
@@ -9,13 +9,21 @@ const cleanUrl = (link) => {
   );
 };
 
-const Card = ({ name, link, tags }) => (
+const Card = ({
+  name,
+  link,
+  tags,
+}: {
+  name: string;
+  link: string;
+  tags: string[];
+}) => (
   <div className="card">
     <div className="card-container">
       <h2>{name}</h2>
-      <a href={link} target="_blank">
+      <Link href={link} target="_blank">
         {cleanUrl(link)}
-      </a>
+      </Link>
     </div>
     <div className="card-tags">
       {tags.map((tag, index) => (
