@@ -1,0 +1,42 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1199;
+  width: 100vw;
+  height: 100vh;
+  background: rgba($color: #000, $alpha: 0.5);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background: rgba($color: #000, $alpha: 0.5);
+}
+
+.modal.show .modal-dialog {
+  transform: none;
+}
+
+.modal-dialog {
+  position: relative;
+  pointer-events: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 6rem auto 3rem auto;
+  //width: 800px;
+  width: fit-content;
+  max-width: 95%;
+}
+
+.modal-content {
+  pointer-events: auto;
+}

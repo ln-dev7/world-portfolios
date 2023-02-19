@@ -18,14 +18,12 @@ This file contains an array of objects where each object represents a portfolio,
 const data = [
   ...,
   {
-​    id: n,
 ​    name: "John Doe",
 ​    link: "https://johndoe.com",
 ​    tags: ["FrontEnd", "Backend"]
 
   },
   {
-​    id: n+1,
 ​    name: "Your name",
 ​    link: "https://your-website.com",
 ​    tags: ["", "", ...]
@@ -33,7 +31,9 @@ const data = [
 ]
 ```
 
-***Tags are not the technologies used but rather the areas in wich you are***
+***=> Please, always add the "https://" on the link of your portfolio***
+
+***=> Tags are not the technologies used but rather the areas in wich you are***
 
 #### 5. Commit changes and push the new branch.
 
