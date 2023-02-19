@@ -12,3 +12,13 @@
     display: flex;
   }
 }
+body.dark {
+  .to-top {
+    border: 1px solid #0ea5e9;
+    svg {
+      path:last-child {
+        fill: #0ea5e9;
+      }
+    }
+  }
+}

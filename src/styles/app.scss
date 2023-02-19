@@ -81,3 +81,32 @@
     }
   }
 }
+
+body.dark {
+  .main {
+    &-container {
+      &-aside {
+        h2 {
+          color: $white;
+        }
+        &-tags {
+          button {
+            border: 1px solid rgba($color: $white, $alpha: 0.3);
+            color: $white;
+            background: #1e293b;
+            &::before {
+              color: #0ea5e9;
+            }
+            &:hover,
+            &.active {
+              background-color: rgba($color: #0ea5e9, $alpha: 0.3);
+              &::before {
+                background: #0ea5e9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
