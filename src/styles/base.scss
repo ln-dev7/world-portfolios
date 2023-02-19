@@ -41,3 +41,7 @@ body {
   background-color: $light;
   overflow-x: hidden;
 }
+
+body.dark {
+  background-color: #10172a;
+}

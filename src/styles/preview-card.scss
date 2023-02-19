@@ -16,8 +16,8 @@
         -1.15278px 18.4444px 32.2778px rgba(22, 184, 106, 0.23);
     }
     &-close {
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -28,7 +28,7 @@
       right: 10px;
       cursor: pointer;
       border: none;
-      z-index: 3;
+      z-index: 30;
       padding: 0.25rem;
       background: $white;
       svg {
@@ -170,6 +170,59 @@
       }
       &:hover {
         box-shadow: 0 0 0 2px #16b86a;
+      }
+    }
+  }
+}
+
+body.dark {
+  .preview-card {
+    .card {
+      background: #1e293b;
+      border: none;
+      box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 5%);
+      &-close {
+        svg {
+          stroke: #0ea5e9;
+        }
+      }
+      &-name {
+        color: $white;
+      }
+      &-tags {
+        span {
+          border: 1px solid rgba($color: $white, $alpha: 0.3);
+          color: $white;
+          background: #1e293b;
+          &::before {
+            background: #0ea5e9;
+          }
+        }
+      }
+      &-socials {
+        a {
+          border-color: rgba($color: $white, $alpha: 0.3);
+          svg {
+            stroke: $white;
+          }
+        }
+        .social__github {
+          &:hover {
+            svg {
+              stroke: #fff;
+            }
+          }
+        }
+      }
+      &-portfolio {
+        border: 2px solid #1e293b;
+        background: #0ea5e9;
+        span {
+          color: $white;
+        }
+        &:hover {
+          box-shadow: 0 0 0 2px #0ea5e9;
+        }
       }
     }
   }

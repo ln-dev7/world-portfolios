@@ -36,3 +36,25 @@
     }
   }
 }
+
+body.dark {
+  .footer {
+    border-top: 4px solid rgba($color: $gray, $alpha: 0.2);
+    &-container {
+      p {
+        color: $white;
+      }
+      a {
+        border-color: #0ea5e9;
+        &:hover {
+          background: rgba($color: $white, $alpha: 0.1);
+        }
+        svg {
+          path:last-child {
+            fill: #0ea5e9;
+          }
+        }
+      }
+    }
+  }
+}

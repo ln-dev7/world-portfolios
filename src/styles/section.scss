@@ -44,3 +44,28 @@
     }
   }
 }
+
+body.dark {
+  .section {
+    background: #0b1121;
+    &-intro {
+      &__text {
+        h1 {
+          color: $white;
+        }
+        p {
+          color: #94a3b8;
+        }
+        a {
+          color: $white;
+          background: none;
+          border-color: #0b1121;
+          box-shadow: 0 0 0 2px #0ea5e9;
+          &:hover {
+            background-color: rgba($color: #0ea5e9, $alpha: 0.05);
+          }
+        }
+      }
+    }
+  }
+}
