@@ -50,7 +50,13 @@ export default function Header({
       <div className="card" onClick={handlePreviewCardOpen}>
         <div className="card-container">
           <h2>{name}</h2>
-          <Link href={link} target="_blank">
+          <Link
+            href={link}
+            target="_blank"
+            onClick={(e) => {
+              e.stopPropagation();
+            }}
+          >
             {cleanUrl(link)}
           </Link>
         </div>

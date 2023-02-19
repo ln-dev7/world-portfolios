@@ -128,9 +128,9 @@ export default function PreviewCard({
               </Link>
             )}
           </div>
-          <a className="card-portfolio" href={link}>
+          <Link className="card-portfolio" href={link} target="_blank">
             <span>Visit Portfolio</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
