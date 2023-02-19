@@ -24,6 +24,11 @@ export default function App({ Component, pageProps }: AppProps) {
           ],
           siteName: "Cameroonian Portfolios",
         }}
+        twitter={{
+          handle: "@ln_dev7",
+          site: "@ln_dev7",
+          cardType: "summary_large_image",
+        }}
       />
       <Component {...pageProps} />
     </>
