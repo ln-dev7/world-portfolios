@@ -300,7 +300,7 @@ const data = [
     },
   },
   {
-    name; "Audran Wolfhards",
+    name: "Audran Wolfhards",
     link: "audrab-wol.github.io/Audran/",
     tags: ["Frontend", "Backend", "Graphic Designer", "DataAnalyst", "Content Creator"],
       socials: {
