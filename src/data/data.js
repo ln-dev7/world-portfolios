@@ -319,6 +319,16 @@ const data = [
       linkedin: ""
     }
   },
+{
+    name: "Yvan Nguekam",
+    link: "https://main--yvan-nguekam.netlify.app/",
+    tags: ["Frontend", "Backend", "Design" ],
+    socials: {
+      twitter: "@YvanNguekam",
+      github: "yvan-nguekam",
+      linkedin: "yvan-nguekam-7b7762193"
+    }
+},
             
 ];
 
