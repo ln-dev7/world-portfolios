@@ -300,16 +300,6 @@ const data = [
     },
   },
   {
-    name: "Arnold Wabo",
-    link: "https://www.arnoldwabo.cm",
-    tags: ["Mobile", "Backend", "Sotware engineering"],
-    socials: {
-      twitter: "arnold_wabo",
-      github: "venusdjinni",
-      linkedin: ""
-    }
-  },
-  {
     name: "Audran Wolfhards",
     link: "https://audran-wol.github.io/Audran/",
     tags: ["Frontend", "Backend", "Design", "Data Analyst", "Content Creator"],
@@ -319,6 +309,16 @@ const data = [
         linkedin: "𝐀𝐔𝐃𝐑𝐀𝐍-𝐖𝐎𝐋𝐅𝐇𝐀𝐑𝐃𝐒-7aab3321b",
       },
 },
+{
+    name: "Arnold Wabo",
+    link: "https://www.arnoldwabo.cm",
+    tags: ["Mobile", "Backend"],
+    socials: {
+      twitter: "arnold_wabo",
+      github: "venusdjinni",
+      linkedin: ""
+    }
+  },
             
 ];
 
