@@ -299,6 +299,17 @@ const data = [
       linkedin: "",
     },
   },
+  {
+    name; "Audran Wolfhards",
+    link: "audrab-wol.github.io/Audran/",
+    tags: ["Frontend", "Backend", "Graphic Designer", "DataAnalyst", "Content Creator"],
+      socials: {
+        twitter: "https://twitter.com/WolfhardsA?t=gi1WFX7YjdansQio4VThcw&s=09",
+        github: "https://github.com/Audran-wol",
+        linkedin: "https://www.linkedin.com/in/%F0%9D%90%80%F0%9D%90%94%F0%9D%90%83%F0%9D%90%91%F0%9D%90%80%F0%9D%90%8D-%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%8B%F0%9D%90%85%F0%9D%90%87%F0%9D%90%80%F0%9D%90%91%F0%9D%90%83%F0%9D%90%92-7aab3321b",
+      },
+},
+            
 ];
 
 export default data;
