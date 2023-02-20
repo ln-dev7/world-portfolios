@@ -322,23 +322,23 @@ const data = [
   {
     name: "Kopper Ngounou",
     link: "https://ngounoukopper.me/",
-    tags: ["Cybersecurity", "Design"],
+    tags: ["Cybersecurity", "Design", "Cloud Computing"],
     socials: {
       twitter: "ngounoukopper",
       github: "ngounounkopper",
       linkedin: "ngounoukopper",
     },
   },
-{
+  {
     name: "Yvan Nguekam",
     link: "https://main--yvan-nguekam.netlify.app/",
-    tags: ["Frontend", "Backend", "Design" ],
+    tags: ["Frontend", "Backend", "Design"],
     socials: {
       twitter: "YvanNguekam",
       github: "yvan-nguekam",
-      linkedin: "yvan-nguekam-7b7762193"
-    }
-},
+      linkedin: "yvan-nguekam-7b7762193",
+    },
+  },
 ];
 
 export default data;
