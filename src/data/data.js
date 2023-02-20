@@ -325,7 +325,7 @@ const data = [
     tags: ["Cybersecurity", "Design", "Cloud Computing"],
     socials: {
       twitter: "ngounoukopper",
-      github: "ngounounkopper",
+      github: "ngounoukopper",
       linkedin: "ngounoukopper",
     },
   },
