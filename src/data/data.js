@@ -300,6 +300,16 @@ const data = [
     },
   },
   {
+    name: "Arnold Wabo",
+    link: "https://www.arnoldwabo.cm",
+    tags: ["Mobile", "Backend", "Sotware engineering"],
+    socials: {
+      twitter: "arnold_wabo",
+      github: "venusdjinni",
+      linkedin: ""
+    }
+  },
+  {
     name: "Audran Wolfhards",
     link: "https://audran-wol.github.io/Audran/",
     tags: ["Frontend", "Backend", "Design", "Data Analyst", "Content Creator"],
