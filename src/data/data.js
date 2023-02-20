@@ -303,23 +303,32 @@ const data = [
     name: "Audran Wolfhards",
     link: "https://audran-wol.github.io/Audran/",
     tags: ["Frontend", "Backend", "Design", "Data Analyst", "Content Creator"],
-      socials: {
-        twitter: "WolfhardsA",
-        github: "Audran-wol",
-        linkedin: "𝐀𝐔𝐃𝐑𝐀𝐍-𝐖𝐎𝐋𝐅𝐇𝐀𝐑𝐃𝐒-7aab3321b",
-      },
-},
-{
+    socials: {
+      twitter: "WolfhardsA",
+      github: "Audran-wol",
+      linkedin: "𝐀𝐔𝐃𝐑𝐀𝐍-𝐖𝐎𝐋𝐅𝐇𝐀𝐑𝐃𝐒-7aab3321b",
+    },
+  },
+  {
     name: "Arnold Wabo",
     link: "https://www.arnoldwabo.cm",
     tags: ["Mobile", "Backend"],
     socials: {
       twitter: "arnold_wabo",
       github: "venusdjinni",
-      linkedin: ""
-    }
+      linkedin: "",
+    },
   },
-            
+  {
+    name: "Kopper Ngounou",
+    link: "https://ngounoukopper.me/",
+    tags: ["Cybersecurity", "Design"],
+    socials: {
+      twitter: "ngounoukopper",
+      github: "ngounounkopper",
+      linkedin: "ngounoukopper",
+    },
+  },
 ];
 
 export default data;
