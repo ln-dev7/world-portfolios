@@ -12,7 +12,7 @@ const NavBar = ({
 
   // Theme Gestions
 
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const bodyElement = useRef<HTMLElement>(null!);
 
   useEffect(() => {
