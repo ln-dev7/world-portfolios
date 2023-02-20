@@ -299,6 +299,17 @@ const data = [
       linkedin: "",
     },
   },
+  {
+    name: "Audran Wolfhards",
+    link: "https://audran-wol.github.io/Audran/",
+    tags: ["Frontend", "Backend", "Design", "Data Analyst", "Content Creator"],
+      socials: {
+        twitter: "WolfhardsA",
+        github: "Audran-wol",
+        linkedin: "𝐀𝐔𝐃𝐑𝐀𝐍-𝐖𝐎𝐋𝐅𝐇𝐀𝐑𝐃𝐒-7aab3321b",
+      },
+},
+            
 ];
 
 export default data;
