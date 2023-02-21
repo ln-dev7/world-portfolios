@@ -345,9 +345,9 @@ const data = [
     link: "https://ashy-bush-0b6a78203.2.azurestaticapps.net/",
     tags: ["Mobile", "Backend", "cloud"],
     socials: {
-      twitter: "MbohBless",
+      twitter: "Mboh_Bless",
       github: "MbohBless",
-      linkedin: "yvan-nguekam-7b7762193",
+      linkedin: "mboh-bless-pearl-a2884a16b",
     },
   },
   
