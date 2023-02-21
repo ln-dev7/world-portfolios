@@ -339,6 +339,18 @@ const data = [
       linkedin: "yvan-nguekam-7b7762193",
     },
   },
+  
+  {
+    name: "Mboh Bless Pearl N",
+    link: "https://ashy-bush-0b6a78203.2.azurestaticapps.net/",
+    tags: ["Mobile", "Backend", "cloud"],
+    socials: {
+      twitter: "MbohBless",
+      github: "MbohBless",
+      linkedin: "yvan-nguekam-7b7762193",
+    },
+  },
+  
 ];
 
 export default data;
