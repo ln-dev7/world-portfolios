@@ -26,6 +26,8 @@ export default function Header({
     twitter: string;
     github: string;
     linkedin: string;
+    dribbble: string;
+    behance: string;
   };
 }) {
   const [previewCardIsOpen, setPreviewCardIsOpen] = useState(false);

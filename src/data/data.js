@@ -130,6 +130,17 @@ const data = [
     },
   },
   {
+    name: "ASSOMO™",
+    link: "https://www.behance.net/anonymouskingcmr",
+    tags: ["Design", "FrontEnd", "creative dev"],
+    socials: {
+      twitter: "akingcmr",
+      dribbble: "wilfriedassomo",
+      linkedin: "anonymousking",
+      behance: "anonymouskingcmr",
+    },
+  },
+  {
     name: "Nenba Jonathan",
     link: "https://nenbajonathan.com/",
     tags: ["DevOps", "BackEnd", "FrontEnd", "Web3"],
