@@ -12,7 +12,7 @@ const data = [
   {
     name: "Arthur Monney",
     link: "https://arthurmonney.me",
-    tags: ["FrontEnd", "Design", "BackEnd"],
+    tags: ["FullStack", "Design"],
     socials: {
       twitter: "monneyarthur",
       github: "mckenziearts",
@@ -22,7 +22,7 @@ const data = [
   {
     name: "Asam237",
     link: "https://asam-cmr.vercel.app/",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "asam_237",
       github: "Asam237",
@@ -32,7 +32,7 @@ const data = [
   {
     name: "Valery Melou",
     link: "https://valerymelou.com/",
-    tags: ["FrontEnd", "Backend", "DevOps"],
+    tags: ["FullStack", "DevOps"],
     socials: {
       twitter: "valerymelou",
       github: "valerymelou",
@@ -52,7 +52,7 @@ const data = [
   {
     name: "Adonis Simo",
     link: "https://blog.adonissimo.com/",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "adonis__simo",
       github: "simo97",
@@ -62,7 +62,7 @@ const data = [
   {
     name: "Boris Gautier",
     link: "https://borisgauty.com",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "Boris_Gauty",
       github: "BorisGautier",
@@ -92,7 +92,7 @@ const data = [
   {
     name: "Lemovou Ivan",
     link: "https://ivanlemovou.cm/",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "sherlock2045",
       github: "SherlockHolmes2045",
@@ -112,7 +112,7 @@ const data = [
   {
     name: "Real Jema",
     link: "https://realjema.com/",
-    tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
+    tags: ["FullStack", "Mobile", "Design"],
     socials: {
       twitter: "realjema_",
       github: "realJema",
@@ -122,7 +122,7 @@ const data = [
   {
     name: "Aboubakar Sidik",
     link: "https://aboubak.art/",
-    tags: ["DevOps", "FrontEnd", "BackEnd", "Mobile"],
+    tags: ["DevOps", "FullStack", "Mobile"],
     socials: {
       twitter: "sidikfaha",
       github: "sidikfaha",
@@ -132,7 +132,7 @@ const data = [
   {
     name: "Nenba Jonathan",
     link: "https://nenbajonathan.com/",
-    tags: ["DevOps", "BackEnd", "FrontEnd", "Web3"],
+    tags: ["DevOps", "FullStack", "Web3"],
     socials: {
       twitter: "nejos97",
       github: "nejos97",
@@ -142,7 +142,7 @@ const data = [
   {
     name: "Franck Siyapze",
     link: "https://scorp-corporate.com/",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "thehuck_s",
       github: "FranckSiyapze",
@@ -152,7 +152,7 @@ const data = [
   {
     name: "Jonathan Tchuente",
     link: "https://newgenius.tech/",
-    tags: ["Data scientist", "BackEnd"],
+    tags: ["Data", "BackEnd"],
     socials: {
       twitter: "new1genius",
       github: "geek3000",
@@ -162,7 +162,7 @@ const data = [
   {
     name: "Djopa Wilfried",
     link: "https://djopa.fr",
-    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "willy_djopa",
       github: "wdjopa",
@@ -172,7 +172,7 @@ const data = [
   {
     name: "Roger Bentcha",
     link: "https://rogerbentcha.fr/",
-    tags: ["FrontEnd", "BackEnd", "Design"],
+    tags: ["FullStack", "Design"],
     socials: {
       twitter: "RBentcha",
       github: "Carter2307",
@@ -182,7 +182,7 @@ const data = [
   {
     name: "Tondji Niat J. Lee",
     link: "https://ebirly.vercel.app",
-    tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
+    tags: ["FullStack", "Mobile", "Design"],
     socials: {
       twitter: "Leesan30Lee",
       github: "Geekles007",
@@ -192,7 +192,7 @@ const data = [
   {
     name: "Dilane Kombou",
     link: "https://dilane3.com",
-    tags: ["FrontEnd", "Backend", "Mobile"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "dilanekombou",
       github: "dilane3",
@@ -202,7 +202,7 @@ const data = [
   {
     name: "Bruce Guenkam",
     link: "https://guenkam.com",
-    tags: ["FrontEnd", "Backend", "Mobile"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "SandersLeGeek",
       github: "sand97",
@@ -212,7 +212,7 @@ const data = [
   {
     name: "Fenyep Wangue",
     link: "https://fenyep-wangue.vercel.app",
-    tags: ["FrontEnd", "Backend", "Mobile"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "FenyepW",
       github: "Fenyep",
@@ -222,7 +222,7 @@ const data = [
   {
     name: "Boris Tchouanfe",
     link: "https://tchouanfeboris.netlify.app",
-    tags: ["Mobile", "Frontend", "Backend"],
+    tags: ["Mobile", "FullStack"],
     socials: {
       twitter: "BTchouanfe",
       github: "",
@@ -242,7 +242,7 @@ const data = [
   {
     name: "Kengne Jeffrey",
     link: "https://jeff.hooreo.com",
-    tags: ["FrontEnd", "Backend", "Mobile"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "JeffreyKen9",
       github: "jeffrey0606",
@@ -262,7 +262,7 @@ const data = [
   {
     name: "Bleriot Noguia",
     link: "https://bleriotnoguia.com",
-    tags: ["Frontend", "Mobile", "Backend"],
+    tags: ["FullStack", "Mobile"],
     socials: {
       twitter: "bleriotnoguia",
       github: "bleriotnoguia",
@@ -292,7 +292,7 @@ const data = [
   {
     name: "Schuame Alexandre",
     link: "https://schuamealexandre.com/",
-    tags: ["Frontend", "Backend"],
+    tags: ["FullStack"],
     socials: {
       twitter: "motomoto_sc",
       github: "alessandrini11",
@@ -302,7 +302,7 @@ const data = [
   {
     name: "Audran Wolfhards",
     link: "https://audran-wol.github.io/Audran/",
-    tags: ["Frontend", "Backend", "Design", "Data Analyst", "Content Creator"],
+    tags: ["FullStack", "Design", "Data",],
     socials: {
       twitter: "WolfhardsA",
       github: "Audran-wol",
@@ -322,7 +322,7 @@ const data = [
   {
     name: "Kopper Ngounou",
     link: "https://ngounoukopper.me/",
-    tags: ["Cybersecurity", "Design", "Cloud Computing"],
+    tags: ["Cybersecurity", "Design", "Cloud"],
     socials: {
       twitter: "ngounoukopper",
       github: "ngounoukopper",
@@ -332,7 +332,7 @@ const data = [
   {
     name: "Yvan Nguekam",
     link: "https://main--yvan-nguekam.netlify.app/",
-    tags: ["Frontend", "Backend", "Design"],
+    tags: ["FullStack", "Design"],
     socials: {
       twitter: "YvanNguekam",
       github: "yvan-nguekam",
@@ -341,7 +341,7 @@ const data = [
   },
   
   {
-    name: "Mboh Bless Pearl N",
+    name: "Mboh Bless Pearl",
     link: "https://ashy-bush-0b6a78203.2.azurestaticapps.net/",
     tags: ["Mobile", "Backend", "cloud"],
     socials: {
@@ -360,7 +360,16 @@ const data = [
       linkedin: "stephen-jacques-a4a6161ba",
     },
   },
-  
+   {
+      name: "Martin Junior Tchoupe",
+      link: "https://tchoupemartinjunior.github.io/",
+      tags: ["FullStack", "Mobile", "design", "Machine Learning"],
+      socials: {
+          twitter: "",
+          github: "tchoupemartinjunior",
+          linkedin: "martin-junior-tchoupe-b75b24203",
+      },
+  },
 ];
 
 export default data;
