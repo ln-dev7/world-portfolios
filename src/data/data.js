@@ -152,7 +152,7 @@ const data = [
   {
     name: "Jonathan Tchuente",
     link: "https://newgenius.tech/",
-    tags: ["Data scientist", "BackEnd"],
+    tags: ["Data", "BackEnd"],
     socials: {
       twitter: "new1genius",
       github: "geek3000",
@@ -302,7 +302,7 @@ const data = [
   {
     name: "Audran Wolfhards",
     link: "https://audran-wol.github.io/Audran/",
-    tags: ["FullStack", "Design", "Data Analyst", "Content Creator"],
+    tags: ["FullStack", "Design", "Data",],
     socials: {
       twitter: "WolfhardsA",
       github: "Audran-wol",
@@ -322,7 +322,7 @@ const data = [
   {
     name: "Kopper Ngounou",
     link: "https://ngounoukopper.me/",
-    tags: ["Cybersecurity", "Design", "Cloud Computing"],
+    tags: ["Cybersecurity", "Design", "Cloud"],
     socials: {
       twitter: "ngounoukopper",
       github: "ngounoukopper",
