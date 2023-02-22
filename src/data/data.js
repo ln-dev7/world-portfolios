@@ -353,7 +353,7 @@ const data = [
   {
         name: "Martin Junior Tchoupe",
         link: "https://tchoupemartinjunior.github.io/",
-        tags: ["FullStack", "Mobile", "design", "Machine Learning", "IoT"],
+        tags: ["FullStack", "Mobile", "design", "Machine Learning"],
         socials: {
             twitter: "",
             github: "tchoupemartinjunior",
