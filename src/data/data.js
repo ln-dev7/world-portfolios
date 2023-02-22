@@ -350,6 +350,16 @@ const data = [
       linkedin: "mboh-bless-pearl-a2884a16b",
     },
   },
+  {
+    name: "Mbida J. Stephan",
+    link: "https://stephenjacques.netlify.app/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "StephenJacque16",
+      github: "Stephen2304",
+      linkedin: "stephen-jacques-a4a6161ba",
+    },
+  },
   
 ];
 
