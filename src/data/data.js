@@ -390,6 +390,16 @@ const data = [
       linkedin: "diepe-angelo",
     },
   },
+  {
+    name: "Alex Mboutchouang",
+    link: "https://alexwalker.tech/",
+    tags: ["FrontEnd", "BackEnd", "Data", "AI"],
+    socials: {
+      twitter: "Zaker237",
+      github: "Zaker237",
+      linkedin: "alex-mboutchouang-53479b13a",
+    },
+  },
 ];
 
 export default data;
