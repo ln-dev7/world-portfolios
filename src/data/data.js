@@ -380,6 +380,16 @@ const data = [
       linkedin: "steve-adrien-monthe-meudje",
     },
   },
+  {
+    name: "Angelo Diepe",
+    link: "https://angelodiepe.pythonanywhere.com/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "the_artemesian",
+      github: "artemesian",
+      linkedin: "diepe-angelo",
+    },
+  },
 ];
 
 export default data;
