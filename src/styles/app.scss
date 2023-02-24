@@ -39,6 +39,11 @@
           background: $white;
           cursor: pointer;
           &::before {
+            width: 5px;
+            height: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             content: "#";
             border-radius: 50%;
             margin-right: 0.5rem;
