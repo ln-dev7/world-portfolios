@@ -370,6 +370,16 @@ const data = [
       linkedin: "martin-junior-tchoupe-b75b24203",
     },
   },
+  {
+    name: "Adrien Monthe",
+    link: "https://genzis.net",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "stevytech",
+      github: "Adrien-Monthe",
+      linkedin: "steve-adrien-monthe-meudje",
+    },
+  },
 ];
 
 export default data;
