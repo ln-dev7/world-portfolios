@@ -9,6 +9,16 @@ const data = [
       linkedin: "lndev",
     },
   },
+   {
+    name: "daphnia",
+    link: "https://daphnia.pw",
+    tags: ["Cybersecurity", "Cyber Investigator", "Hunting TAs"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
+    },
+  },
   {
     name: "Arthur Monney",
     link: "https://arthurmonney.me",
