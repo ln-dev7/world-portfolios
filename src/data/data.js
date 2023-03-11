@@ -361,6 +361,16 @@ const data = [
     },
   },
   {
+    name: "Alex Mboutchouang",
+    link: "https://alexwalker.tech/",
+    tags: ["FrontEnd", "BackEnd", "Data", "AI"],
+    socials: {
+      twitter: "Zaker237",
+      github: "Zaker237",
+      linkedin: "alex-mboutchouang-53479b13a",
+    },
+  },   
+  {
     name: "Martin Junior Tchoupe",
     link: "https://tchoupemartinjunior.github.io/",
     tags: ["FrontEnd", "BackEnd", "Mobile", "design", "Machine Learning"],
@@ -391,17 +401,7 @@ const data = [
     },
   },
   {
-    name: "Alex Mboutchouang",
-    link: "https://alexwalker.tech/",
-    tags: ["FrontEnd", "BackEnd", "Data", "AI"],
-    socials: {
-      twitter: "Zaker237",
-      github: "Zaker237",
-      linkedin: "alex-mboutchouang-53479b13a",
-    },
-  },   
-  {
-    name: "daphnia",
+    name: "Daphnia",
     link: "https://daphnia.pw",
     tags: ["Cybersecurity"],
     socials: {
