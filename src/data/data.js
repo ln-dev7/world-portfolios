@@ -9,16 +9,6 @@ const data = [
       linkedin: "lndev",
     },
   },
-   {
-    name: "daphnia",
-    link: "https://daphnia.pw",
-    tags: ["Cybersecurity"],
-    socials: {
-      twitter: "",
-      github: "",
-      linkedin: "",
-    },
-  },
   {
     name: "Arthur Monney",
     link: "https://arthurmonney.me",
@@ -408,6 +398,16 @@ const data = [
       twitter: "Zaker237",
       github: "Zaker237",
       linkedin: "alex-mboutchouang-53479b13a",
+    },
+  },   
+  {
+    name: "daphnia",
+    link: "https://daphnia.pw",
+    tags: ["Cybersecurity"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
     },
   },
 ];
