@@ -12,7 +12,7 @@ const data = [
    {
     name: "daphnia",
     link: "https://daphnia.pw",
-    tags: ["Cybersecurity", "Cyber Investigator", "Hunting TAs"],
+    tags: ["Cybersecurity"],
     socials: {
       twitter: "",
       github: "",
