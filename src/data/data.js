@@ -1,4 +1,14 @@
 const data = [
+   {
+    name: "Cheneba Siben",
+    link: "https://chenebasiben.com",
+    tags: ["UX Design", "UI Design", "Product Design"],
+    socials: {
+      twitter: "ChenebaSiben",
+      github: "SibeeChasin",
+      linkedin: "cheneba-a-siben",
+    },
+  },
   {
     name: "Leonel Ngoya",
     link: "https://lndev.me",
