@@ -410,6 +410,16 @@ const data = [
       linkedin: "",
     },
   },
+  {
+    name: "Cheneba Siben",
+    link: "https://chenebasiben.com",
+    tags: ["Design"],
+    socials: {
+      twitter: "ChenebaSiben",
+      github: "SibeeChasin",
+      linkedin: "cheneba-a-siben",
+    },
+  },
 ];
 
 export default data;
