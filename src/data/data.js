@@ -413,7 +413,7 @@ const data = [
   {
     name: "Cheneba Siben",
     link: "https://chenebasiben.com",
-    tags: ["UX Design", "UI Design", "Product Design"],
+    tags: ["Design"],
     socials: {
       twitter: "ChenebaSiben",
       github: "SibeeChasin",
