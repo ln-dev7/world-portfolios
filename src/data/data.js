@@ -62,7 +62,7 @@ const data = [
   {
     name: "Karim Kompissi",
     link: "https://karimdev.network/",
-    tags: ["BackEnd", "FrontEnd", "IT security analyst"],
+    tags: ["BackEnd", "FrontEnd", "security"],
     socials: {
       twitter: "KKompissi",
       github: "karimalik",
