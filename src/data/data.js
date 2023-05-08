@@ -60,6 +60,16 @@ const data = [
     },
   },
   {
+    name: "Karim Kompissi",
+    link: "https://karimdev.network/",
+    tags: ["BackEnd", "FrontEnd", "IT security analyst"],
+    socials: {
+      twitter: "KKompissi",
+      github: "karimalik",
+      linkedin: "karim-alikson-kompissi-2baa99177",
+    },
+  },
+  {
     name: "Boris Gautier",
     link: "https://borisgauty.com",
     tags: ["FrontEnd", "BackEnd", "Mobile"],
