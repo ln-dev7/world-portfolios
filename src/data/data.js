@@ -379,7 +379,7 @@ const data = [
       github: "Zaker237",
       linkedin: "alex-mboutchouang-53479b13a",
     },
-  },   
+  },
   {
     name: "Martin Junior Tchoupe",
     link: "https://tchoupemartinjunior.github.io/",
@@ -428,6 +428,16 @@ const data = [
       twitter: "ChenebaSiben",
       github: "SibeeChasin",
       linkedin: "cheneba-a-siben",
+    },
+  },
+  {
+    name: "Mael Toukap",
+    link: "https://maeltoukap.me",
+    tags: ["FrontEnd", "Backend", "Mobile", "Machine Learning", "Data Science"],
+    socials: {
+      twitter: "maeltoukap",
+      github: "maeltoukap",
+      linkedin: "mael-toukap-4577041a4",
     },
   },
 ];
