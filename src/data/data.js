@@ -433,7 +433,7 @@ const data = [
   {
     name: "Mael Toukap",
     link: "https://maeltoukap.me",
-    tags: ["FrontEnd", "Backend", "Mobile", "Machine Learning", "Data Science"],
+    tags: ["FrontEnd", "Backend", "Mobile", "Machine Learning", "Data"],
     socials: {
       twitter: "maeltoukap",
       github: "maeltoukap",
