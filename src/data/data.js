@@ -440,6 +440,16 @@ const data = [
       linkedin: "mael-toukap-4577041a4",
     },
   },
+  {
+    name: "ph3n1x",
+    link: "https://ph3n1x.com/",
+    tags: ["Cybersecurity"],
+    socials: {
+      twitter: "ph3n1x007",
+      github: "b4rth0v5k1",
+      linkedin: "thomasmarques007",
+    },
+  },
 ];
 
 export default data;
