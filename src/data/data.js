@@ -453,7 +453,7 @@ const data = [
   {
     name: "Arsene Demenou",
     link: "https://gdac.vercel.app",
-    tags: ["FrontEnd", "BackEnd", "UI/UX"],
+    tags: ["FrontEnd", "BackEnd", "Design"],
     socials: {
       twitter: "guekoue",
       github: "gdac-dev",
