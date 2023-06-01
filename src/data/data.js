@@ -450,6 +450,16 @@ const data = [
       linkedin: "thomasmarques007",
     },
   },
+  {
+    name: "Arsene Demenou",
+    link: "https://gdac.vercel.app",
+    tags: ["FrontEnd", "BackEnd", "UI/UX"],
+    socials: {
+      twitter: "guekoue",
+      github: "gdac-dev",
+      linkedin: "arsene-demenou",
+    },
+  },
 ];
 
 export default data;
