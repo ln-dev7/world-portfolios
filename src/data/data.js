@@ -460,6 +460,16 @@ const data = [
       linkedin: "arsene-demenou",
     },
   },
+  {
+    name: "Silatsa Ivan",
+    link: "https://ivan01-tech.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "ivansilatsa",
+      github: "ivan01-tech",
+      linkedin: "ivan-silatsa-581152264",
+    },
+  },
 ];
 
 export default data;
