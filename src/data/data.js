@@ -470,6 +470,16 @@ const data = [
       linkedin: "ivan-silatsa-581152264",
     },
   },
+   {
+    name: "Alfred Mouelle",
+    link: "https://alfred-mouelle.zd.fr",
+    tags: ["Backend", "FrontEnd", "Design"],
+    socials: {
+      twitter: "kali47_",
+      github: "alfredmouelle",
+      linkedin: "alfred-mouelle-72a976228",
+    },
+  },
 ];
 
 export default data;
