@@ -441,6 +441,36 @@ const data = [
     },
   },
   {
+    name: "ph3n1x",
+    link: "https://ph3n1x.com/",
+    tags: ["Cybersecurity"],
+    socials: {
+      twitter: "ph3n1x007",
+      github: "b4rth0v5k1",
+      linkedin: "thomasmarques007",
+    },
+  },
+  {
+    name: "Arsene Demenou",
+    link: "https://gdac.vercel.app",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "guekoue",
+      github: "gdac-dev",
+      linkedin: "arsene-demenou",
+    },
+  },
+  {
+    name: "Silatsa Ivan",
+    link: "https://ivan01-tech.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "ivansilatsa",
+      github: "ivan01-tech",
+      linkedin: "ivan-silatsa-581152264",
+    },
+  },
+   {
     name: "Alfred Mouelle",
     link: "https://alfred-mouelle.zd.fr",
     tags: ["Backend", "FrontEnd", "Design"],
