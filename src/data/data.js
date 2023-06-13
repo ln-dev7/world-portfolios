@@ -483,7 +483,7 @@ const data = [
   {
     name: "Cameron Noupoue",
     link: "https://n-kmron.github.io/portfolio-v1/",
-    tags: ["Software Developer", "OO Developer", "Backend"],
+    tags: ["Backend"],
     socials: {
       twitter: "kmron__",
       github: "n-kmron",
