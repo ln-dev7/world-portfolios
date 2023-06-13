@@ -480,6 +480,16 @@ const data = [
       linkedin: "alfred-mouelle-72a976228",
     },
   },
+  {
+    name: "Cameron Noupoue",
+    link: "https://n-kmron.github.io/portfolio-v1/",
+    tags: ["Software Developer", "OO Developer", "Backend"],
+    socials: {
+      twitter: "kmron__",
+      github: "n-kmron",
+      linkedin: "cameron-noupoue",
+    },
+  },
 ];
 
 export default data;
