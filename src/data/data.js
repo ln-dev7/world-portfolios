@@ -393,7 +393,7 @@ const data = [
   {
     name: "Steven DONGMO",
     link: "https://mouafus.dev",
-    tags: ["Fullstack", "DevOps Jr", "Mobile"],
+    tags: ["Fullstack", "DevOps", "Mobile"],
     socials: {
       twitter: "mouafusx",
       github: "mouafus",
