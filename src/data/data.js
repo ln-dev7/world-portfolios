@@ -391,6 +391,16 @@ const data = [
     },
   },
   {
+    name: "Steven DONGMO",
+    link: "https://mouafus.dev",
+    tags: ["Fullstack", "DevOps", "Mobile"],
+    socials: {
+      twitter: "mouafusx",
+      github: "mouafus",
+      linkedin: "mouafus",
+    },
+  },
+  {
     name: "Adrien Monthe",
     link: "https://genzis.net",
     tags: ["FrontEnd", "BackEnd"],
