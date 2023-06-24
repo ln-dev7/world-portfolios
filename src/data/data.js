@@ -500,6 +500,16 @@ const data = [
       linkedin: "cameron-noupoue",
     },
   },
+  {
+    name: "Parkson Tano Daniel",
+    link: "https://www.parksontano.com",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "ParksonDaniel",
+      github: "parkson-tano",
+      linkedin: "daniel-parkson-tano",
+    },
+  },
 ];
 
 export default data;
