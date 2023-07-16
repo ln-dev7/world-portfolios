@@ -24,6 +24,7 @@ export default function NotFound() {
         <main className="main">
           <div className="main-notfound">
             <h2>This page does not exist</h2>
+            <p>You can search the portfolios of the countries on the list</p>
           </div>
         </main>
 
