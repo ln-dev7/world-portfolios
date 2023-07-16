@@ -2,7 +2,7 @@
 
 #### 1. Fork this repository
 
-Visit the [repository](https://github.com/ln-dev7/world-porfolios) on github and click here
+Visit the [repository](https://github.com/ln-dev7/world-portfolios) on github and click here
 
 ![fork project](https://world-portfolios.vercel.app/assets/contribut/1.png)
 

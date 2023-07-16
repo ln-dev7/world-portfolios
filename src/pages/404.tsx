@@ -25,7 +25,7 @@ export default function NotFound() {
               <h1>World Portfolios</h1>
               <p>Open source collection of World Portfolios</p>
               <div className="options">
-                <Link href="https://github.com/ln-dev7/world-porfolios">
+                <Link href="https://github.com/ln-dev7/world-portfolios">
                   Contribute on github
                 </Link>
                 <Link href="https://github.com/ln-dev7/world-portfolios/blob/master/CONTRIBUTING.md">
