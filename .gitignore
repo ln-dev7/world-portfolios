@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+.png.icloud
+.cloud
+
 # testing
 /coverage
 
