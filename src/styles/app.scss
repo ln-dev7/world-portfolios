@@ -36,6 +36,23 @@
         }
       }
     }
+    &-add {
+      width: fit-content;
+      flex-shrink: 0;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: 2px solid $white;
+      background: $green;
+      margin-top: 1.5rem;
+      span {
+        color: $light;
+        font-weight: 500;
+      }
+      &:hover {
+        box-shadow: 0 0 0 2px $green;
+      }
+    }
   }
   &-container {
     width: 85%;
@@ -139,6 +156,15 @@ body.dark {
               }
             }
           }
+        }
+      }
+    }
+    &-notfound {
+      &-add {
+        background: #0ea5e9;
+        border: 2px solid #0b1121;
+        &:hover {
+          box-shadow: 0 0 0 2px #0ea5e9;
         }
       }
     }

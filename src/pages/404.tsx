@@ -46,6 +46,12 @@ export default function NotFound() {
                 </Link>
               ))}
             </div>
+            <Link
+              className="main-notfound-add"
+              href="https://github.com/ln-dev7/world-portfolios/issues/80"
+            >
+              <span>Add a new country</span>
+            </Link>
           </div>
         </main>
 
