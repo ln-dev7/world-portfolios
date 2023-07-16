@@ -47,14 +47,12 @@ export default function PreviewCard({
           </svg>
         </button>
         <div className="card-banner">
-          {countryCode == "cm" ? (
-            <Image
-              width={384}
-              height={274}
-              src="/assets/images/cm/card-portfolio.png"
-              alt="banner"
-            />
-          ) : null}
+          <Image
+            width={384}
+            height={274}
+            src={`/assets/images/${countryCode}/card-portfolio.png`}
+            alt={`${countryName} Card Banner`}
+          />
 
           <h1>
             {name.split(" ")[1] === undefined
