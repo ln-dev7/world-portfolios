@@ -10,12 +10,20 @@ Visit the [repository](https://github.com/ln-dev7/world-porfolios) on github and
 
 #### 3. Create a new branch (i.e. `add/your-name`).
 
-#### 5. Go to the `src/data/data.js` and edit this file
+#### 4. Look for the ISO code of your country, for example for `Cameroon` it is `cm`, for `France` it is `fr`... Once you have found it ...
+
+#### 5. Go to the `src/data/[codeOfYourCountry]Data.ts` ( `cmData.ts`, `frData.ts` )
+
+#### If you don’t see the file corresponding to your country code
+
+It simply means that this one has not yet been added to our list, so you can [write to me privately](https://twitter.com/ln_dev7) or you can [follow this issue](https://github.com/ln-dev7/world-portfolios/issues/80) to add your country
+
+#### If you see the file corresponding to the code of your country, then open it and edit the
 
 This file contains an array of objects where each object represents a portfolio, so it will be for you to add an object to this table following the timeline ...
 
 ```
-const data = [
+const cmData = [
   ...,
   {
 ​    name: "John Doe",
@@ -76,6 +84,6 @@ const data = [
     },
 ```
 
-#### 5. Commit changes and push the new branch.
+#### 6. Commit changes and push the new branch.
 
-#### 6. Open and submit a PR.
+#### 7. Open and submit a PR.
