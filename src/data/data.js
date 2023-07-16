@@ -379,7 +379,7 @@ const data = [
       github: "Zaker237",
       linkedin: "alex-mboutchouang-53479b13a",
     },
-  },   
+  },
   {
     name: "Martin Junior Tchoupe",
     link: "https://tchoupemartinjunior.github.io/",
@@ -388,6 +388,16 @@ const data = [
       twitter: "",
       github: "tchoupemartinjunior",
       linkedin: "martin-junior-tchoupe-b75b24203",
+    },
+  },
+  {
+    name: "Steven DONGMO",
+    link: "https://mouafus.dev",
+    tags: ["Fullstack", "DevOps", "Mobile"],
+    socials: {
+      twitter: "mouafusx",
+      github: "mouafus",
+      linkedin: "mouafus",
     },
   },
   {
@@ -429,7 +439,87 @@ const data = [
       github: "SibeeChasin",
       linkedin: "cheneba-a-siben",
     },
-  }
+  },
+  {
+    name: "Mael Toukap",
+    link: "https://maeltoukap.me",
+    tags: ["FrontEnd", "Backend", "Mobile", "Machine Learning", "Data"],
+    socials: {
+      twitter: "maeltoukap",
+      github: "maeltoukap",
+      linkedin: "mael-toukap-4577041a4",
+    },
+  },
+  {
+    name: "ph3n1x",
+    link: "https://ph3n1x.com/",
+    tags: ["Cybersecurity"],
+    socials: {
+      twitter: "ph3n1x007",
+      github: "b4rth0v5k1",
+      linkedin: "thomasmarques007",
+    },
+  },
+  {
+    name: "Arsene Demenou",
+    link: "https://gdac.vercel.app",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "guekoue",
+      github: "gdac-dev",
+      linkedin: "arsene-demenou",
+    },
+  },
+  {
+    name: "Silatsa Ivan",
+    link: "https://ivan01-tech.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "ivansilatsa",
+      github: "ivan01-tech",
+      linkedin: "ivan-silatsa-581152264",
+    },
+  },
+  {
+    name: "Alfred Mouelle",
+    link: "https://alfred-mouelle.zd.fr",
+    tags: ["Backend", "FrontEnd", "Design"],
+    socials: {
+      twitter: "kali47_",
+      github: "alfredmouelle",
+      linkedin: "alfred-mouelle-72a976228",
+    },
+  },
+  {
+    name: "Cameron Noupoue",
+    link: "https://n-kmron.github.io/portfolio-v1/",
+    tags: ["Backend"],
+    socials: {
+      twitter: "kmron__",
+      github: "n-kmron",
+      linkedin: "cameron-noupoue",
+    },
+  },
+  {
+    name: "Parkson Tano Daniel",
+    link: "https://www.parksontano.com",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "ParksonDaniel",
+      github: "parkson-tano",
+      linkedin: "daniel-parkson-tano",
+    },
+  },
+  {
+    name: "Sanix Darker",
+    link: "https://sanixdk.xyz",
+    tags: ["BackEnd"],
+    socials: {
+      twitter: "sanixdarker",
+      github: "sanix-darker",
+      linkedin: "",
+    },
+  },
 ];
 
 export default data;
