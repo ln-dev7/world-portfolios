@@ -480,7 +480,7 @@ const data = [
       linkedin: "ivan-silatsa-581152264",
     },
   },
-   {
+  {
     name: "Alfred Mouelle",
     link: "https://alfred-mouelle.zd.fr",
     tags: ["Backend", "FrontEnd", "Design"],
@@ -508,6 +508,16 @@ const data = [
       twitter: "ParksonDaniel",
       github: "parkson-tano",
       linkedin: "daniel-parkson-tano",
+    },
+  },
+  {
+    name: "Sanix Darker",
+    link: "https://sanixdk.xyz",
+    tags: ["BackEnd"],
+    socials: {
+      twitter: "sanixdarker",
+      github: "sanix-darker",
+      linkedin: "",
     },
   },
 ];
