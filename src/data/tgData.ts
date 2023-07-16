@@ -4,11 +4,11 @@ const tgData: CountryData[] = [
   {
     name: "Gautier EHOLOUM",
     link: "https://gausoft.dev",
-    tags: ["Backend", "Mobile", "Data", "Open Source"],
+    tags: ["Backend", "Mobile", "Data"],
     socials: {
       twitter: "gausoft_",
       github: "gausoft",
-      linkedin: "https://linkedin.com/in/gauthier-eholoum",
+      linkedin: "gauthier-eholoum",
     },
   },
 ];
