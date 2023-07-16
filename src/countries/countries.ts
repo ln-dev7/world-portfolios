@@ -1,9 +1,6 @@
-const countries: {
-  name: string;
-  code: string;
-  numberCode: string;
-  flag: string;
-}[] = [
+import type Countries from "@/interfaces/countries.interface";
+
+const countries: Countries[] = [
   {
     name: "Cameroun",
     code: "cm",
