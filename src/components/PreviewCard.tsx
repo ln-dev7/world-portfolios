@@ -41,7 +41,7 @@ export default function PreviewCard({
           <Image
             width={384}
             height={274}
-            src="/assets/images/card-portfolio.png"
+            src="/assets/images/cm/card-portfolio.png"
             alt="banner"
           />
           <h1>

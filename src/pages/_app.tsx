@@ -6,23 +6,23 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <NextSeo
-        title="Cameroonian Portfolios"
-        description="Open source collection of Cameroonian portfolios"
-        canonical="https://cameroon-portfolios.vercel.app/"
+        title="World Portfolios"
+        description="Open source collection of World portfolios"
+        canonical="https://world-portfolios.vercel.app/"
         openGraph={{
-          url: "https://cameroon-portfolios.vercel.app/",
-          title: "Cameroonian Portfolios",
-          description: "Open source collection of Cameroonian portfolios",
+          url: "https://world-portfolios.vercel.app/",
+          title: "World Portfolios",
+          description: "Open source collection of World portfolios",
           images: [
             {
-              url: "https://cameroon-portfolios.vercel.app/assets/images/banner.png",
-              alt: "Cameroonian Portfolios",
+              url: "https://world-portfolios.vercel.app/assets/images/banner.png",
+              alt: "World Portfolios",
               type: "image/jpeg",
               secureUrl:
-                "https://cameroon-portfolios.vercel.app/assets/images/banner.png",
+                "https://world-portfolios.vercel.app/assets/images/banner.png",
             },
           ],
-          siteName: "Cameroonian Portfolios",
+          siteName: "World Portfolios",
         }}
         twitter={{
           handle: "@ln_dev7",

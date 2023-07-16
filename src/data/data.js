@@ -429,7 +429,7 @@ const data = [
       github: "SibeeChasin",
       linkedin: "cheneba-a-siben",
     },
-  },
+  }
 ];
 
 export default data;

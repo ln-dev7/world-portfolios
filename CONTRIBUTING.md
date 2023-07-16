@@ -2,9 +2,9 @@
 
 #### 1. Fork this repository
 
-Visit the [repository](https://github.com/ln-dev7/cameroon-porfolios) on github and click here
+Visit the [repository](https://github.com/ln-dev7/world-porfolios) on github and click here
 
-![fork project](https://cameroon-portfolios.vercel.app/assets/contribut/1.png)
+![fork project](https://world-portfolios.vercel.app/assets/contribut/1.png)
 
 #### 2. Clone your new repository to your system.
 

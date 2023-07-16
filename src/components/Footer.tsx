@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="footer-container">
         <p>
           {" "}
-          &copy; 2022 - {new Date().getFullYear()}Cameroon Portfolios. All
+          &copy; 2022 - {new Date().getFullYear()} World Portfolios. All
           rights reserved.
         </p>
         <Link
-          href="https://github.com/ln-dev7/cameroon-portfolios"
+          href="https://github.com/ln-dev7/world-portfolios"
           target="_blank"
         >
           <svg
