@@ -5,19 +5,19 @@ import TagList from "./../components/TagList";
 import NavBar from "./../components/Navbar";
 import Section from "./../components/Section";
 import Top from "./../components/ToTop";
-import frData from "@/data/frData";
+import snData from "@/data/snData";
 import extractTags from "@/utils/extractTags";
 import Footer from "./../components/Footer";
 import MainLogic from "@/utils/mainLogic";
 
 export default function France() {
   const { filteredData, selectedTags, setTag, filterByName } =
-    MainLogic(frData);
+    MainLogic(snData);
 
   return (
     <>
       <Head>
-        <title>World Portfolios - FRANCE</title>
+        <title>World Portfolios - SENEGAL</title>
         <meta name="description" content="World Portfolios" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -30,7 +30,7 @@ export default function France() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
-                tags={extractTags(frData)}
+                tags={extractTags(snData)}
                 setTag={setTag}
                 selectedTags={selectedTags}
               />
