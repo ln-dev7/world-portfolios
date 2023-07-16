@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useContext } from "react";
+import { Context } from "@/context/countryContext";
 
 export default function PreviewCard({
   handlePreviewCardClose,
@@ -18,6 +20,13 @@ export default function PreviewCard({
     linkedin: string;
   };
 }) {
+  const {
+    countryCode,
+    countryName,
+    countryFlag,
+    countryNumberCode,
+    countries,
+  } = useContext(Context);
   return (
     <div className="preview-card">
       <div className="card">
@@ -38,12 +47,15 @@ export default function PreviewCard({
           </svg>
         </button>
         <div className="card-banner">
-          <Image
-            width={384}
-            height={274}
-            src="/assets/images/card-portfolio.png"
-            alt="banner"
-          />
+          {countryCode == "cm" ? (
+            <Image
+              width={384}
+              height={274}
+              src="/assets/images/cm/card-portfolio.png"
+              alt="banner"
+            />
+          ) : null}
+
           <h1>
             {name.split(" ")[1] === undefined
               ? name.split(" ")[0][0] + name.split(" ")[0][1]
