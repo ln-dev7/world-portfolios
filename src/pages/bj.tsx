@@ -10,7 +10,7 @@ import extractTags from "@/utils/extractTags";
 import Footer from "./../components/Footer";
 import MainLogic from "@/utils/mainLogic";
 
-export default function France() {
+export default function Benin() {
   const { filteredData, selectedTags, setTag, filterByName } =
     MainLogic(bjData);
 
