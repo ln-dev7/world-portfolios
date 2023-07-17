@@ -11,6 +11,16 @@ const tgData: CountryData[] = [
       linkedin: "gauthier-eholoum",
     },
   },
+  {
+    name: "Geoffrey Logovi",
+    link: "https://geoffreylogovi.me",
+    tags: ["Cloud", "Design"],
+    socials: {
+      twitter: "geoffreylgv",
+      github: "geoffreylgv",
+      linkedin: "geoffreylgv",
+    },
+  },
 ];
 
 export default tgData;
