@@ -37,6 +37,18 @@ const countries: Countries[] = [
     numberCode: "33",
     flag: "/assets/images/fr/flag.png",
   },
+  {
+    name: "South Korea",
+    code: "kr",
+    numberCode: "410",
+    flag: "/assets/images/kr/flag.png",
+  },
+  {
+    name: "USA",
+    code: "us",
+    numberCode: "840",
+    flag: "/assets/images/us/flag.png",
+  },
 ];
 
 export default countries;

@@ -10,14 +10,14 @@ import extractTags from "@/utils/extractTags";
 import Footer from "./../components/Footer";
 import MainLogic from "@/utils/mainLogic";
 
-export default function France() {
+export default function Togo() {
   const { filteredData, selectedTags, setTag, filterByName } =
     MainLogic(tgData);
 
   return (
     <>
       <Head>
-        <title>World Portfolios - FRANCE</title>
+        <title>World Portfolios - TOGO</title>
         <meta name="description" content="World Portfolios" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
