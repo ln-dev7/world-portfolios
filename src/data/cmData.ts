@@ -522,6 +522,16 @@ const cmData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Shekinah Manyi",
+    link: "https://shekidev.vercel.app/",
+    tags: ["FrontEnd","Backend"],
+    socials: {
+      twitter: "ShekinahManyi",
+      github: "shekinahmanyi",
+      linkedin: "shekinah-manyi",
+    },
+  },
 ];
 
 export default cmData;
