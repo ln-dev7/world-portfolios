@@ -21,6 +21,16 @@ const tgData: CountryData[] = [
       linkedin: "geoffreylgv",
     },
   },
+  {
+    name: "N'TOUGAN Felix",
+    link: "https://felixfale-portfolio.vercel.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "Felix_Fale",
+      github: "Felix-fale",
+      linkedin: "felix-ntougan",
+    },
+  },
 ];
 
 export default tgData;
