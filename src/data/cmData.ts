@@ -542,6 +542,16 @@ const cmData: CountryData[] = [
       linkedin: "jackelomo",
     },
   },
+  {
+    name: "Mureille Laure Obaya",
+    link: "https://www.obyimpact.cm",
+    tags: ["FrontEnd", "Design"],
+    socials: {
+      twitter: "obylaure",
+      github: "laureoby",
+      linkedin: "mureille-laure-obaya",
+    },
+  },
 ];
 
 export default cmData;
