@@ -552,6 +552,16 @@ const cmData: CountryData[] = [
       linkedin: "mureille-laure-obaya",
     },
   },
+   {
+    name: "Nyandjou Wilfried Larry",
+    link: "https://wilfried-tech.vercel.app",
+    tags: ["FrontEnd", "Mobile", "Backend"],
+    socials: {
+      twitter: "Wilfried-Tech",
+      github: "Wilfried-Tech",
+      linkedin: "nyandjou-wilfried-larry",
+    },
+  },
 ];
 
 export default cmData;
