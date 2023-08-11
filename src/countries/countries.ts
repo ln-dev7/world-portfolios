@@ -49,6 +49,12 @@ const countries: Countries[] = [
     numberCode: "840",
     flag: "/assets/images/us/flag.png",
   },
+  {
+    name: "India",
+    code: "in",
+    numberCode: "91",
+    flag: "/assets/images/in/flag.png",
+  },
 ];
 
 export default countries;
