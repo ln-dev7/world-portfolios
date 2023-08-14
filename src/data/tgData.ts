@@ -22,6 +22,16 @@ const tgData: CountryData[] = [
     },
   },
   {
+    name: "AGBETSIASSI KODJO LABORE",
+    link: "http://starlabman.netlify.app/",
+    tags: ["FullStack", "Blockchain"],
+    socials: {
+      twitter: "starlabman",
+      github: "starlabman",
+      linkedin: "starlabman",
+    },
+  },
+  {
     name: "N'TOUGAN Felix",
     link: "https://felixfale-portfolio.vercel.app/",
     tags: ["FrontEnd"],
