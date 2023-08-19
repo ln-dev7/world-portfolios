@@ -6,4 +6,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ### 🤝🏽 Contribute
 
-Want to add a portfolio to this list? read the [guidelines](https://github.com/ln-dev7/world-portfolios/blob/master/CONTRIBUTING.md) on how to do that or [fill out this form](https://tally.so/r/wgeRKO)
+Want to add a portfolio to this list? read the [guidelines](https://github.com/ln-dev7/world-portfolios/blob/master/CONTRIBUTING.md) on how to do that or [fill out this form](https://sharuco.lndev.me/form/view/zf3hEPNse8yK2BKt47GP)

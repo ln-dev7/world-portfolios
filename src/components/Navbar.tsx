@@ -135,7 +135,7 @@ const NavBar = ({
               <span>Submit a Pull Request</span>
             </a>
             <a
-              href="https://tally.so/r/wgeRKO"
+              href="https://sharuco.lndev.me/form/view/zf3hEPNse8yK2BKt47GP"
               target="_blank"
               rel="noreferrer"
             >
