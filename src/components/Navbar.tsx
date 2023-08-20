@@ -156,10 +156,7 @@ const NavBar = ({
             <div className="nav-container-left-flag">
               <img alt={`${countryName}`} src={`${countryFlag}`} />
             </div>
-            <a
-              href="https://world-portfolios.vercel.app/"
-              className="nav-container-left-logo"
-            >
+            <a href="https://wp.lndev.me/" className="nav-container-left-logo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="500"

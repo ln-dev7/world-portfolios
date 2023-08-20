@@ -10,18 +10,17 @@ export default function App({ Component, pageProps }: AppProps) {
         <NextSeo
           title="World Portfolios"
           description="Open source collection of World portfolios"
-          canonical="https://world-portfolios.vercel.app/"
+          canonical="https://wp.lndev.me/"
           openGraph={{
-            url: "https://world-portfolios.vercel.app/",
+            url: "https://wp.lndev.me/",
             title: "World Portfolios",
             description: "Open source collection of World portfolios",
             images: [
               {
-                url: "https://world-portfolios.vercel.app/assets/banner.png",
+                url: "https://wp.lndev.me/assets/banner.png",
                 alt: "World Portfolios",
                 type: "image/jpeg",
-                secureUrl:
-                  "https://world-portfolios.vercel.app/assets/banner.png",
+                secureUrl: "https://wp.lndev.me/assets/banner.png",
               },
             ],
             siteName: "World Portfolios",
