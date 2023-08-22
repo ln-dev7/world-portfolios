@@ -403,6 +403,16 @@ const cmData: CountryData[] = [
     },
   },
   {
+    name: "Patrick Malanou",
+    link: "https://pf22.vercel.app",
+    tags: ["Fullstack", "DevOps"],
+    socials: {
+      twitter: "PatrickMalanou",
+      github: "patrickflorian",
+      linkedin: "patrick-florian-noumbissi-malanou",
+    },
+  },
+  {
     name: "Adrien Monthe",
     link: "https://genzis.net",
     tags: ["FrontEnd", "BackEnd"],
