@@ -50,15 +50,33 @@ export default function Header({
       <div className="card" onClick={handlePreviewCardOpen}>
         <div className="card-container">
           <h2>{name}</h2>
-          <Link
-            href={link}
-            target="_blank"
-            onClick={(e) => {
-              e.stopPropagation();
-            }}
-          >
-            {cleanUrl(link)}
-          </Link>
+          {typeof link === "string" && (
+            <Link
+              href={link}
+              target="_blank"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+            >
+              {cleanUrl(link)}
+            </Link>
+          )}
+          {Array.isArray(link) && (
+            <div>
+              {link.map((singleLink: string, index: any) => (
+                <Link
+                  href={singleLink}
+                  target="_blank"
+                  key={index}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                >
+                  {cleanUrl(singleLink)}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
         <div className="card-tags">
           {tags.map((tag, index) => (

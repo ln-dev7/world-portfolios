@@ -138,9 +138,26 @@ export default function PreviewCard({
               </Link>
             )}
           </div>
-          <Link className="card-portfolio" href={link} target="_blank">
-            <span>Visit Portfolio</span>
-          </Link>
+
+          {typeof link === "string" && (
+            <Link className="card-portfolio" href={link} target="_blank">
+              <span>Visit Portfolio</span>
+            </Link>
+          )}
+          {Array.isArray(link) && (
+            <div className="group">
+              {link.map((singleLink: string, index: any) => (
+                <Link
+                  className="card-portfolio"
+                  key={index}
+                  href={singleLink}
+                  target="_blank"
+                >
+                  <span>Visit Portfolio</span>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>

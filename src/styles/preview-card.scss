@@ -156,6 +156,7 @@
         }
       }
     }
+
     &-portfolio {
       // width: 100%;
       display: flex;
@@ -171,6 +172,21 @@
       }
       &:hover {
         box-shadow: 0 0 0 2px #16b86a;
+      }
+    }
+
+    .group {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      .card-portfolio {
+        width: 100%;
+      }
+      @media screen and (max-width: 460px) {
+        flex-direction: column;
+        gap: 0.5rem;
       }
     }
   }
