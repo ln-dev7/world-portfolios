@@ -592,6 +592,26 @@ const cmData: CountryData[] = [
       linkedin: "emmanuel-zenderock",
     },
   },
+  {
+    name: "Ibi Ibrahim",
+    link: "https://phenix3.github.io/ibi-ibrahim",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "Phenix7812",
+      github: "Phenix3",
+      linkedin: "ibi-ibrahim",
+    },
+  },
+  {
+    name: "Kemane Donfack",
+    link: "https://kemanedonfack.com",
+    tags: ["Fullstack", "DevOps", "Cloud"],
+    socials: {
+      twitter: "kemane_donfack",
+      github: "kemanedonfack",
+      linkedin: "kemane-donfack",
+    },
+  },
 ];
 
 export default cmData;

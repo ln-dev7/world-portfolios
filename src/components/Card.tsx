@@ -20,7 +20,7 @@ export default function Header({
   socials,
 }: {
   name: string;
-  link: string;
+  link: string | string[];
   tags: string[];
   socials: {
     twitter: string;
