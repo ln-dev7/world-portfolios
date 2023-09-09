@@ -612,6 +612,16 @@ const cmData: CountryData[] = [
       linkedin: "kemane-donfack",
     },
   },
+  {
+    name: "Michel Rufin BTOMPE TCHEUFFA",
+    link: "https://michelbtompe.vercel.app/",
+    tags: ["Fullstack", "Design"],
+    socials: {
+      twitter: "MichelBTOMPE",
+      github: "Tom-michel",
+      linkedin: "michel-btompe-3a0bb3234",
+    },
+  },
 ];
 
 export default cmData;
