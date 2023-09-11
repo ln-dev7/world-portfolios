@@ -7,6 +7,7 @@ import { Context } from "@/context/countryContext";
 const Section = () => {
   const router = useRouter();
   const { country, countries } = useContext(Context);
+  const { name: currentCountryName } = country;
 
   let options = countries.map((c: any) => {
     return {
@@ -37,22 +38,24 @@ const Section = () => {
             </Link>
             <select value={selected} onChange={handleChange}>
               {options.map((option: any) => (
-                <option
-                  key={option.value}
-                  value={option.value}
-                >
+                <option key={option.value} value={option.value}>
                   {option.text}
                 </option>
               ))}
             </select>
           </div>
           <span>
-            Currently you visit the portfolios of : <span>{country.name}</span>
+            Currently you visit the portfolios of : <span>{currentCountryName}</span>
           </span>
           <div className="list">
             {countries.map((country: any) => (
               <Link key={country.code} href={`/${country.code}`}>
-                <Image alt={country.name} src={country.flag} width={500} height={500} />
+                <Image
+                  alt={country.name}
+                  src={country.flag}
+                  width={500}
+                  height={500}
+                />
               </Link>
             ))}
           </div>

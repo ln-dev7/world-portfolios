@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { Modal } from "react-bootstrap";
-import countries from "@/countries/countries";
-import { useSearchParams } from "next/navigation";
 import { useContext, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import { Context } from "@/context/countryContext";
@@ -16,8 +14,6 @@ const NavBar = ({
   };
 
   const router = useRouter();
-
-  // Theme Gestions
 
   const [theme, setTheme] = useState("dark");
   const bodyElement = useRef<HTMLElement>(null!);
@@ -40,15 +36,8 @@ const NavBar = ({
     setTheme(theme === "light" ? "dark" : "light");
   }
 
-  //
-  const {
-    countryCode,
-    countryName,
-    countryFlag,
-    countryNumberCode,
-    countries,
-  } = useContext(Context);
-  //
+  const { country } = useContext(Context);
+  const { name: currentCountryName, flag: currentCountryFlag } = country;
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const handleModalOpen = () => {
     setModalIsOpen(true);
@@ -56,7 +45,6 @@ const NavBar = ({
   const handleModalClose = () => {
     setModalIsOpen(false);
   };
-  //
   const [formSubmitted, setFormSubmitted] = useState(false);
   const handleFormSubmittedOpen = () => {
     setFormSubmitted(true);
@@ -70,6 +58,7 @@ const NavBar = ({
       handleFormSubmittedOpen();
     }
   }, []);
+
   return (
     <>
       <Modal show={formSubmitted} onHide={handleFormSubmittedClose}>
@@ -154,7 +143,12 @@ const NavBar = ({
         <div className="nav-container">
           <div className="nav-container-left">
             <div className="nav-container-left-flag">
-              <img alt={`${countryName}`} src={`${countryFlag}`} />
+              <Image
+                alt={`${currentCountryName}`}
+                src={`${currentCountryFlag}`}
+                width={500}
+                height={500}
+              />
             </div>
             <a href="https://wp.lndev.me/" className="nav-container-left-logo">
               <svg
