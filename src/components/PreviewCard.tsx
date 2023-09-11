@@ -15,6 +15,11 @@ export default function PreviewCard({
 }: Props) {
   const { country } = useContext(Context);
   const { code: currentCountryCode, name: currentCountryName } = country;
+  const buildInitials = (name: string) => {
+    return name.split(" ")[1] === undefined
+      ? name.split(" ")[0][0] + name.split(" ")[0][1]
+      : name.split(" ")[0][0] + name.split(" ")[1][0];
+  };
 
   return (
     <div className="preview-card">
@@ -33,11 +38,7 @@ export default function PreviewCard({
             alt={`${currentCountryName} Card Banner`}
           />
 
-          <h1>
-            {name.split(" ")[1] === undefined
-              ? name.split(" ")[0][0] + name.split(" ")[0][1]
-              : name.split(" ")[0][0] + name.split(" ")[1][0]}
-          </h1>
+          <h1>{buildInitials(name)}</h1>
         </div>
         <div className="card__body">
           <h2 className="card-name">{name}</h2>
