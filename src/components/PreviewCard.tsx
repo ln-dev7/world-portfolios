@@ -20,13 +20,8 @@ export default function PreviewCard({
     linkedin: string;
   };
 }) {
-  const {
-    countryCode,
-    countryName,
-    countryFlag,
-    countryNumberCode,
-    countries,
-  } = useContext(Context);
+  const { country } = useContext(Context);
+  const { code: currentCountryCode, name: currentCountryName } = country;
   return (
     <div className="preview-card">
       <div className="card">
@@ -36,9 +31,9 @@ export default function PreviewCard({
             height="46"
             fill="none"
             stroke="#576f7f"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -50,8 +45,8 @@ export default function PreviewCard({
           <Image
             width={384}
             height={274}
-            src={`/assets/images/${countryCode}/card-portfolio.png`}
-            alt={`${countryName} Card Banner`}
+            src={`/assets/images/${currentCountryCode}/card-portfolio.png`}
+            alt={`${currentCountryName} Card Banner`}
           />
 
           <h1>
@@ -80,9 +75,9 @@ export default function PreviewCard({
                   height="46"
                   fill="none"
                   stroke="#576f7f"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -102,9 +97,9 @@ export default function PreviewCard({
                   height="46"
                   fill="none"
                   stroke="#576f7f"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -125,9 +120,9 @@ export default function PreviewCard({
                   height="46"
                   fill="none"
                   stroke="#576f7f"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
