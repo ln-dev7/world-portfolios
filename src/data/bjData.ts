@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const bjData: CountryData[] = [
+const bjData: UserProfile[] = [
   {
     name: "Axel VISSOH",
     link: "https://storage.googleapis.com/portfolio-axelvissoh/personalWebsite/index.html",

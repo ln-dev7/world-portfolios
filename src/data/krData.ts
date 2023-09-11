@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const krData: CountryData[] = [
+const krData: UserProfile[] = [
   {
     name: "Choi Seong Jun",
     link: "https://www.choiseongjun.site",

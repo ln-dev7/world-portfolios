@@ -1,5 +1,5 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const snData: CountryData[] = [];
+const snData: UserProfile[] = [];
 
 export default snData;

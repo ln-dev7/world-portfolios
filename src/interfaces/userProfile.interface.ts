@@ -1,4 +1,4 @@
-export default interface CountryData {
+export default interface UserProfile {
   name: string;
   link: string | string[];
   tags: string[];

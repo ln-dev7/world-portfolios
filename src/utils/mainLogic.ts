@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 import sortedData from "./sortedData";
 
-function MainLogic(cmData: CountryData[]) {
+function MainLogic(cmData: UserProfile[]) {
   const [filteredData, setFilteredData] = useState(sortedData(cmData));
   const [selectedTags, setSelectedTags] = useState(["all"]);
 

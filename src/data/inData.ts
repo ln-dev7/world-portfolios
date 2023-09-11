@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const cmData: CountryData[] = [
+const cmData: UserProfile[] = [
   {
     name: "Preet Suthar",
     link: "https://preetsuthar.me",

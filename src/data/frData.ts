@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const frData: CountryData[] = [
+const frData: UserProfile[] = [
   {
     name: "Arthur Poulain",
     link: "https://arthur-poulain.com",

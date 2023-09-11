@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const ciData: CountryData[] = [
+const ciData: UserProfile[] = [
   {
     name: "Adams Aimé-Désiré",
     link: "https://aimedesire.com",

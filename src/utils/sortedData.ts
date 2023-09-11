@@ -1,7 +1,7 @@
 import addIdToData from "./addIdToData";
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const sortedData = (data: CountryData[]) => {
+const sortedData = (data: UserProfile[]) => {
   const dataWithId = addIdToData(data);
 
   const sorted = dataWithId.sort((a, b) =>

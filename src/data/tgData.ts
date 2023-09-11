@@ -1,6 +1,6 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type UserProfile from "@/interfaces/userProfile.interface";
 
-const tgData: CountryData[] = [
+const tgData: UserProfile[] = [
   {
     name: "Gautier EHOLOUM",
     link: "https://gausoft.dev",
