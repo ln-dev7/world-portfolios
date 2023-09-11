@@ -2,26 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { useContext } from "react";
 import { Context } from "@/context/countryContext";
+import SvgViewBox from "@/components/SvgViewBox";
+import UserProfile from "@/interfaces/userProfile.interface";
 
+type Props = UserProfile & { handlePreviewCardClose: () => void };
 export default function PreviewCard({
-  handlePreviewCardClose,
   name,
   link,
   tags,
   socials,
-}: {
-  handlePreviewCardClose: () => void;
-  name: string;
-  link: string | string[];
-  tags: string[];
-  socials: {
-    twitter: string;
-    github: string;
-    linkedin: string;
-  };
-}) {
+  handlePreviewCardClose,
+}: Props) {
   const { country } = useContext(Context);
   const { code: currentCountryCode, name: currentCountryName } = country;
+
   return (
     <div className="preview-card">
       <div className="card">

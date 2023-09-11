@@ -1,8 +1,8 @@
 import Link from "next/link";
-
 import { Modal } from "react-bootstrap";
-import PreviewCard from "./PreviewCard";
 import { useState } from "react";
+import PreviewCard from "./PreviewCard";
+import UserProfile from "@/interfaces/userProfile.interface";
 
 const cleanUrl = (link: string) => {
   return (
@@ -13,21 +13,7 @@ const cleanUrl = (link: string) => {
   );
 };
 
-export default function Header({
-  name,
-  link,
-  tags,
-  socials,
-}: {
-  name: string;
-  link: string | string[];
-  tags: string[];
-  socials: {
-    twitter: string;
-    github: string;
-    linkedin: string;
-  };
-}) {
+export default function Header({ name, link, tags, socials }: UserProfile) {
   const [previewCardIsOpen, setPreviewCardIsOpen] = useState(false);
   const handlePreviewCardOpen = () => {
     setPreviewCardIsOpen(true);
