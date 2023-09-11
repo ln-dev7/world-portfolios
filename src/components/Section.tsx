@@ -3,13 +3,19 @@ import { useContext, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Context } from "@/context/countryContext";
+import Country from "@/interfaces/country.interface";
+
+type countryOption = {
+  value: string;
+  text: string;
+}
 
 const Section = () => {
   const router = useRouter();
   const { country, countries } = useContext(Context);
   const { name: currentCountryName } = country;
 
-  let options = countries.map((c: any) => {
+  let options: countryOption[] = countries.map((c: Country) => {
     return {
       value: c.code,
       text: c.name,
@@ -37,7 +43,7 @@ const Section = () => {
               Contribute on github
             </Link>
             <select value={selected} onChange={handleChange}>
-              {options.map((option: any) => (
+              {options.map((option: countryOption) => (
                 <option key={option.value} value={option.value}>
                   {option.text}
                 </option>
@@ -48,7 +54,7 @@ const Section = () => {
             Currently you visit the portfolios of : <span>{currentCountryName}</span>
           </span>
           <div className="list">
-            {countries.map((country: any) => (
+            {countries.map((country: Country) => (
               <Link key={country.code} href={`/${country.code}`}>
                 <Image
                   alt={country.name}
