@@ -3,6 +3,7 @@ import { Modal } from "react-bootstrap";
 import { useContext, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
 import { Context } from "@/context/countryContext";
+import SvgViewBox from "@/components/SvgViewBox";
 
 const NavBar = ({
   onChangeValue,
@@ -95,20 +96,10 @@ const NavBar = ({
         <div className="add-modal">
           <div className="card">
             <button className="card-close" onClick={handleModalClose}>
-              <svg
-                width="46"
-                height="46"
-                fill="none"
-                stroke="#576f7f"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <SvgViewBox>
                 <path d="M18 6 6 18"></path>
                 <path d="m6 6 12 12"></path>
-              </svg>
+              </SvgViewBox>
             </button>
             <a
               href="https://github.com/ln-dev7/world-portfolios/blob/master/CONTRIBUTING.md"
@@ -205,31 +196,11 @@ const NavBar = ({
             </button>
             <button onClick={toggleTheme} className="nav-container-menu-mode">
               {theme === "light" ? (
-                <svg
-                  width="46"
-                  height="46"
-                  fill="none"
-                  stroke="#576f7f"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <SvgViewBox>
                   <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
-                </svg>
+                </SvgViewBox>
               ) : (
-                <svg
-                  width="46"
-                  height="46"
-                  fill="none"
-                  stroke="#576f7f"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <SvgViewBox>
                   <path d="M12 7a5 5 0 1 0 0 10 5 5 0 1 0 0-10z"></path>
                   <path d="M12 1v2"></path>
                   <path d="M12 21v2"></path>
@@ -239,7 +210,7 @@ const NavBar = ({
                   <path d="M21 12h2"></path>
                   <path d="m4.22 19.78 1.42-1.42"></path>
                   <path d="m18.36 5.64 1.42-1.42"></path>
-                </svg>
+                </SvgViewBox>
               )}
             </button>
           </div>
