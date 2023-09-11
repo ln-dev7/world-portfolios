@@ -41,3 +41,4 @@ next-env.d.ts
 # all css and css map files
 *.css
 *.css.map
+.idea

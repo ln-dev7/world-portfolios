@@ -1,4 +1,4 @@
-export default interface Countries {
+export default interface Country {
   name: string;
   code: string;
   numberCode: string;

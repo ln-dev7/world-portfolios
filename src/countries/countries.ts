@@ -1,6 +1,6 @@
-import type Countries from "@/interfaces/countries.interface";
+import type Country from "@/interfaces/country.interface";
 
-const countries: Countries[] = [
+const countries: Country[] = [
   {
     name: "Cameroun",
     code: "cm",
