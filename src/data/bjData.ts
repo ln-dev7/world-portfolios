@@ -41,6 +41,16 @@ const bjData: CountryData[] = [
       linkedin: "razacki-kounasso-11a496184",
     },
   },
+  {
+    name: "Loïc Farel",
+    link: "https://loicfarel.netlify.app",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "@loicfarel",
+      github: "loicfarel",
+      linkedin: "loicfarel",
+    },
+  },
 ];
 
 export default bjData;
