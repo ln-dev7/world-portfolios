@@ -55,6 +55,12 @@ const countries: Country[] = [
     numberCode: "91",
     flag: "/assets/images/in/flag.png",
   },
+  {
+    name: "République démocratique du Congo",
+    code: "cd",
+    numberCode: "243",
+    flag: "/assets/images/cd/flag.png",
+  },
 ];
 
 export default countries;
