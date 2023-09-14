@@ -642,6 +642,16 @@ const cmData: CountryData[] = [
       linkedin: "ngimdock-zemfack",
     },
   },
+  {
+    name: "Michel BTOMPE",
+    link: "https://michelbtompe.vercel.app",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "MichelBTOMPE",
+      github: "Tom-michel",
+      linkedin: "michel-btompe-3a0bb3234",
+    },
+  },
 ];
 
 export default cmData;
