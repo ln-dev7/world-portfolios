@@ -1,6 +1,14 @@
 import type Countries from "@/interfaces/countries.interface";
 
 const countries: Countries[] = [
+
+ {
+name: "Republique democratique du Congo",
+code: "cd",
+numberCode: "243",
+flag: "/assets/images/cd/flag.png"
+},
+
   {
     name: "Cameroun",
     code: "cm",
