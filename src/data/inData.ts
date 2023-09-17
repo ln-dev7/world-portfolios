@@ -11,6 +11,16 @@ const cmData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Rahil Vahora",
+    link: "https://rahil-vahora.netlify.app",
+    tags: ["FrontEnd", "Design"],
+    socials: {
+      twitter: "Rahil_vahora12",
+      github: "rahil1202",
+      linkedin: "md-rahil-vahora",
+    },
+  },
 ];
 
 export default cmData;
