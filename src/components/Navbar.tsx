@@ -5,11 +5,11 @@ import { useRouter } from "next/router";
 import { Context } from "@/context/countryContext";
 import {
   CardCloseSvg,
-  DarkThemeSvg,
-  LightThemeSvg,
+  LogoSvg,
   MergeRequestSvg,
   SubmitFormSvg,
-  LogoSvg,
+  Theme,
+  ThemeSvg,
 } from "./Icons";
 
 const NavBar = ({
@@ -23,7 +23,7 @@ const NavBar = ({
 
   const router = useRouter();
 
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState<Theme>("dark");
   const bodyElement = useRef<HTMLElement>(null!);
 
   useEffect(() => {
@@ -162,7 +162,7 @@ const NavBar = ({
               <span> + </span>
             </button>
             <button onClick={toggleTheme} className="nav-container-menu-mode">
-              {theme === "light" ? <LightThemeSvg /> : <DarkThemeSvg />}
+              <ThemeSvg theme={theme} />
             </button>
           </div>
         </div>

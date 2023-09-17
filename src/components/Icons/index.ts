@@ -5,6 +5,5 @@ export * from "./GithubSvg";
 export * from "./LinkedInSvg";
 export * from "./MergeRequestSvg";
 export * from "./SubmitFormSvg";
-export * from "./LightThemeSvg";
-export * from "./DarkThemeSvg";
+export * from "./ThemeSvg";
 export * from "./LogoSvg";
