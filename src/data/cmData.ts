@@ -662,6 +662,16 @@ const cmData: CountryData[] = [
       linkedin: "konno-meli-arnaud-fuente-42b9b824b",
     },
   },
+  {
+    name: "Djery DIETCHI",
+    link: "https://dietchidjery.com/",
+    tags: ["Fullstack", "Mobile"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "djery-dietchi",
+    },
+  },
 ];
 
 export default cmData;
