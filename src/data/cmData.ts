@@ -652,6 +652,16 @@ const cmData: CountryData[] = [
       linkedin: "michel-btompe-3a0bb3234",
     },
   },
+  {
+    name: "Konno Meli Fuente",
+    link: "https://konnomelifuente.online/",
+    tags: ["FrontEnd", "Mobile"],
+    socials: {
+      twitter: "KonnoMeli",
+      github: "konnofuente",
+      linkedin: "konno-meli-arnaud-fuente-42b9b824b",
+    },
+  },
 ];
 
 export default cmData;
