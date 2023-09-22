@@ -663,6 +663,16 @@ const cmData: CountryData[] = [
     },
   },
   {
+    name: "FOLEU Placide Rigole",
+    link: "https://placidefoleu.online/",
+    tags: ["Frontend", "Backend", "Mobile"],
+    socials: {
+      twitter: "foplacide",
+      github: "rigole",
+      linkedin: "placide-rigole-foleu",
+    },
+  },
+  {
     name: "Djery DIETCHI",
     link: "https://dietchidjery.com/",
     tags: ["Fullstack", "Mobile"],
