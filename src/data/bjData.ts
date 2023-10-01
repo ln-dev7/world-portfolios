@@ -46,9 +46,19 @@ const bjData: CountryData[] = [
     link: "https://loicfarel.netlify.app",
     tags: ["FrontEnd", "Backend"],
     socials: {
-      twitter: "@loicfarel",
+      twitter: "loicfarel",
       github: "loicfarel",
       linkedin: "loicfarel",
+    },
+  },
+  {
+    name: "Ronel KPOSSOU",
+    link: "https://ronelkpossou.vercel.app/",
+    tags: ["FrontEnd", "Backend", "Cybersecurity"],
+    socials: {
+      twitter: "th3f0r31gn3r",
+      github: "th3f0r3ign3r",
+      linkedin: "ronelkpossou",
     },
   },
 ];
