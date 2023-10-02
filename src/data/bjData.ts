@@ -61,6 +61,16 @@ const bjData: CountryData[] = [
       linkedin: "ronelkpossou",
     },
   },
+  {
+    name: "Kabirou ALASSANE",
+    link: "https://kabirou-alassane.com/",
+    tags: ["FrontEnd", "Backend", "Mobile"],
+    socials: {
+      twitter: "BlakvGhost",
+      github: "BlakvGhost",
+      linkedin: "kabirou-alassane-11293524a",
+    },
+  },
 ];
 
 export default bjData;
