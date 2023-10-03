@@ -11,6 +11,16 @@ const ciData: CountryData[] = [
       github: "guerth-manzala-a154a3143",
     },
   },
+  {
+    name: "Joseph Basix",
+    link: "https://josephbasix-dev.web.app",
+    tags: ["Fullstack", "Mobile", "FrontEnd"],
+    socials: {
+      twitter: "josephb",
+      linkedin: "josephbasix",
+      github: "joephb613",
+    },
+  },
 ];
 
 export default ciData;
