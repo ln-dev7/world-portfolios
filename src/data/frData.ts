@@ -28,7 +28,7 @@ const frData: CountryData[] = [
     socials: {
       twitter: "MelvinCourant",
       github: "MelvinCourant",
-      linkedin: "Melvin Courant",
+      linkedin: "melvin-courant",
     },
   },
 ];
