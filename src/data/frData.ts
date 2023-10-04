@@ -21,6 +21,16 @@ const frData: CountryData[] = [
       linkedin: "aladdine-abdou",
     },
   },
+  {
+    name: "Melvin Courant",
+    link: "https://melvincourant.fr/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "MelvinCourant",
+      github: "MelvinCourant",
+      linkedin: "Melvin Courant",
+    },
+  },
 ];
 
 export default frData;
