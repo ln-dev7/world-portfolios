@@ -31,6 +31,16 @@ const frData: CountryData[] = [
       linkedin: "melvin-courant",
     },
   },
+  {
+    name: "Edwin dijeont",
+    link: "https://edwin-dijeont.vercel.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "Edwindijeont",
+      github: "EdwinDij",
+      linkedin: "edwin-dijeont-1469a0226",
+    },
+  },
 ];
 
 export default frData;
