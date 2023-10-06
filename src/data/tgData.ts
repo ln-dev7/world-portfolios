@@ -41,6 +41,16 @@ const tgData: CountryData[] = [
       linkedin: "felix-ntougan",
     },
   },
+  {
+    name: "TOKE K. Parfait",
+    link: "https://tkp.social-informatic.com/",
+    tags: ["Web", "Mobile", "Backend"],
+    socials: {
+      twitter: "docteur_parfait",
+      github: "Docteur-Parfait",
+      linkedin: "parfait-toke",
+    },
+  },
 ];
 
 export default tgData;
