@@ -44,7 +44,7 @@ const tgData: CountryData[] = [
   {
     name: "TOKE K. Parfait",
     link: "https://tkp.social-informatic.com/",
-    tags: ["Web", "Mobile", "Backend"],
+    tags: ["FrontEnd", "Mobile", "Backend"],
     socials: {
       twitter: "docteur_parfait",
       github: "Docteur-Parfait",
