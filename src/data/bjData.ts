@@ -62,6 +62,16 @@ const bjData: CountryData[] = [
     },
   },
   {
+    name: "BOURAIMA Abdoul Ouadoud",
+    link: "https://abdoul-ouadoud.netlify.app/",
+    tags: ["FrontEnd", "Blockchain", "Security"],
+    socials: {
+      twitter: "abdoul_ouadoud",
+      github: "AbdoulOuadoud",
+      linkedin: "abdoulouadoud",
+    },
+  },
+  {
     name: "Kabirou ALASSANE",
     link: "https://kabirou-alassane.com/",
     tags: ["FrontEnd", "Backend", "Mobile"],
