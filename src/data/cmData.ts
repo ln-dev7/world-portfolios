@@ -682,6 +682,16 @@ const cmData: CountryData[] = [
       linkedin: "djery-dietchi",
     },
   },
+  {
+    name: "Thimotee Legrand Kenmogne Ghomsi",
+    link: "https://thimotee.notion.site/thimotee/THIMOTEE-KENMOGNE-2ccf92b7dec84d12b56a6747aab043a2",
+    tags: ["Fullstack", "Machine Learning", "Cloud"],
+    socials: {
+      twitter: "Dlocalhost",
+      github: "KenmogneThimotee",
+      linkedin: "kenmogne",
+    },
+  },
 ];
 
 export default cmData;
