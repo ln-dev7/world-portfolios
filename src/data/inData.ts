@@ -2,6 +2,16 @@ import type CountryData from "@/interfaces/countryData.interface";
 
 const cmData: CountryData[] = [
   {
+    name: "Jatin Sharma",
+    link: "https://j471n.in/",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "j471n_",
+      github: "j471n",
+      linkedin: "j471n",
+    },
+  },
+  {
     name: "Preet Suthar",
     link: "https://preetsuthar.me",
     tags: ["FrontEnd", "BackEnd", "Design"],
