@@ -81,6 +81,16 @@ const bjData: CountryData[] = [
       linkedin: "kabirou-alassane-11293524a",
     },
   },
+  {
+    name: "LAWINGNI Rachard",
+    link: "https://lawingni-rachard.onrender.com",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "",
+      github: "Abdoulrachard",
+      linkedin: "",
+    },
+  },
 ];
 
 export default bjData;
