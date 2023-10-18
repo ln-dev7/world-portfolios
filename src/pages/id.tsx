@@ -30,6 +30,7 @@ export default function Indonesia() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(idData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

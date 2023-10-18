@@ -30,6 +30,7 @@ export default function RepubliqueDemocratiqueDuCongo() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(cdData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

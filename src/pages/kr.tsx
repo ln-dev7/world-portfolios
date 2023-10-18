@@ -30,6 +30,7 @@ export default function Korea() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(krData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

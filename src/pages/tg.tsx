@@ -30,6 +30,7 @@ export default function Togo() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(tgData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

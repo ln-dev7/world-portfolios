@@ -30,6 +30,7 @@ export default function India() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(inData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

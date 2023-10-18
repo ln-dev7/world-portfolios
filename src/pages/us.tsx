@@ -30,6 +30,7 @@ export default function USA() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(usData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

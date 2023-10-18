@@ -30,6 +30,7 @@ export default function Senegal() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(snData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

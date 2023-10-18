@@ -30,6 +30,7 @@ export default function Benin() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(bjData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

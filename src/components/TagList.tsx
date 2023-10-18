@@ -1,14 +1,16 @@
 const TagList = ({
+  filteredData,
   setTag,
   tags,
   selectedTags,
 }: {
+  filteredData: any,
   setTag: (tag: string) => void;
   tags: string[];
   selectedTags: string[];
 }) => (
   <>
-    <h2>Filter by </h2>
+    <h2>Filter by ({filteredData.length}) </h2>
     <div className="main-container-aside-tags">
       <button
         onClick={() => setTag("all")}

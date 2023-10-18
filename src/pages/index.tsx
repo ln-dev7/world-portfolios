@@ -30,6 +30,7 @@ export default function Home() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(cmData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

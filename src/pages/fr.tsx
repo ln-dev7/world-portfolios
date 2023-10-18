@@ -30,6 +30,7 @@ export default function France() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(frData)}
                 setTag={setTag}
                 selectedTags={selectedTags}

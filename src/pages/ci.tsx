@@ -30,6 +30,7 @@ export default function CoteDIvoire() {
           <div className="main-container">
             <aside className="main-container-aside">
               <TagList
+                filteredData={filteredData}
                 tags={extractTags(ciData)}
                 setTag={setTag}
                 selectedTags={selectedTags}
