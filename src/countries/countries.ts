@@ -61,6 +61,12 @@ const countries: Country[] = [
     numberCode: "243",
     flag: "/assets/images/cd/flag.png",
   },
+  {
+    name: "Indonesia",
+    code: "id",
+    numberCode: "62",
+    flag: "/assets/images/id/flag.png",
+  },
 ];
 
 export default countries;
