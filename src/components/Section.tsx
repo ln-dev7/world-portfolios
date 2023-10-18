@@ -64,6 +64,7 @@ const Section = () => {
           <span>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://opencollective.com/world-portfolios"
             >
               {">> "}Sponsor Project
