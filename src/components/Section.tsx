@@ -45,7 +45,8 @@ const Section = () => {
             </select>
           </div>
           <span>
-            Currently you visit the portfolios of : <span>{currentCountryName}</span>
+            Currently you visit the portfolios of :{" "}
+            <span>{currentCountryName}</span>
           </span>
           <div className="list">
             {countries.map((country: any) => (
@@ -59,6 +60,15 @@ const Section = () => {
               </Link>
             ))}
           </div>
+
+          <span>
+            <a
+              target="_blank"
+              href="https://opencollective.com/world-portfolios"
+            >
+              {">> "}Sponsor Project
+            </a>
+          </span>
         </div>
       </div>
     </section>

@@ -72,6 +72,12 @@
           text-underline-offset: 4px;
           font-weight: 500;
         }
+        a {
+          text-decoration: underline;
+          text-underline-offset: 4px;
+          font-weight: 500;
+          color: $blue;
+        }
       }
       .list {
         width: 100%;
@@ -79,7 +85,7 @@
         align-items: center;
         justify-content: flex-start;
         gap: .5rem;
-        margin-top: 1rem;
+        margin: 1rem 0;
         a {
           width: 25px;
           height: 25px;
