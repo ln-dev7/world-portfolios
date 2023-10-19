@@ -3,7 +3,7 @@ import type CountryData from "@/interfaces/countryData.interface";
 const cmData: CountryData[] = [
   {
     name: "Leonel Ngoya",
-    link: [ "https://leonelngoya.com/", "https://lndev.me"],
+    link: ["https://leonelngoya.com/", "https://lndev.me"],
     tags: ["FrontEnd", "Creative dev"],
     socials: {
       twitter: "ln_dev7",
@@ -690,6 +690,16 @@ const cmData: CountryData[] = [
       twitter: "Dlocalhost",
       github: "KenmogneThimotee",
       linkedin: "kenmogne",
+    },
+  },
+  {
+    name: "NGUIMFACK NKENGFACK Donald Blondin",
+    link: "https://lebigdonald.github.io/portfolio/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "lebigdonald",
+      github: "lebigdonald",
+      linkedin: "donald-nkengfack",
     },
   },
 ];
