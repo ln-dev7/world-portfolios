@@ -153,7 +153,7 @@ const cmData: CountryData[] = [
   },
   {
     name: "Franck Siyapze",
-    link: "https://scorp-corporate.com/",
+    link: "https://siyapze-franck.ca/",
     tags: ["FrontEnd", "BackEnd", "Mobile"],
     socials: {
       twitter: "thehuck_s",
