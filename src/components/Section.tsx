@@ -50,7 +50,10 @@ const Section = () => {
           </span>
           <div className="list">
             {countries.map((country: any) => (
-              <Link key={country.code} href={`/${country.code}`}>
+              <Link
+                key={country.code}
+                href={`${country.code !== "cm" ? `/${country.code}` : "/"}`}
+              >
                 <Image
                   alt={country.name}
                   src={country.flag}
