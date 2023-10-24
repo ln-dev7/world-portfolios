@@ -49,30 +49,28 @@ const Section = () => {
             <span>{currentCountryName}</span>
           </span>
           <div className="list">
-            {countries.map((country: any) => (
-              <Link
-                key={country.code}
-                href={`${country.code !== "cm" ? `/${country.code}` : "/"}`}
-              >
-                <Image
-                  alt={country.name}
-                  src={country.flag}
-                  width={500}
-                  height={500}
-                />
-              </Link>
-            ))}
-          </div>
-
-          <span>
+            <div className="list-countries">
+              {countries.map((country: any) => (
+                <Link
+                  key={country.code}
+                  href={`${country.code !== "cm" ? `/${country.code}` : "/"}`}
+                >
+                  <Image
+                    alt={country.name}
+                    src={country.flag}
+                    width={500}
+                    height={500}
+                  />
+                </Link>
+              ))}
+            </div>
             <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://opencollective.com/world-portfolios"
+              className="list-buymeacoffee"
+              href="https://www.buymeacoffee.com/lndev"
             >
-              {">> "}Sponsor Project
+              <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lndev&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" />
             </a>
-          </span>
+          </div>
         </div>
       </div>
     </section>

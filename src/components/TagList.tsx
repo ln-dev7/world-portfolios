@@ -4,7 +4,7 @@ const TagList = ({
   tags,
   selectedTags,
 }: {
-  filteredData: any,
+  filteredData: any;
   setTag: (tag: string) => void;
   tags: string[];
   selectedTags: string[];

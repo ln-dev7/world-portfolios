@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 2rem 0 3rem 0;
+  padding: 2rem 0 1rem 0;
   background: $white;
   border-bottom: 1px solid rgba($color: $gray, $alpha: 0.2);
   &-intro {
@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     &__head {
+      width: 100%;
       h1 {
         font-family: "Overpass", sans-serif;
         color: $green;
@@ -80,26 +81,37 @@
         }
       }
       .list {
-        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        gap: .5rem;
+        justify-content: space-between;
+        gap: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
         margin: 1rem 0;
-        a {
-          width: 25px;
-          height: 25px;
-          overflow: hidden;
-          border-radius: 50%;
+        &-countries {
+          //width: 100%;
           display: flex;
-          justify-content: center;
           align-items: center;
-          border: 1px solid #cbd5e1;
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+          justify-content: flex-start;
+          gap: 0.5rem;
+          a {
+            width: 25px;
+            height: 25px;
+            overflow: hidden;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #cbd5e1;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
           }
+        }
+        &-buymeacoffee {
+          flex-shrink: 0;
         }
       }
     }
