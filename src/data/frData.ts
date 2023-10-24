@@ -41,6 +41,16 @@ const frData: CountryData[] = [
       linkedin: "edwin-dijeont-1469a0226",
     },
   },
+  {
+    name: "Jeremy Teurterie",
+    link: "https://jeremyteurterie.com",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "jeremyteurterie",
+      github: "jeremyteurterie",
+      linkedin: "jeremyteurterie",
+    },
+  },
 ];
 
 export default frData;
