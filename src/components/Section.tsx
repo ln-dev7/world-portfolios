@@ -53,7 +53,7 @@ const Section = () => {
               {countries.map((country: any) => (
                 <Link
                   key={country.code}
-                  href={`${country.code !== "cm" ? `/${country.code}` : "/"}`}
+                  href={`/${country.code}`}
                 >
                   <Image
                     alt={country.name}
