@@ -11,6 +11,16 @@ const ciData: CountryData[] = [
       github: "devdams",
     },
   },
+  {
+    name: "Yaya Mohamed",
+    link: "https://yaya.surge.sh",
+    tags: ["FrontEnd", "BackEnd", "DevOps"],
+    socials: {
+      twitter: "",
+      github: "Yaya12085",
+      linkedin: "yayadev",
+    },
+  },
 ];
 
 export default ciData;
