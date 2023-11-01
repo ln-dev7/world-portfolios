@@ -51,6 +51,16 @@ const frData: CountryData[] = [
       linkedin: "jeremyteurterie",
     },
   },
+  {
+    name: "Arthur",
+    link: "https://arthur-bordet.vercel.app/",
+    tags: ["FrontEnd", "Creative dev"],
+    socials: {
+      twitter: "",
+      github: "VoidSplit",
+      linkedin: "arthur-bordet",
+    },
+  },
 ];
 
 export default frData;
