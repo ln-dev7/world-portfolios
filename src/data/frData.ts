@@ -61,6 +61,16 @@ const frData: CountryData[] = [
       linkedin: "arthur-bordet",
     },
   },
+  {
+    name: "Flymeth",
+    link: "https://flymeth.net",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "flymeth",
+      github: "flymeth",
+      linkedin: "",
+    },
+  },
 ];
 
 export default frData;
