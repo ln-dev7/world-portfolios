@@ -71,6 +71,16 @@ const frData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Guillaume Lorel",
+    link: "https://guillaumelorel.com/en/",
+    tags: ["FrontEnd", "Design", "Wordpress"],
+    socials: {
+      twitter: "",
+      github: "GuillaumeLorel",
+      linkedin: "guillaumelorel",
+    },
+  },
 ];
 
 export default frData;
