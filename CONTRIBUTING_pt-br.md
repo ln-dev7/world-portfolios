@@ -84,6 +84,6 @@ const cmData = [
     },
 ```
 
-#### 6. Faça o commit das alterações e envie a nova Branch.
+#### 6. Faça o commit das alterações e dê um push na nova Branch.
 
 #### 7. Abra e envie uma PR.
