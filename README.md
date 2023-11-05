@@ -1,6 +1,6 @@
 # WORLD PORTFOLIOS
 
-English | [Português](README_pt-br.md) |
+English | [Português](README/README_pt-br.md) |
 
 Portfolios of developers of the world
 
