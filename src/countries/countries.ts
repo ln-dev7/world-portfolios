@@ -75,4 +75,4 @@ const countries: Country[] = [
   },
 ];
 
-export default countries;
+export default countries.sort((a, b) => a.name.localeCompare(b.name))
