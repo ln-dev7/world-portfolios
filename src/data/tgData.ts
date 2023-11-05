@@ -52,7 +52,7 @@ const tgData: CountryData[] = [
     },
   },
   {
-    name: "Yaasiin AYEVA",
+    name: "AYEVA Yaasiin",
     link: "https://siin-folio.vercel.app/",
     tags: ["FrontEnd", "Mobile", "Backend", "System Administration"],
     socials: {
