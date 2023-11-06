@@ -21,6 +21,16 @@ const ciData: CountryData[] = [
       linkedin: "yayadev",
     },
   },
+  {
+    name: "Koua Wilfried Aurelien Elvire",
+    link: "https://willelvire.github.io/",
+    tags: ["FrontEnd", "BackEnd", "AI", "DevOps", "Web3"],
+    socials: {
+      twitter: "",
+      github: "willelvire",
+      linkedin: "willelvire",
+    },
+  },
 ];
 
 export default ciData;
