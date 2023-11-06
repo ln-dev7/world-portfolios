@@ -14,7 +14,7 @@
     &-container {
       margin: 0 0 1rem 0;
       h2 {
-        font-family: "overpass", sans-serif;
+        font-family: var(--font-overpass);
       }
       a {
         width: fit-content;

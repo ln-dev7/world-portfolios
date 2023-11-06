@@ -64,7 +64,7 @@
       flex-direction: column;
       align-items: flex-start;
       h2 {
-        font-family: "overpass", sans-serif;
+        font-family: var(--font-overpass);
         color: $dark;
         margin-bottom: 0.75rem;
       }

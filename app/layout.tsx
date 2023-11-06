@@ -1,17 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Overpass } from "next/font/google";
 import Providers from "@/utils/provider";
 import "@/styles/globals.scss";
-
-const inter = Inter({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-});
-
-const overpass = Overpass({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-});
+import { inter, overpass } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: {
@@ -57,8 +47,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} ${overpass.className}`}>
+    <html lang="en" className={`${inter.variable} ${overpass.variable}`}>
+      <body>
         <Providers>{children}</Providers>
       </body>
     </html>
