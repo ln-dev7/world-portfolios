@@ -51,6 +51,16 @@ const tgData: CountryData[] = [
       linkedin: "parfait-toke",
     },
   },
+  {
+    name: "AYEVA Yaasiin",
+    link: "https://siin-folio.vercel.app/",
+    tags: ["FrontEnd", "Mobile", "Backend", "System Administration"],
+    socials: {
+      twitter: "the___bishop",
+      github: "yaasiin-ayeva",
+      linkedin: "yaasiin-ayeva",
+    },
+  },
 ];
 
 export default tgData;
