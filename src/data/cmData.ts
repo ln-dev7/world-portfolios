@@ -702,6 +702,16 @@ const cmData: CountryData[] = [
       linkedin: "donald-nkengfack",
     },
   },
+  {
+    name: "Wilfrid Tiam",
+    link: "https://wilfridtiam.eland.cc",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "wilfridtiam",
+    },
+  },
 ];
 
 export default cmData;
