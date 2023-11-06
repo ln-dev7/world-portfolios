@@ -73,6 +73,12 @@ const countries: Country[] = [
     numberCode: "55",
     flag: "/assets/images/br/flag.png",
   },
+  {
+    name: "Gabon",
+    code: "ga",
+    numberCode: "241",
+    flag: "/assets/images/ga/flag.png",
+  },
 ];
 
 export default countries.sort((a, b) => a.name.localeCompare(b.name))
