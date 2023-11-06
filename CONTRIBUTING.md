@@ -12,7 +12,7 @@ Visit the [repository](https://github.com/ln-dev7/world-portfolios) on github an
 
 #### 4. Look for the ISO code of your country, for example for `Cameroon` it is `cm`, for `France` it is `fr`... Once you have found it ...
 
-#### 5. Go to the `src/data/[codeOfYourCountry]Data.ts` ( `cmData.ts`, `frData.ts` )
+#### 5. Go to the `data/[codeOfYourCountry]Data.ts` ( `cmData.ts`, `frData.ts` )
 
 #### If you don’t see the file corresponding to your country code
 
