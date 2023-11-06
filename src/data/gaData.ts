@@ -8,7 +8,7 @@ const idData: CountryData[] = [
     socials: {
       github: "williamhortone",
       twitter: "William-Hortone",
-      linkedin: "William Hortone",
+      linkedin: "william-hortone",
     },
   },
 ];
