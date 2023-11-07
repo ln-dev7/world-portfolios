@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  authors: [{ name: "Leonel NGOYA", url: "https://wp.lndev.me" }],
+  authors: [{ name: "Leonel NGOYA", url: "https://leonelngoya.com" }],
   keywords: "portfolio, opensource, world, github",
 };
 
