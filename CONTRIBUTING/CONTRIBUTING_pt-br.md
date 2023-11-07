@@ -16,7 +16,7 @@ Visite o [repositório](https://github.com/ln-dev7/world-portfolios) no github e
 
 #### Se você não encontrar o arquivo correspondente ao código do seu país
 
-Significa apenas que ele ainda não foi adicionado à nossa lista, portanto, você pode [escrever para mim em particular](https://twitter.com/ln_dev7) ou você pode [acompanhe esta issue](https://github.com/ln-dev7/world-portfolios/issues/80) para adicionar seu país
+Significa apenas que ele ainda não foi adicionado à nossa lista, portanto, você pode [escrever para mim em particular](https://twitter.com/ln_dev7) ou você pode [acompanhe esta issue](../CONTRIBUTING/ADDNEWCOUNTRY_pt-br.md) para adicionar seu país
 
 #### Se você vir o arquivo correspondente ao código de seu país, abra-o e edite o arquivo
 
@@ -86,4 +86,4 @@ const cmData = [
 
 #### 6. Faça o commit das alterações e dê um push na nova Branch.
 
-#### 7. Abra e envie uma PR.
+#### 7. Abra uma solicitação e envie um Pull Request (PR).
