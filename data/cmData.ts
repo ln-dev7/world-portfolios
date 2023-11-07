@@ -712,6 +712,16 @@ const cmData: CountryData[] = [
       linkedin: "wilfridtiam",
     },
   },
+  {
+    name: "Brayan Tiwa",
+    link: "https://asmitta-01.github.io/portofolio",
+    tags: ["Design", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "",
+      github: "asmitta-01",
+      linkedin: "brayan-tiwa-176726209",
+    },
+  },
 ];
 
 export default cmData;
