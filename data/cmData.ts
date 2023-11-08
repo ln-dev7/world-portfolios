@@ -43,12 +43,12 @@ const cmData: CountryData[] = [
   },
   {
     name: "Wilfried Djossi",
-    link: "https://la2spaille.studio/",
+    link: "https://www.la2spaille.com/",
     tags: ["FrontEnd", "Creative Dev"],
     socials: {
       twitter: "la2spaille",
       github: "la2spaille",
-      linkedin: "wilfried-djossi-92b2b222b",
+      linkedin: "wilfried-djossi",
     },
   },
   {
