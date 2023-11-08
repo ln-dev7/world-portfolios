@@ -13,4 +13,4 @@ const snData: CountryData[] = [
   },
 ];
 
-export default snData;
+export {snData}

@@ -13,4 +13,4 @@ const idData: CountryData[] = [
   },
 ];
 
-export default idData;
+export {idData}

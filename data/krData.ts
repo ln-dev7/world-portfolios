@@ -13,4 +13,4 @@ const krData: CountryData[] = [
   },
 ];
 
-export default krData;
+export {krData}

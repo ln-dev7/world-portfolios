@@ -1,6 +1,6 @@
 import type CountryData from "@/interfaces/countryData.interface";
 
-const ciData: CountryData[] = [
+const cdData: CountryData[] = [
   {
     name: "Guerth",
     link: "https://guerth.vercel.app",
@@ -23,4 +23,4 @@ const ciData: CountryData[] = [
   },
 ];
 
-export default ciData;
+export {cdData}

@@ -33,4 +33,4 @@ const ciData: CountryData[] = [
   },
 ];
 
-export default ciData;
+export {ciData}

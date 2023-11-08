@@ -1,6 +1,6 @@
 import type CountryData from "@/interfaces/countryData.interface";
 
-const idData: CountryData[] = [
+const gaData: CountryData[] = [
   {
     name: "William Hortone",
     link: "https://williamhortone.com",
@@ -13,4 +13,4 @@ const idData: CountryData[] = [
   },
 ];
 
-export default idData;
+export { gaData }

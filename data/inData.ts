@@ -1,6 +1,6 @@
 import type CountryData from "@/interfaces/countryData.interface";
 
-const cmData: CountryData[] = [
+const inData: CountryData[] = [
   {
     name: "Jatin Sharma",
     link: "https://j471n.in/",
@@ -33,4 +33,4 @@ const cmData: CountryData[] = [
   },
 ];
 
-export default cmData;
+export {inData}
