@@ -1,5 +1,5 @@
 export interface Portfolio{
-    id: number;
+    id: string;
     country: string;
     name: string;
     link: string | string[];

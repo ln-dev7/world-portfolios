@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import countries from "@/countries/countries";
+import countries from "@/helpers/countries";
 import { useRouter, usePathname } from "next/navigation";
 
 export const Context = createContext();
