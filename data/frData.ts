@@ -83,4 +83,4 @@ const frData: CountryData[] = [
   },
 ];
 
-export default frData;
+export {frData}

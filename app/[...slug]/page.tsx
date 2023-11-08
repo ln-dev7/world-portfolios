@@ -8,12 +8,27 @@ import Top from "@/components/ToTop";
 import extractTags from "@/utils/extractTags";
 import Footer from "@/components/Footer";
 import MainLogic from "@/utils/mainLogic";
-import idData from "@/data/idData";
-import { Metadata } from "next";
+import { portfolios } from "@/helpers/load-data";
 
-export default function ID() {
+
+type PageProps = {
+  params: {
+      slug: string[],
+  }
+};
+
+const getPortfolios = (slug: string) => {
+  return portfolios.filter((groupedPortfolio)=> groupedPortfolio.country === slug)
+}
+
+
+export default function PortfolioList(
+  { params }: PageProps
+) {
+  const slug = params.slug[0]
+  const data = getPortfolios(slug)
   const { filteredData, selectedTags, setTag, filterByName } =
-    MainLogic(idData);
+    MainLogic(data);
 
   return (
     <div className="App">
@@ -25,7 +40,7 @@ export default function ID() {
           <aside className="main-container-aside">
             <TagList
               filteredData={filteredData}
-              tags={extractTags(idData)}
+              tags={extractTags(data)}
               setTag={setTag}
               selectedTags={selectedTags}
             />

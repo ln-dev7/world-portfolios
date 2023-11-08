@@ -724,4 +724,4 @@ const cmData: CountryData[] = [
   },
 ];
 
-export default cmData;
+export { cmData }

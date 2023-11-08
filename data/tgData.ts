@@ -63,4 +63,4 @@ const tgData: CountryData[] = [
   },
 ];
 
-export default tgData;
+export {tgData}

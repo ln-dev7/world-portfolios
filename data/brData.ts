@@ -13,4 +13,4 @@ const brData: CountryData[] = [
   },
 ];
 
-export default brData;
+export { brData }
