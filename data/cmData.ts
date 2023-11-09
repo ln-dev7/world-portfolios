@@ -722,6 +722,16 @@ const cmData: CountryData[] = [
       linkedin: "brayan-tiwa-176726209",
     },
   },
+  {
+    name: "Ousmane Meriga",
+    link: "https://meriga.vercel.app",
+    tags: ["Design", "FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "agirem1",
+      github: "Agirem",
+      linkedin: "ousmane-meriga-259955171/",
+    },
+  },
 ];
 
 export { cmData }
