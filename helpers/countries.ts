@@ -12,6 +12,7 @@ import { krData } from "@/data/krData";
 import { snData } from "@/data/snData";
 import { tgData } from "@/data/tgData";
 import { usData } from "@/data/usData";
+import { mmData } from "@/data/mmData";
 
 const countries: Country[] = [
   {
@@ -104,6 +105,13 @@ const countries: Country[] = [
     numberCode: "241",
     flag: "/assets/images/ga/flag.png",
     portfolios: gaData
+  },
+  {
+    name: "Myanmar (Burma)",
+    code: "mm",
+    numberCode: "95",
+    flag: "/assets/images/mm/flag.png",
+    portfolios: mmData
   },
 ];
 
