@@ -48,6 +48,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${overpass.variable}`}>
+      <head>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-2222017759396595"
+        ></meta>
+      </head>
       <body>
         <Providers>{children}</Providers>
       </body>
