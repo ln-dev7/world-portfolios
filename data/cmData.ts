@@ -404,7 +404,7 @@ const cmData: CountryData[] = [
   },
   {
     name: "Patrick Malanou",
-    link: "https://pf22.vercel.app",
+    link: "https://malanou.cm",
     tags: ["Fullstack", "DevOps"],
     socials: {
       twitter: "PatrickMalanou",
