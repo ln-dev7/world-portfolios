@@ -81,6 +81,16 @@ const frData: CountryData[] = [
       linkedin: "guillaumelorel",
     },
   },
+  {
+    name: "Dereje Getu Tadesse",
+    link: "https://dereje.fr/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
+    },
+  },
 ];
 
 export {frData}
