@@ -13,6 +13,7 @@ import { snData } from "@/data/snData";
 import { tgData } from "@/data/tgData";
 import { usData } from "@/data/usData";
 import { mmData } from "@/data/mmData";
+import { keData } from "@/data/keData";
 
 const countries: Country[] = [
   {
@@ -112,6 +113,13 @@ const countries: Country[] = [
     numberCode: "95",
     flag: "/assets/images/mm/flag.png",
     portfolios: mmData
+  },
+  {
+    name: "Kenya",
+    code: "ke",
+    numberCode: "254",
+    flag: "/assets/images/ke/flag.png",
+    portfolios: keData
   },
 ];
 
