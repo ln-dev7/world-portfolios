@@ -8,7 +8,7 @@ const keData: CountryData[] = [
         socials: {
             github: "Mwaka3",
             twitter: "",
-            linkedin: "Maxwell Mwaka",
+            linkedin: "maxwell-mwaka-bb9a82230",
         },
     }
 ];
