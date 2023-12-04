@@ -13,7 +13,7 @@ const ciData: CountryData[] = [
   },
   {
     name: "Yaya Mohamed",
-    link: "https://yaya.surge.sh",
+    link: "https://yayamohamed.com",
     tags: ["FrontEnd", "BackEnd", "DevOps"],
     socials: {
       twitter: "",
@@ -33,4 +33,4 @@ const ciData: CountryData[] = [
   },
 ];
 
-export {ciData}
+export { ciData };
