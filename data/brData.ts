@@ -11,6 +11,16 @@ const brData: CountryData[] = [
       linkedin: "edivaldo-junior",
     },
   },
+  {
+    name: "Mateus Felipe Gonçalves",
+    link: "https://mateusf.com",
+    tags: ["frontend", "backend", "mobile", "fullstack", "devops"],
+    socials: {
+      github: "mateusfg7",
+      twitter: "mateusfg77",
+      linkedin: "mateusfg",
+    },
+  },
 ];
 
 export { brData }
