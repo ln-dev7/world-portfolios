@@ -2,49 +2,24 @@
 
 import Image from "next/image";
 import { Modal } from "react-bootstrap";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Context } from "@/context/countryContext";
+import { Context } from "@/contexts/countryContext";
+import { ThemeContext } from "@/contexts/themeContext";
 
 const NavBar = ({
   onChangeValue,
 }: {
   onChangeValue: (value: string) => void;
 }) => {
-  const handelChangeFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChangeFilter = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChangeValue(e.target.value);
   };
-
   const router = useRouter();
-
-  const [theme, setTheme] = useState("light");
-  const bodyElement = useRef<HTMLElement>(null!);
-
-  useEffect(() => {
-    bodyElement.current = document.body;
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-      setTheme(savedTheme);
-    }
-  }, []);
-  
-  useEffect(() => {
-    if (theme === "light") {
-      bodyElement.current.classList.remove("dark");
-      bodyElement.current.classList.add("light");
-    } else {
-      bodyElement.current.classList.remove("light");
-      bodyElement.current.classList.add("dark");
-    }
-  }, [theme]);
-
-  function toggleTheme() {
-    setTheme(theme === "light" ? "dark" : "light");
-    localStorage.setItem("theme", theme === "light" ? "dark" : "light");
-  }
-
-  const { country } = useContext(Context);
-  const { name: currentCountryName, flag: currentCountryFlag } = country;
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  const {
+    country: { name: countryName, flag: countryFlag },
+  } = useContext(Context);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const handleModalOpen = () => {
     setModalIsOpen(true);
@@ -151,8 +126,8 @@ const NavBar = ({
           <div className="nav-container-left">
             <div className="nav-container-left-flag">
               <Image
-                alt={`${currentCountryName}`}
-                src={`${currentCountryFlag}`}
+                alt={`${countryName}`}
+                src={`${countryFlag}`}
                 width={500}
                 height={500}
               />
@@ -191,7 +166,7 @@ const NavBar = ({
             <div className="nav-container-menu-search">
               <input
                 type="text"
-                onChange={handelChangeFilter}
+                onChange={handleChangeFilter}
                 placeholder="Search a portfolio ..."
               />
               <button>

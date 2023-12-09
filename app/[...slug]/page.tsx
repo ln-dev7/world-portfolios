@@ -11,6 +11,7 @@ import MainLogic from "@/utils/mainLogic";
 import { portfolios } from "@/helpers/portfolios";
 import countries from "@/helpers/countries";
 import { notFound } from "next/navigation";
+import { ThemeProvider } from "@/contexts/themeContext";
 
 type PageProps = {
   params: {
@@ -28,7 +29,7 @@ export default function PortfolioList({ params }: PageProps) {
   const slug = params.slug[0];
 
   if (!countries.some((country) => country.code === slug)) {
-    notFound()
+    notFound();
   }
 
   const data = getPortfolios(slug);
@@ -37,7 +38,9 @@ export default function PortfolioList({ params }: PageProps) {
   return (
     <div className="App">
       <Top />
-      <NavBar onChangeValue={filterByName} />
+      <ThemeProvider>
+        <NavBar onChangeValue={filterByName} />
+      </ThemeProvider>
       <Section />
       <main className="main">
         <div className="main-container">
