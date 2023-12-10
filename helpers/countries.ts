@@ -14,6 +14,7 @@ import { tgData } from "@/data/tgData";
 import { usData } from "@/data/usData";
 import { mmData } from "@/data/mmData";
 import { keData } from "@/data/keData";
+import { cgData } from "@/data/cgData";
 
 const countries: Country[] = [
   {
@@ -120,6 +121,13 @@ const countries: Country[] = [
     numberCode: "254",
     flag: "/assets/images/ke/flag.png",
     portfolios: keData
+  },
+  {
+    name: "Congo-Brazzaville",
+    code: "cg",
+    numberCode: "242",
+    flag: "/assets/images/cg/flag.png",
+    portfolios: cgData
   },
 ];
 
