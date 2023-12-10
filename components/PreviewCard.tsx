@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useContext } from "react";
-import { Context } from "@/context/countryContext";
+import { Context } from "@/contexts/countryContext";
 
 export default function PreviewCard({
   handlePreviewCardClose,

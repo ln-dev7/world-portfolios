@@ -3,7 +3,7 @@
 import Top from "@/components/ToTop";
 import Footer from "@/components/Footer";
 import { useContext } from "react";
-import { Context } from "@/context/countryContext";
+import { Context } from "@/contexts/countryContext";
 import Link from "next/link";
 import { Metadata } from "next";
 

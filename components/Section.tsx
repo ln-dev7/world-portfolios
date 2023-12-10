@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useContext, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Context } from "@/context/countryContext";
+import { Context } from "@/contexts/countryContext";
 
 const Section = () => {
   const router = useRouter();
