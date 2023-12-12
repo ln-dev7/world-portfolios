@@ -11,6 +11,16 @@ const snData: CountryData[] = [
       linkedin: "abdoul-oumar-sy-b34443169",
     },
   },
+  {
+    name: "Issa Diop",
+    link: "https://resumev1.vercel.app/",
+    tags: ["FullStack"],
+    socials: {
+      github: "issa2580",
+      twitter: "Rootkit221",
+      linkedin: "issa-diop-94kimd08/",
+    },
+  },
 ];
 
 export {snData}
