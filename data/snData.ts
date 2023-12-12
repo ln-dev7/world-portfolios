@@ -14,7 +14,7 @@ const snData: CountryData[] = [
   {
     name: "Issa Diop",
     link: "https://resumev1.vercel.app/",
-    tags: ["Full Stack"],
+    tags: ["FullStack"],
     socials: {
       github: "issa2580",
       twitter: "Rootkit221",
