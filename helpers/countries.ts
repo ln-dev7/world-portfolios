@@ -10,6 +10,7 @@ import { idData } from "@/data/idData";
 import { inData } from "@/data/inData";
 import { krData } from "@/data/krData";
 import { snData } from "@/data/snData";
+import { gnData } from "@/data/gnData";
 import { tgData } from "@/data/tgData";
 import { usData } from "@/data/usData";
 import { mmData } from "@/data/mmData";
@@ -44,6 +45,13 @@ const countries: Country[] = [
     numberCode: "221",
     flag: "/assets/images/sn/flag.png",
     portfolios: snData
+  },
+  {
+    name: "Guinea",
+    code: "gn",
+    numberCode: "224",
+    flag: "/assets/images/gn/flag.png",
+    portfolios: gnData
   },
   {
     name: "Côte d'Ivoire",
