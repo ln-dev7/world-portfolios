@@ -732,6 +732,16 @@ const cmData: CountryData[] = [
       linkedin: "ousmane-meriga-259955171/",
     },
   },
+  {
+    name: "Ekouo Honore",
+    link: "https://ekouohonore.vercel.app",
+    tags: ["FullStack", "Cybersecurity"],
+    socials: {
+      twitter: "ekouohonore",
+      github: "",
+      linkedin: "",
+    },
+  },
 ];
 
 export { cmData }
