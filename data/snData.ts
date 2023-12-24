@@ -21,6 +21,16 @@ const snData: CountryData[] = [
       linkedin: "issa-diop-94kimd08/",
     },
   },
+  {
+    name: "Mouhamed EL Malick Hanne",
+    link: "https://mouhamedhanne.vercel.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      github: "mouhamedhanne",
+      twitter: "mouhamedhanne13",
+      linkedin: "",
+    },
+  },
 ];
 
 export {snData}
