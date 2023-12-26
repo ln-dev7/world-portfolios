@@ -21,6 +21,16 @@ const idData: CountryData[] = [
       linkedin: "adi-cahya-saputra-746a8423b",
     },
   },
+  {
+    name: "Gilang Ramadhan",
+    link: "https://gilang.my.id",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "aptgilang",
+      linkedin: "aptgilang",
+    },
+  },
 ];
 
 export { idData };
