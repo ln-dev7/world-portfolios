@@ -742,6 +742,16 @@ const cmData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Frederick Essono",
+    link: "https://fredchess.com",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "essonofriedrich",
+      github: "fredchess",
+      linkedin: "frederick-essono",
+    },
+  },
 ];
 
 export { cmData }
