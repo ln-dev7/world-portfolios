@@ -16,6 +16,7 @@ import { usData } from "@/data/usData";
 import { mmData } from "@/data/mmData";
 import { keData } from "@/data/keData";
 import { cgData } from "@/data/cgData";
+import { trData } from "@/data/trData";
 
 const countries: Country[] = [
   {
@@ -136,6 +137,13 @@ const countries: Country[] = [
     numberCode: "242",
     flag: "/assets/images/cg/flag.png",
     portfolios: cgData
+  },
+  {
+    name: "Türkiye",
+    code: "tr",
+    numberCode: "90",
+    flag: "/assets/images/tr/flag.png",
+    portfolios: trData
   },
 ];
 
