@@ -752,6 +752,16 @@ const cmData: CountryData[] = [
       linkedin: "frederick-essono",
     },
   },
+  {
+    name: "Hermann FOKOU",
+    link: "https://hermann-fokou.vercel.app/",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "hermanno_18",
+      github: "hermanno18",
+      linkedin: "hermann-fokou",
+    },
+  },
 ];
 
 export { cmData }
