@@ -31,6 +31,16 @@ const inData: CountryData[] = [
       linkedin: "md-rahil-vahora",
     },
   },
+  {
+    name: "Satyendra",
+    link: "https://satyendra.in",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "s4tyendra",
+      github: "s4tyendra",
+      linkedin: "s4tyendra",
+    },
+  },
 ];
 
 export {inData}
