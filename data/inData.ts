@@ -41,6 +41,16 @@ const inData: CountryData[] = [
       linkedin: "s4tyendra",
     },
   },
+  {
+    name: "Rohit Kushwaha",
+    link: "https://rohitk06.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "rohitk_06",
+      github: "DevRohit06",
+      linkedin: "rohitk06",
+    },
+  },
 ];
 
 export {inData}
