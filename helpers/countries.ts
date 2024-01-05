@@ -17,6 +17,7 @@ import { mmData } from "@/data/mmData";
 import { keData } from "@/data/keData";
 import { cgData } from "@/data/cgData";
 import { trData } from "@/data/trData";
+import { aoData } from "@/data/aoData";
 
 const countries: Country[] = [
   {
@@ -144,6 +145,13 @@ const countries: Country[] = [
     numberCode: "90",
     flag: "/assets/images/tr/flag.png",
     portfolios: trData
+  },
+  {
+    name: "Angola",
+    code: "ao",
+    numberCode: "244",
+    flag: "/assets/images/ao/flag.png",
+    portfolios: aoData
   },
 ];
 
