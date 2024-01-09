@@ -34,7 +34,7 @@ const ciData: CountryData[] = [
   {
     name: "N'Guessan Kouadio Elisée",
     link: "https://eliseekn.netlify.app/",
-    tags: ["PHP", "Laravel", "Filament", "React.js", "Next.js", "React Native", "TypeScript"],
+    tags: ["Front-end", "Back-end", "Mobile"],
     socials: {
       twitter: "eliseekn",
       github: "eliseekn",
