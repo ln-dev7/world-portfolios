@@ -762,6 +762,16 @@ const cmData: CountryData[] = [
       linkedin: "hermann-fokou",
     },
   },
+  {
+    name: "Kemougne Gaping Joshua",
+    link: "https://kirinportfolio.netlify.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "GapingJosue",
+      github: "K-Josh",
+      linkedin: "joshua-kemougne-a04850219",
+    },
+  },
 ];
 
 export { cmData }
