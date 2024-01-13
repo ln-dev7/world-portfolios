@@ -772,6 +772,16 @@ const cmData: CountryData[] = [
       linkedin: "joshua-kemougne-a04850219",
     },
   },
+  {
+    name: "BAHA Ephraïm",
+    link: "https://jeansamist.vercel.app/",
+    tags: ["FrontEnd", "Mobile", "BackEnd"],
+    socials: {
+      twitter: "jeansamist",
+      github: "jeansamist",
+      linkedin: "jeansamist",
+    },
+  },
 ];
 
 export { cmData }
