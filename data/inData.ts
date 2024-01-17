@@ -61,6 +61,16 @@ const inData: CountryData[] = [
       linkedin: "nparashar150",
     },
   },
+   {
+    name: "Himanshu Chandola",
+    link: "https://himanshuchandola.fyi",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "himanshuistaken",
+      github: "himanshuchandola",
+      linkedin: "himanshuchandola",
+    },
+  },
 ];
 
 export {inData}
