@@ -91,6 +91,16 @@ const frData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Sébastien Criado",
+    link: "https://sebastiencriado.com/",
+    tags: ["FrontEnd", "BackEnd", "DevOps"],
+    socials: {
+      twitter: "sebcriado",
+      github: "sebcriado",
+      linkedin: "",
+    },
+  },
 ];
 
 export {frData}
