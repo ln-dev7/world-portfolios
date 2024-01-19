@@ -96,7 +96,7 @@ const frData: CountryData[] = [
     link: "https://sebastiencriado.com/",
     tags: ["FrontEnd", "BackEnd", "DevOps"],
     socials: {
-      twitter: "sebcriado",
+      twitter: "CriadoSebastien",
       github: "sebcriado",
       linkedin: "",
     },
