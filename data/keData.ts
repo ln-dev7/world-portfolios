@@ -13,7 +13,7 @@ const keData: CountryData[] = [
   },
   {
     name: "Christopher Odhiambo",
-    link: "https://the-coding-montana.vercel.app",
+    link: "http://the-coding-montana.vercel.app",
     tags: ["FrontEnd"],
     socials: {
       twitter: "",
