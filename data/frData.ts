@@ -101,6 +101,16 @@ const frData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Zakaria EL BAZI",
+    link: "https://elbazi.co",
+    tags: ["DevOps", "Cloud", "Data"],
+    socials: {
+      twitter: "z4ck404",
+      github: "",
+      linkedin: "",
+    },
+  },
 ];
 
 export {frData}
