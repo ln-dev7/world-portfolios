@@ -111,6 +111,16 @@ const frData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Jérôme Rascle",
+    link: "https://www.rasclejero.me",
+    tags: ["Frontend", "Design"],
+    socials: {
+      twitter: "jairaume_",
+      github: "jairaume",
+      linkedin: "jeromerascle",
+    },
+  },
 ];
 
 export {frData}
