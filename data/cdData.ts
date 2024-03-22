@@ -1,4 +1,4 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type CountryData from "@/interfaces/countryData.interface"
 
 const cdData: CountryData[] = [
   {
@@ -21,6 +21,6 @@ const cdData: CountryData[] = [
       github: "joephb613",
     },
   },
-];
+]
 
-export {cdData}
+export { cdData }
