@@ -1,20 +1,19 @@
 "use client"
 
-import { useEffect, useState } from "react";
-import type CountryData from "@/interfaces/countryData.interface";
-import sortedData from "./sortedData";
+import type CountryData from "@/interfaces/countryData.interface"
+import { useEffect, useState } from "react"
+import sortedData from "./sortedData"
 
 function MainLogic(cmData: CountryData[]) {
-  const [filteredData, setFilteredData] = useState(sortedData(cmData));
-  const [selectedTags, setSelectedTags] = useState(["all"]);
+  const [filteredData, setFilteredData] = useState(sortedData(cmData))
+  const [selectedTags, setSelectedTags] = useState(["all"])
 
   const setTag = (tag: string) => {
-    if (tag === "all") setSelectedTags(["all"]);
+    if (tag === "all") setSelectedTags(["all"])
     else if (selectedTags.indexOf(tag) !== -1)
-      setSelectedTags(selectedTags.filter((t) => t !== tag));
-    else
-      setSelectedTags([...selectedTags.filter((t) => t !== "all"), ...[tag]]);
-  };
+      setSelectedTags(selectedTags.filter((t) => t !== tag))
+    else setSelectedTags([...selectedTags.filter((t) => t !== "all"), ...[tag]])
+  }
 
   const filterByName = (filterValue: string) => {
     if (filterValue !== "")
@@ -22,11 +21,11 @@ function MainLogic(cmData: CountryData[]) {
         sortedData(cmData).filter((elem: any) => {
           return (
             elem.name.toLowerCase().indexOf(filterValue.toLowerCase()) !== -1
-          );
+          )
         })
-      );
-    else setFilteredData(sortedData(cmData));
-  };
+      )
+    else setFilteredData(sortedData(cmData))
+  }
 
   useEffect(() => {
     if (selectedTags.indexOf("all") === -1 && selectedTags.length > 0) {
@@ -36,11 +35,11 @@ function MainLogic(cmData: CountryData[]) {
             elem.tags.map((e: string) => e.toLowerCase()).includes(tag)
           )
         )
-      );
-    } else setFilteredData(sortedData(cmData));
-  }, [selectedTags]);
+      )
+    } else setFilteredData(sortedData(cmData))
+  }, [selectedTags])
 
-  return { filteredData, selectedTags, setTag, filterByName };
+  return { filteredData, selectedTags, setTag, filterByName }
 }
 
-export default MainLogic;
+export default MainLogic

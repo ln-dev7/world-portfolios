@@ -1,14 +1,14 @@
-"use client";
+"use client"
 
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useRouter } from "next/navigation"
+import { useEffect } from "react"
 
 export default function CmPage() {
-  const router = useRouter();
+  const router = useRouter()
 
   useEffect(() => {
-    router.push("/cm");
-  }, []);
+    router.push("/cm")
+  })
 
-  return null;
+  return null
 }

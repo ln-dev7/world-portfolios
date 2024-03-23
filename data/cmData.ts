@@ -1,4 +1,4 @@
-import type CountryData from "@/interfaces/countryData.interface";
+import type CountryData from "@/interfaces/countryData.interface"
 
 const cmData: CountryData[] = [
   {
@@ -29,6 +29,16 @@ const cmData: CountryData[] = [
       twitter: "asam_237",
       github: "Asam237",
       linkedin: "abba-sali-aboubakar-mamate",
+    },
+  },
+  {
+    name: "Samuel Pokam",
+    link: "https://rinkhimera.vercel.app/",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "",
+      github: "RinKhimera",
+      linkedin: "samuel-pokam",
     },
   },
   {
@@ -782,6 +792,6 @@ const cmData: CountryData[] = [
       linkedin: "jeansamist",
     },
   },
-];
+]
 
 export { cmData }

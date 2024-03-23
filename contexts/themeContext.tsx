@@ -1,45 +1,45 @@
-import { createContext, ReactNode, useEffect, useRef, useState } from 'react';
+import { createContext, ReactNode, useEffect, useRef, useState } from "react"
 
-const localStorageThemeKey = 'world-portfolio-app-theme';
+const localStorageThemeKey = "world-portfolio-app-theme"
 export const ThemeContext = createContext({
-  theme: 'light',
-  toggleTheme: () => {
-  }
-});
+  theme: "light",
+  toggleTheme: () => {},
+})
 
-export const ThemeProvider = ({ children }: {
-  children: ReactNode;
-}) => {
-  const savedTheme = localStorage.getItem(localStorageThemeKey);
-  const initialTheme = savedTheme ? savedTheme : 'light';
-  const [theme, setTheme] = useState(initialTheme);
-  const bodyElement = useRef<HTMLElement>(null!);
+export const ThemeProvider = ({ children }: { children: ReactNode }) => {
+  const savedTheme = localStorage.getItem(localStorageThemeKey)
+  const initialTheme = savedTheme ? savedTheme : "light"
+  const [theme, setTheme] = useState(initialTheme)
+  const bodyElement = useRef<HTMLElement>(null!)
 
   useEffect(() => {
-    bodyElement.current = document.body;
+    bodyElement.current = document.body
     if (savedTheme) {
-      setTheme(savedTheme);
+      setTheme(savedTheme)
     }
-  }, []);
+  }, [savedTheme])
 
   useEffect(() => {
-    if (theme === 'light') {
-      bodyElement.current.classList.remove('dark');
-      bodyElement.current.classList.add('light');
+    if (theme === "light") {
+      bodyElement.current.classList.remove("dark")
+      bodyElement.current.classList.add("light")
     } else {
-      bodyElement.current.classList.remove('light');
-      bodyElement.current.classList.add('dark');
+      bodyElement.current.classList.remove("light")
+      bodyElement.current.classList.add("dark")
     }
-  }, [theme]);
+  }, [theme])
 
   const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-    localStorage.setItem(localStorageThemeKey, theme === 'light' ? 'dark' : 'light');
-  };
+    setTheme(theme === "light" ? "dark" : "light")
+    localStorage.setItem(
+      localStorageThemeKey,
+      theme === "light" ? "dark" : "light"
+    )
+  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
-  );
-};
+  )
+}
