@@ -91,6 +91,16 @@ const bjData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Siméon Azogbonon",
+    link: "https://simeonaz.netlify.app/",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "Shim7onEm",
+      github: "simeonaz",
+      linkedin: "simeonaz",
+    },
+  },
 ];
 
 export {bjData}
