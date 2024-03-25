@@ -792,6 +792,16 @@ const cmData: CountryData[] = [
       linkedin: "jeansamist",
     },
   },
+  {
+    name: "Franck DJISSOU",
+    link: "https://franck-djissou.vercel.app/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "Francksean",
+      github: "Francksean",
+      linkedin: "Franck sean Djissou",
+    },
+  },
 ]
 
 export { cmData }
