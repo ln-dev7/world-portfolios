@@ -103,4 +103,4 @@ const bjData: CountryData[] = [
   },
 ];
 
-export {bjData}
+export { bjData };
