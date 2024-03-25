@@ -802,6 +802,16 @@ const cmData: CountryData[] = [
       linkedin: "ruphin-gassi-a401751a5",
     },
   },
+  {
+    name: "Djissou Franck",
+    link: "https://franck-djissou.vercel.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "happi_fr",
+      github: "Francksean",
+      linkedin: "franck-sean-djissou-1964711a1",
+    },
+  },
 ];
 
 export { cmData };
