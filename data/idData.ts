@@ -31,6 +31,16 @@ const idData: CountryData[] = [
       linkedin: "aptgilang",
     },
   },
+  {
+    name: "Bayu Baskara",
+    link: "https://bayubaskara.framer.website/",
+    tags: ["Design", "Branding"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "bayubaskara",
+    },
+  },
 ];
 
 export { idData };
