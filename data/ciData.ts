@@ -41,6 +41,16 @@ const ciData: CountryData[] = [
       linkedin: "eliseekn",
     },
   },
+  {
+    name: "Loic Demanou",
+    link: "https://loic-demanou.vercel.app/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "LoicDemanou",
+      github: "loic-demanou",
+      linkedin: "loic-demanou-dev",
+    },
+  },
 ];
 
 export { ciData };
