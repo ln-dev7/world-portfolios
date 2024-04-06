@@ -121,6 +121,16 @@ const frData: CountryData[] = [
       linkedin: "jeromerascle",
     },
   },
+  {
+    name: "Axel Allanos",
+    link: "https://www.axelallanos.com/",
+    tags: ["Frontend", "Design"],
+    socials: {
+      twitter: "Sonalla_",
+      github: "sonalla",
+      linkedin: "axel-allanos-786776262",
+    },
+  },
 ];
 
 export {frData}
