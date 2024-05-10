@@ -812,6 +812,16 @@ const cmData: CountryData[] = [
       linkedin: "franck-sean-djissou-1964711a1",
     },
   },
+  {
+    name: "SADJO Mohammadou",
+    link: "https://mohammadousadjo.com/",
+    tags: ["FrontEnd", "Mobile", "BackEnd", "Design"],
+    socials: {
+      twitter: "SadjoMohammadou",
+      github: "MohammadouSadjo",
+      linkedin: "mohammadou-sadjo-74523a203",
+    },
+  },
 ];
 
 export { cmData };
