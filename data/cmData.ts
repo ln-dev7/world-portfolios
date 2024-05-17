@@ -812,6 +812,16 @@ const cmData: CountryData[] = [
       linkedin: "franck-sean-djissou-1964711a1",
     },
   },
+  {
+    name: "Jiordi viera",
+    link: "https://portfolio-jiordi.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "jiordi_kengne",
+      github: "jiordiviera",
+      linkedin: "jiordi-viera",
+    },
+  },
 ];
 
 export { cmData };
