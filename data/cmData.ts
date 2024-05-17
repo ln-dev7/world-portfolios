@@ -832,6 +832,16 @@ const cmData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Sadjo Mohammadou",
+    link: "https://mohammadousadjo.com",
+    tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
+    socials: {
+      twitter: "SadjoMohammadou",
+      github: "MohammadouSadjo",
+      linkedin: "mohammadou-sadjo-74523a203/",
+    },
+  },
 ];
 
 export { cmData };
