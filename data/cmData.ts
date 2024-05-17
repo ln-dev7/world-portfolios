@@ -822,6 +822,16 @@ const cmData: CountryData[] = [
       linkedin: "jiordi-viera",
     },
   },
+  {
+    name: "Jason Adiogo",
+    link: "https://hans-adiogo.netlify.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
+    },
+  },
 ];
 
 export { cmData };
