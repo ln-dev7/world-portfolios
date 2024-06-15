@@ -639,7 +639,7 @@ const cmData: CountryData[] = [
     socials: {
       twitter: "flocodx",
       github: "flocod",
-      linkedin: "flocod",
+      linkedin: "flocod-tchomga",
     },
   },
   {
