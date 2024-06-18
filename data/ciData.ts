@@ -54,7 +54,7 @@ const ciData: CountryData[] = [
   {
     name: "Amangoua Ange-Thierry",
     link: "http://akat-dev.com/",
-    tags: ["FrontEnd", "Creative", "design", "ui designer"],
+    tags: ["FrontEnd", "Design"],
     socials: {
       github: "amangouste225",
       linkedin: "angethierry",
