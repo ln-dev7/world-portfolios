@@ -51,6 +51,16 @@ const ciData: CountryData[] = [
       linkedin: "loic-demanou-dev",
     },
   },
+  {
+    name: "Amangoua Ange-Thierry",
+    link: "http://akat-dev.com/",
+    tags: ["FrontEnd", "Creative", "design", "ui designer"],
+    socials: {
+      github: "amangouste225",
+      linkedin: "angethierry",
+      twitter: "AmangouaKacou",
+    },
+  },
 ];
 
 export { ciData };
