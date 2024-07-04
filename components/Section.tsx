@@ -67,7 +67,7 @@ const Section = () => {
               className="list-buymeacoffee"
               href="https://www.buymeacoffee.com/lndev"
             >
-              <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lndev&button_colour=40DCA5&font_colour=ffffff&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00" />
+              <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lndev&button_colour=40DCA5&font_colour=ffffff&font_family=Inter&outline_colour=000000&coffee_colour=FFDD00" />
             </a>
           </div>
         </div>

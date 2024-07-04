@@ -31,6 +31,16 @@ const snData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Thierno Habibou Bah",
+    link: "https://linktr.ee/Habib224",
+    tags: ["FrontEnd", "Design"],
+    socials: {
+      github: "ThiernohabibBa6",
+      twitter: "Habib-224",
+      linkedin: "thierno-habibou-bah-6a03b4245",
+    },
+  },
 ];
 
 export {snData}

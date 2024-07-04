@@ -3,7 +3,7 @@ import type CountryData from "@/interfaces/countryData.interface";
 const cmData: CountryData[] = [
   {
     name: "Leonel Ngoya",
-    link: ["https://leonelngoya.com/", "https://lndev.me"],
+    link: "https://lndev.me",
     tags: ["FrontEnd", "Creative dev"],
     socials: {
       twitter: "ln_dev7",
@@ -639,7 +639,7 @@ const cmData: CountryData[] = [
     socials: {
       twitter: "flocodx",
       github: "flocod",
-      linkedin: "flocod",
+      linkedin: "flocod-tchomga",
     },
   },
   {
@@ -812,6 +812,46 @@ const cmData: CountryData[] = [
       linkedin: "franck-sean-djissou-1964711a1",
     },
   },
+  {
+    name: "Jiordi viera",
+    link: "https://portfolio-jiordi.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "jiordi_kengne",
+      github: "jiordiviera",
+      linkedin: "jiordi-viera",
+    },
+  },
+  {
+    name: "Jason Adiogo",
+    link: "https://hans-adiogo.netlify.app/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
+    },
+  },
+  {
+    name: "Sadjo Mohammadou",
+    link: "https://mohammadousadjo.com",
+    tags: ["FrontEnd", "BackEnd", "Mobile", "Design"],
+    socials: {
+      twitter: "SadjoMohammadou",
+      github: "MohammadouSadjo",
+      linkedin: "mohammadou-sadjo-74523a203/",
+    },
+  },  
+  {
+    name: "Tientcheu Israel",
+    link: "https://tilstack.me",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "israeltientcheu",
+      github: "TilStack",
+      linkedin: "israel-tientcheu-braselin🇨🇲🇧🇯-12278b298",
+    },
+  },  
   {
     name: "SADJO Mohammadou",
     link: "https://mohammadousadjo.com/",
