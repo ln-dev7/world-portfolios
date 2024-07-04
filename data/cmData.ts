@@ -851,6 +851,16 @@ const cmData: CountryData[] = [
       github: "TilStack",
       linkedin: "israel-tientcheu-braselin🇨🇲🇧🇯-12278b298",
     },
+  },  
+  {
+    name: "SADJO Mohammadou",
+    link: "https://mohammadousadjo.com/",
+    tags: ["FrontEnd", "Mobile", "BackEnd", "Design"],
+    socials: {
+      twitter: "SadjoMohammadou",
+      github: "MohammadouSadjo",
+      linkedin: "mohammadou-sadjo-74523a203",
+    },
   },
 ];
 
