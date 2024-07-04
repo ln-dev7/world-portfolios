@@ -12,6 +12,16 @@ const cmData: CountryData[] = [
     },
   },
   {
+    name: "Tientcheu Israel",
+    link: "https://tilstack.me",
+    tags: ["FrontEnd", "BackEnd", "Mobile","Analyst"],
+    socials: {
+      twitter: "israeltientcheu",
+      github: "TilStack",
+      linkedin: "israel-tientcheu-braselin🇨🇲🇧🇯-12278b298",
+    },
+  },
+  {
     name: "Arthur Monney",
     link: "https://arthurmonney.me",
     tags: ["FrontEnd", "BackEnd", "Design"],
