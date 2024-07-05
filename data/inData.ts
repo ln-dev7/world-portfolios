@@ -94,7 +94,7 @@ const inData: CountryData[] = [
   {
     name: "Parth Mittal",
     link: "https://parthmittal.netlify.app/",
-    tags: ["Web Development", "Blockchain", "Cloud"],
+    tags: ["Web", "Blockchain", "Cloud"],
     socials: {
       twitter: "mittalparth_",
       github: "mittal-parth",
