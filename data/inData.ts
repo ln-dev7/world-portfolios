@@ -91,6 +91,16 @@ const inData: CountryData[] = [
       linkedin: "mastersubhajit",
     },
   },
+  {
+    name: "Parth Mittal",
+    link: "https://parthmittal.netlify.app/",
+    tags: ["Web", "Blockchain", "Cloud"],
+    socials: {
+      twitter: "mittalparth_",
+      github: "mittal-parth",
+      linkedin: "mittal-parth",
+    },
+  },
 ];
 
 export { inData };
