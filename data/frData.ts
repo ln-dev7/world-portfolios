@@ -131,6 +131,16 @@ const frData: CountryData[] = [
       linkedin: "axel-allanos-786776262",
     },
   },
+  {
+    name: "Oslo418",
+    link: "https://www.oslo418.com/",
+    tags: ["Frontend", "Backend"],
+    socials: {
+      twitter: "Oslo418",
+      github: "oslonline",
+      linkedin: "",
+    },
+  },
 ];
 
 export {frData}
