@@ -41,6 +41,16 @@ const idData: CountryData[] = [
       linkedin: "bayubaskara",
     },
   },
+  {
+    name: "ahmad ali",
+    link: "https://ahmadaliportfo.vercel.app",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
+    },
+  },
 ];
 
 export { idData };

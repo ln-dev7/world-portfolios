@@ -11,6 +11,16 @@ const trData: CountryData[] = [
       linkedin: "onurhan-demir",
     },
   },
+  {
+    name: "Can Burak Sofyalioglu",
+    link: "https://webmeister.org",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "cbsofyalioglu",
+      github: "canburaks",
+      linkedin: "cbsofyalioglu",
+    },
+  },
 ];
 
 export { trData };
