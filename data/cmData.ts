@@ -841,7 +841,7 @@ const cmData: CountryData[] = [
       github: "MohammadouSadjo",
       linkedin: "mohammadou-sadjo-74523a203/",
     },
-  },  
+  },
   {
     name: "Tientcheu Israel",
     link: "https://tilstack.me",
@@ -851,7 +851,7 @@ const cmData: CountryData[] = [
       github: "TilStack",
       linkedin: "israel-tientcheu-braselin🇨🇲🇧🇯-12278b298",
     },
-  },  
+  },
   {
     name: "SADJO Mohammadou",
     link: "https://mohammadousadjo.com/",
@@ -860,6 +860,26 @@ const cmData: CountryData[] = [
       twitter: "SadjoMohammadou",
       github: "MohammadouSadjo",
       linkedin: "mohammadou-sadjo-74523a203",
+    },
+  },
+  {
+    name: "Beral ASSONFACK",
+    link: "https://assaf-portfolio.vercel.app",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "ASSAF1er",
+      linkedin: "",
+    },
+  },
+  {
+    name: "Mohamed elbachir",
+    link: "https://bachdev.vercel.app",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "",
+      linkedin: "",
     },
   },
 ];
