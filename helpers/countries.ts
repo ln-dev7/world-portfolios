@@ -18,6 +18,7 @@ import { keData } from "@/data/keData";
 import { cgData } from "@/data/cgData";
 import { trData } from "@/data/trData";
 import { aoData } from "@/data/aoData";
+import { caData } from "@/data/caData";
 
 const countries: Country[] = [
   {
@@ -152,6 +153,13 @@ const countries: Country[] = [
     numberCode: "244",
     flag: "/assets/images/ao/flag.png",
     portfolios: aoData,
+  },
+  {
+    name: "Canada",
+    code: "ca",
+    numberCode: "514",
+    flag: "/assets/images/ca/flag.png",
+    portfolios: caData,
   },
 ];
 
