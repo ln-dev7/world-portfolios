@@ -10,6 +10,16 @@ const caData: CountryData[] = [
             github: "loom4k",
             linkedin: "lemallat",
         },
+    },
+    {
+        name: "TJ Klint",
+        link: "https://tjklint.github.io",
+        tags: ["Frontend", "Backend", "Mobile", "Design"],
+        socials: {
+            twitter: "",
+            github: "tjklint",
+            linkedin: "timothy-klint"
+        },
     }
 ];
 
