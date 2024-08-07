@@ -21,6 +21,16 @@ const brData: CountryData[] = [
       linkedin: "mateusfg",
     },
   },
+  {
+    name: "Cauã Tavares Nunes",
+    link: "https://cauatn-dev.vercel.app/",
+    tags: ["frontend", "backend"],
+    socials: {
+      github: "cauatn",
+      twitter: "",
+      linkedin: "cauatn",
+    },
+  },
 ];
 
 export { brData }
