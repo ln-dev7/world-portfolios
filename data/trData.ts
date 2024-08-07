@@ -21,6 +21,16 @@ const trData: CountryData[] = [
       linkedin: "cbsofyalioglu",
     },
   },
+  {
+    name: "Göktuğ Ceyhan",
+    link: "https://goktugceyhan.dev",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "goktug_cy",
+      github: "goktugcy",
+      linkedin: "goktugceyhan",
+    },
+  },
 ];
 
 export { trData };
