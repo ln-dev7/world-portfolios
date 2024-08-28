@@ -12,6 +12,16 @@ const snData: CountryData[] = [
     },
   },
   {
+    name: "Daouda BA",
+    link: "https://daooda.dev",
+    tags: ["FullStack"], ["Developer"], ["OpenSource"],
+    socials: {
+      github: "daoodaba975",
+      twitter: "daoodaba975",
+      linkedin: "daoodaba975",
+    },
+  },
+  {
     name: "Issa Diop",
     link: "https://resumev1.vercel.app/",
     tags: ["FullStack"],
