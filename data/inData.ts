@@ -101,6 +101,16 @@ const inData: CountryData[] = [
       linkedin: "mittal-parth",
     },
   },
+  {
+    name: "Akhilesh Waghmare",
+    link: "https://akhileshw.xyz",
+    tags: ["frontend", "Blockchain"],
+    socials: {
+      twitter: "the_akhilesh_w",
+      github: "akhilesh-w",
+      linkedin: "akhilesh-w",
+    },
+  },
 ];
 
 export { inData };
