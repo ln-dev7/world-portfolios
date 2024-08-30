@@ -31,6 +31,16 @@ const brData: CountryData[] = [
       linkedin: "cauatn",
     },
   },
+  {
+    name: "Rafael Santana de Almeida",
+    link: "https://www.rafaelsantana.dev",
+    tags: ["FrontEnd"],
+    socials: {
+      github: "rafalmeida73",
+      twitter: "",
+      linkedin: "rafalmeida73",
+    },
+  },
 ];
 
 export { brData }
