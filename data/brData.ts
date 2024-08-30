@@ -34,7 +34,7 @@ const brData: CountryData[] = [
   {
     name: "Rafael Santana de Almeida",
     link: "https://www.rafaelsantana.dev",
-    tags: ["FrontEnd"],
+    tags: ["FrontEnd",  "Mobile"],
     socials: {
       github: "rafalmeida73",
       twitter: "",
