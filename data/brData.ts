@@ -32,7 +32,7 @@ const brData: CountryData[] = [
     },
   },
   {
-    name: "Rafael Santana de Almeida",
+    name: "Rafael Santana",
     link: "https://www.rafaelsantana.dev",
     tags: ["FrontEnd",  "Mobile"],
     socials: {
