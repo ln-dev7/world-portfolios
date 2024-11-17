@@ -19,6 +19,7 @@ import { cgData } from "@/data/cgData";
 import { trData } from "@/data/trData";
 import { aoData } from "@/data/aoData";
 import { caData } from "@/data/caData";
+import { htData } from "@/data/htData";
 
 const countries: Country[] = [
   {
@@ -160,6 +161,13 @@ const countries: Country[] = [
     numberCode: "514",
     flag: "/assets/images/ca/flag.png",
     portfolios: caData,
+  },
+  {
+    name: "Haiti",
+    code: "ht",
+    numberCode: "509",
+    flag: "/assets/images/ht/flag.png",
+    portfolios: htData
   },
 ];
 
