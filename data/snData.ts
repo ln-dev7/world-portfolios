@@ -51,6 +51,16 @@ const snData: CountryData[] = [
       linkedin: "thierno-habibou-bah-6a03b4245",
     },
   },
+  {
+    name: "Mouhamed POUYE",
+    link: "https://pouye-dev.site",
+    tags: ["Front-End", "Web Design","Web Development"],
+    socials: {
+      github: "Yup03",
+      twitter: "pouyedev03",
+      linkedin: "",
+    },
+  },
 ];
 
 export {snData}
