@@ -20,6 +20,7 @@ import { trData } from "@/data/trData";
 import { aoData } from "@/data/aoData";
 import { caData } from "@/data/caData";
 import { htData } from "@/data/htData";
+import { pkData } from "@/data/pkData";
 
 const countries: Country[] = [
   {
@@ -168,6 +169,13 @@ const countries: Country[] = [
     numberCode: "509",
     flag: "/assets/images/ht/flag.png",
     portfolios: htData
+  },
+  {
+    name: "Pakistan",
+    code: "pk",
+    numberCode: "92",
+    flag: "/assets/images/pk/flag.png",
+    portfolios: pkData
   },
 ];
 
