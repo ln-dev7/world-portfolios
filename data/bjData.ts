@@ -53,7 +53,7 @@ const bjData: CountryData[] = [
   },
   {
     name: "Ronel KPOSSOU",
-    link: "https://ronelkpossou.vercel.app/",
+    link: "https://me.blvckdev.homes/",
     tags: ["FrontEnd", "Backend", "Cybersecurity"],
     socials: {
       twitter: "th3f0r31gn3r",
