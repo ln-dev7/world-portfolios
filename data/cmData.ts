@@ -882,6 +882,16 @@ const cmData: CountryData[] = [
       linkedin: "",
     },
   },
+  {
+    name: "Joseph NOMO",
+    link: "https://josephnomo.pro",
+    tags: ["Backend"],
+    socials: {
+      twitter: "CodeHacker237",
+      github: "Jspascal",
+      linkedin: "nomojoseph",
+    },
+  },
 ];
 
 export { cmData };
