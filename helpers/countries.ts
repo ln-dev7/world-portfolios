@@ -21,6 +21,7 @@ import { aoData } from "@/data/aoData";
 import { caData } from "@/data/caData";
 import { htData } from "@/data/htData";
 import { pkData } from "@/data/pkData";
+import { ngData } from "@/data/ngData";
 
 const countries: Country[] = [
   {
@@ -176,6 +177,13 @@ const countries: Country[] = [
     numberCode: "92",
     flag: "/assets/images/pk/flag.png",
     portfolios: pkData
+  },
+  {
+    name: "Nigeria",
+    code: "ng",
+    numberCode: "234",
+    flag: "/assets/images/ng/flag.png",
+    portfolios: ngData
   },
 ];
 
