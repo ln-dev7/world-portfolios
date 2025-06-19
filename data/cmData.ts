@@ -892,6 +892,16 @@ const cmData: CountryData[] = [
       linkedin: "nomojoseph",
     },
   },
+  {
+    name: "Arthur KOUAM",
+    link: "https://arthurkouam.fr",
+    tags: [ "FrontEnd", "Mobile", "Backend" ],
+    socials: {
+      twitter: "kouamWeb",
+      github: "ArthurKouam",
+      linkedin: "arthur-kouam-a44274300",
+    },
+  },
 ];
 
 export { cmData };
