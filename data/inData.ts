@@ -111,6 +111,16 @@ const inData: CountryData[] = [
       linkedin: "akhilesh-w",
     },
   },
+  {
+    name: "Roshan Kajulkar",
+    link: "https://roshankajulkar.in",
+    tags: ["Frontend", "Backend", "DevOps", "GenAI"],
+    socials: {
+      twitter: "roshankajulkar",
+      github: "RoshanKajulkar",
+      linkedin: "roshan-kajulkar",
+    },
+  },
 ];
 
 export { inData };
