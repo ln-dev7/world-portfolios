@@ -21,6 +21,17 @@ const keData: CountryData[] = [
       linkedin: "",
     },
   },
+
+  {
+    name: "Brian Kyalo",
+    link: "https://flowcv.me/kkyalo",
+    tags: ["Backend"],
+    socials: {
+      twitter: "kyalo3",
+      github: "kyalo3",
+      linkedin: "brian2kyalo",
+    },
+  },
 ];
 
 export { keData };
