@@ -8,7 +8,7 @@ const inData: CountryData[] = [
     socials: {
       twitter: "mohit_joe",
       github: "mohitjoer",
-      linkedin: "Mohit Joe .R",
+      linkedin: "mohitjoe",
     },
   },
   {
