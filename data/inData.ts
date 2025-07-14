@@ -1,6 +1,16 @@
 import type CountryData from "@/interfaces/countryData.interface";
 
 const inData: CountryData[] = [
+   {
+​    name: "Mohit Joe .R",
+​    link: "https://mohitjoe.vercel.app/",
+​    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "mohit_joe",
+      github: "mohitjoer",
+      linkedin: "mohitjoe",
+    },
+  },
   {
     name: "Jatin Sharma",
     link: "https://j471n.in/",
