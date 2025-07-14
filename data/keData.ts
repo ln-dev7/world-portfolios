@@ -25,7 +25,7 @@ const keData: CountryData[] = [
   {
     name: "Brian Kyalo",
     link: "https://flowcv.me/kkyalo",
-    tags: ["Backend Developer", "", ...],
+    tags: ["Backend",],
     socials: {
       twitter: "kyalo3",
       github: "kyalo3",
