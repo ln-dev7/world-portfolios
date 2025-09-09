@@ -20,6 +20,16 @@ const cdData: CountryData[] = [
       linkedin: "josephbasix",
       github: "joephb613",
     },
+  }, 
+  {
+    name: "Jules MUKADI",
+    link: "https://julesmukadi.me/",
+    tags: ["FrontEnd", "Backend"],
+    socials: {
+      twitter: "JulesMukadi0",
+      linkedin: "jules-mukadi",
+      github: "2MJ-DEV",
+    },
   },
 ]
 
