@@ -584,8 +584,8 @@ const cmData: CountryData[] = [
   },
   {
     name: "Franck Niat",
-    link: "https://fndev.vercel.app",
-    tags: ["FrontEnd","BackEnd"],
+    link: "https://franckniat.me",
+    tags: ["Fullstack"],
     socials: {
       twitter: "manuel_niat",
       github: "franckniat",
