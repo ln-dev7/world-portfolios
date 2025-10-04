@@ -814,12 +814,12 @@ const cmData: CountryData[] = [
   },
   {
     name: "Jiordi viera",
-    link: "https://portfolio-jiordi.vercel.app",
+    link: "https://jiordiviera.me",
     tags: ["FrontEnd", "BackEnd"],
     socials: {
-      twitter: "jiordi_kengne",
+      twitter: "jiordiviera",
       github: "jiordiviera",
-      linkedin: "jiordi-viera",
+      linkedin: "jiordiviera",
     },
   },
   {
