@@ -884,7 +884,7 @@ const cmData: CountryData[] = [
   },
   {
     name: "Joseph NOMO",
-    link: "https://josephnomo.pro",
+    link: "https://josephnomo.org",
     tags: ["Backend"],
     socials: {
       twitter: "CodeHacker237",
