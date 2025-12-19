@@ -101,6 +101,16 @@ const bjData: CountryData[] = [
       linkedin: "simeonaz",
     },
   },
+  {
+    name: "Marcos YEHOUESSI",
+    link: "https://project-box-seven.vercel.app",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "marcosyehouessi",
+      github: "MarcosYH",
+      linkedin: "marcos-yehouessi-2a202a1b9",
+    },
+  },
 ];
 
 export { bjData };

@@ -42,9 +42,9 @@ const ciData: CountryData[] = [
     },
   },
   {
-    name: "Loic Demanou",
-    link: "https://loic-demanou.vercel.app/",
-    tags: ["FrontEnd", "BackEnd"],
+    name: "Loïc Demanou",
+    link: "https://loicdemanou.com",
+    tags: ["BackEnd", "FrontEnd", "DevOps"],
     socials: {
       twitter: "LoicDemanou",
       github: "loic-demanou",
@@ -59,6 +59,16 @@ const ciData: CountryData[] = [
       github: "amangouste225",
       linkedin: "angethierry",
       twitter: "AmangouaKacou",
+    },
+  },
+  {
+    name: "Adriel Zimbril",
+    link: "https://www.adrielzimbril.com",
+    tags: ["Design"],
+    socials: {
+      twitter: "adrielzimbril",
+      github: "adrielzimbril",
+      linkedin: "adrielzimbrilcode",
     },
   },
 ];

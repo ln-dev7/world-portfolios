@@ -131,6 +131,36 @@ const inData: CountryData[] = [
       linkedin: "roshan-kajulkar",
     },
   },
+  {
+    name: "Kartik Jain",
+    link: "https://jkartik.in/",
+    tags: ["BackEnd", "Cybersecurity"],
+    socials: {
+      twitter: "kartikjai1410",
+      github: "kartikjain14",
+      linkedin: "kartikjain1410",
+    },
+  },
+  {
+    name: "Sahil Verma",
+    link: "https://sahilverma.dev",
+    tags: ["Fullstack"],
+    socials: {
+      twitter: "sahilverma_dev",
+      github: "sahilverma-dev",
+      linkedin: "sahilverma-dev",
+    },
+  },
+  {
+    name: "Dhaval Prajapati",
+    link: "https://www.dhaval.dev/",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "",
+      github: "dhaval1997",
+      linkedin: "dhaval-prajapati1997",
+    },
+  },
 ];
 
 export { inData };

@@ -902,6 +902,76 @@ const cmData: CountryData[] = [
       linkedin: "arthur-kouam-a44274300",
     },
   },
+  {
+    name: "Kangue Kwelle Patrick Loic",
+    link: "https://www.kangueloic.me",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "KewellLoic",
+      github: "PatrickLoic-dev",
+      linkedin: "patrick-loic-kangue-kwelle",
+    },
+  },
+  {
+    name: "TOMDIEU IVAN",
+    link: "https://ivantomdieu.vercel.app/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "IvanTomdieu",
+      github: "Tomdieu",
+      linkedin: "tomdieuivan",
+    },
+  },
+  {
+    name: "Arold Dankoue",
+    link: "https://0xArDANT.github.io",
+    tags: ["FrontEnd", "BackEnd", "Blockchain"],
+    socials: {
+      twitter: "0xArDANT",
+      github: "OxArDANT",
+      linkedin: "arold-dankoue-touko",
+    },
+  },
+  {
+    name: "Jobelin Kom",
+    link: "https://jkom.live",
+    tags: ["Fullstack", "DevOps", "AI"],
+    socials: {
+      twitter: "",
+      github: "jkom4",
+      linkedin: "jobelin-kom",
+    },
+  },
+  {
+    name: "Arolle Fona",
+    link: "https://arollefona.me",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "FonaArolle",
+      github: "arolle11",
+      linkedin: "arollefona",
+    },
+  },
+  {
+    name: "KOM WAFFO DANIEL PRINCE",
+    link: "https://danilowaffis-portfolio.vercel.app/",
+    tags: ["FrontEnd", "BackEnd"],
+    socials: {
+      twitter: "DaniloWaff40563",
+      github: "WaffoKom",
+      linkedin: "daniel-kom-b4a861314",
+    },
+  },
+  {
+    name: "Wilson Ngahemeni",
+    link: "https://ssiiservices.vercel.app",
+    tags: ["FrontEnd", "BackEnd", "Design"],
+    socials: {
+      twitter: "wilson_715",
+      github: "wilson635",
+      linkedin: "wilson-ngahemeni",
+    },
+  },
 ];
 
 export { cmData };

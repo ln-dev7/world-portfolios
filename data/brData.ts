@@ -41,6 +41,16 @@ const brData: CountryData[] = [
       linkedin: "rafalmeida73",
     },
   },
+  {
+    name: "Kaésyo Félix",
+    link: "https://kaesyo.com",
+    tags: ["FrontEnd"],
+    socials: {
+      twitter: "kaesyo.dev",
+      github: "KARAUJO1003",
+      linkedin: "kaesyo",
+    },
+  },
 ];
 
 export { brData }
