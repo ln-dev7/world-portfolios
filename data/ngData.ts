@@ -11,6 +11,16 @@ const ngData: CountryData[] = [
       linkedin: "obichukwu-onyeowuzoni",
     },
   },
+  {
+    name: "Olawole Temitope",
+    link: "https://temitope-portfolio.lovable.app/",
+    tags: ["BackEnd", "FrontEnd",],
+    socials: {
+      github: "biggie1977",
+      twitter: "",
+      linkedin: "olawole-temitope-8413b71a3",
+    },
+  },
 ];
 
 export { ngData }
