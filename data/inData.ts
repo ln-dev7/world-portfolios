@@ -73,7 +73,7 @@ const inData: CountryData[] = [
   },
   {
     name: "Himanshu Chandola",
-    link: "https://himanshuchandola.fyi",
+    link: "https://himanshuchandola.dev",
     tags: ["FrontEnd"],
     socials: {
       twitter: "himanshuistaken",
