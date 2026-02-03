@@ -4,7 +4,7 @@ const ngData: CountryData[] = [
   {
     name: "Obichukwu Onyeowuzoni",
     link: "",
-    tags: ["BackEnd", "FullStack","Mobile", "DevOps", "Cloud"],
+    tags: ["BackEnd", "FullStack", "Mobile", "DevOps", "Cloud"],
     socials: {
       github: "obichukwu",
       twitter: "",
@@ -12,15 +12,15 @@ const ngData: CountryData[] = [
     },
   },
   {
-    name: "Olawole Temitope",
+    name: "olawole temitope",
     link: "https://temitope-portfolio.lovable.app/",
-    tags: ["BackEnd", "FrontEnd",],
+    tags: ["FrontEnd"],
     socials: {
-      github: "biggie1977",
       twitter: "",
-      linkedin: "olawole-temitope-8413b71a3",
+      github: "biggie1977",
+      linkedin: "olawole-temitope-9a546636b",
     },
   },
 ];
 
-export { ngData }
+export { ngData };

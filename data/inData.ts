@@ -161,6 +161,16 @@ const inData: CountryData[] = [
       linkedin: "dhaval-prajapati1997",
     },
   },
+  {
+    name: "Chiru Chaitanya",
+    link: "https://chirus-portfolio.netlify.app/",
+    tags: ["FullStack", "Frontend", "Backend", "Design", "IOT"],
+    socials: {
+      twitter: "",
+      github: "chiruchaitanya77",
+      linkedin: "chiru-chaitanya",
+    },
+  },
 ];
 
 export { inData };
