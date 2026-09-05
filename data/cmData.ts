@@ -894,10 +894,10 @@ const cmData: CountryData[] = [
   },
   {
     name: "Arthur KOUAM",
-    link: "https://arthurkouam.fr",
-    tags: ["FrontEnd", "Mobile", "Backend"],
+    link: "https://arthurcode.me",
+    tags: ["Backend", "FrontEnd", "Mobile"],
     socials: {
-      twitter: "kouamWeb",
+      twitter: "arthurcode_yt",
       github: "ArthurKouam",
       linkedin: "arthur-kouam-a44274300",
     },
