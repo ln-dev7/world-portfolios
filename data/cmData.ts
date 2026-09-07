@@ -1002,6 +1002,16 @@ const cmData: CountryData[] = [
       linkedin: "darixsamani",
     },
   },
+  {
+    name: "Darix SAMANI SIEWE",
+    link: "https://darixsamani.github.io/",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "darixsamani1",
+      github: "darixsamani",
+      linkedin: "darixsamani",
+    },
+  },
 ];
 
 export { cmData };
