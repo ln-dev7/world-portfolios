@@ -12,6 +12,16 @@ const cmData: CountryData[] = [
     },
   },
   {
+    name: "Felix Warano",
+    link: "https://felix-warano.vercel.app",
+    tags: ["FrontEnd", "Creative dev","BackEnd", "Design","Mobile"],
+    socials: {
+      twitter: "felixwarano",
+      github: "warano02",
+      linkedin: "felixwarano",
+    },
+  },
+  {
     name: "Arthur Monney",
     link: "https://arthurmonney.me",
     tags: ["FrontEnd", "BackEnd", "Design"],
