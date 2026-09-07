@@ -1,18 +1,6 @@
 import type CountryData from "@/interfaces/countryData.interface";
 
 const cmData: CountryData[] = [
-
-  {
-    name: "Darix SAMANI SIEWE",
-    link: "https://darixsamani.github.io/",
-    tags: ["FrontEnd", "BackEnd", "Mobile"],
-    socials: {
-      twitter: "darixsamani1",
-      github: "darixsamani",
-      linkedin: "darixsamani",
-    },
-  },
-
   {
     name: "Leonel Ngoya",
     link: "https://lndev.me",
@@ -21,6 +9,16 @@ const cmData: CountryData[] = [
       twitter: "ln_dev7",
       github: "ln-dev7",
       linkedin: "lndev",
+    },
+  },
+  {
+    name: "Felix Warano",
+    link: "https://felix-warano.vercel.app",
+    tags: ["FrontEnd", "Creative dev","BackEnd", "Design","Mobile"],
+    socials: {
+      twitter: "felixwarano",
+      github: "warano02",
+      linkedin: "felixwarano",
     },
   },
   {
@@ -906,10 +904,10 @@ const cmData: CountryData[] = [
   },
   {
     name: "Arthur KOUAM",
-    link: "https://arthurkouam.fr",
-    tags: ["FrontEnd", "Mobile", "Backend"],
+    link: "https://arthurcode.me",
+    tags: ["Backend", "FrontEnd", "Mobile"],
     socials: {
-      twitter: "kouamWeb",
+      twitter: "arthurcode_yt",
       github: "ArthurKouam",
       linkedin: "arthur-kouam-a44274300",
     },
@@ -992,6 +990,26 @@ const cmData: CountryData[] = [
       twitter: "",
       github: "Daniel-TheProgrammer",
       linkedin: "nji-daniel-96b964183",
+    },
+  },
+    {
+    name: "Darix SAMANI SIEWE",
+    link: "https://darixsamani.github.io/",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "darixsamani1",
+      github: "darixsamani",
+      linkedin: "darixsamani",
+    },
+  },
+  {
+    name: "Darix SAMANI SIEWE",
+    link: "https://darixsamani.github.io/",
+    tags: ["FrontEnd", "BackEnd", "Mobile"],
+    socials: {
+      twitter: "darixsamani1",
+      github: "darixsamani",
+      linkedin: "darixsamani",
     },
   },
 ];
