@@ -1002,6 +1002,16 @@ const cmData: CountryData[] = [
       linkedin: "darixsamani",
     },
   },
+  {
+    name: "Brady Fomegne",
+    link: "https://gravatar.com/bradyfomegne",
+    tags: ["BackEnd", "SysAdmin", "OpenSource"],
+    socials: {
+      twitter: "pythonbrad",
+      github: "pythonbrad",
+      linkedin: "brady-fomegne",
+    },
+  },
 ];
 
 export { cmData };
