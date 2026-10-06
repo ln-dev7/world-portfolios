@@ -1018,7 +1018,7 @@ const cmData: CountryData[] = [
     tags: ["Finance", "Data", "AI"],
     socials: {
       twitter: "",
-      github: "",
+      github: "kafra237",
       linkedin: "f-kammoe",
     },
   },
