@@ -1012,6 +1012,16 @@ const cmData: CountryData[] = [
       linkedin: "brady-fomegne",
     },
   },
+  {
+    name: "Franck Kammoe",
+    link: "https://franck-kammoe.fr",
+    tags: ["Finance", "Data", "AI"],
+    socials: {
+      twitter: "",
+      github: "kafra237",
+      linkedin: "f-kammoe",
+    },
+  },
 ];
 
 export { cmData };
