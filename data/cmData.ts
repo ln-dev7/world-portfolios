@@ -805,7 +805,7 @@ const cmData: CountryData[] = [
  {
   name: "Gassi Ruphin",
   link: "https://portfolio.ruphingassi.me/",
-  tags: ["Backend", "Node Js", "Express", "Product Manager"],
+  tags: ["Backend", "Product"],
   socials: {
     twitter: "gassi_ruphin",
     github: "ruphin-lcm",
