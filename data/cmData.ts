@@ -802,16 +802,16 @@ const cmData: CountryData[] = [
       linkedin: "jeansamist",
     },
   },
-  {
-    name: "Gassi Ruphin",
-    link: "https://portfolio2-three-tau.vercel.app/",
-    tags: ["FrontEnd"],
-    socials: {
-      twitter: "ruphinGassi",
-      github: "Gassiruphin237",
-      linkedin: "ruphin-gassi-a401751a5",
-    },
+ {
+  name: "Gassi Ruphin",
+  link: "https://portfolio.ruphingassi.me/",
+  tags: ["Backend", "Node Js", "Express", "Product Manager"],
+  socials: {
+    twitter: "gassi_ruphin",
+    github: "ruphin-lcm",
+    linkedin: "gassi-ruphin",
   },
+},
   {
     name: "Djissou Franck",
     link: "https://franck-djissou.vercel.app/",
