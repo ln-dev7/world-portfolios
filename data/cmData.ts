@@ -784,11 +784,11 @@ const cmData: CountryData[] = [
   },
   {
     name: "Kemougne Gaping Joshua",
-    link: "https://kirinportfolio.netlify.app/",
-    tags: ["FrontEnd"],
+    link: "https://kgj-portfolio.vercel.app/en/dev",
+    tags: ["FrontEnd, Mobile, AI, fullStack"],
     socials: {
       twitter: "GapingJosue",
-      github: "K-Josh",
+      github: "Kirin-Josh",
       linkedin: "joshua-kemougne-a04850219",
     },
   },
