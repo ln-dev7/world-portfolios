@@ -785,7 +785,7 @@ const cmData: CountryData[] = [
   {
     name: "Kemougne Gaping Joshua",
     link: "https://kgj-portfolio.vercel.app/en/dev",
-    tags: ["FrontEnd, AI"],
+    tags: ["FrontEnd, Mobile, AI, fullStack"],
     socials: {
       twitter: "GapingJosue",
       github: "Kirin-Josh",
